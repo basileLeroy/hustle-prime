@@ -25,95 +25,56 @@
             }
         }
 
-        .mobile-menu {
-            width: 35px;
-            height: 5px;
-            background-color: rgb(255, 255, 255);
-            margin: 6px 5px;
+        span {
+            cursor: pointer;
+            
+            .mobile-menu {
+                width: 35px;
+                height: 5px;
+                background-color: rgb(255, 255, 255);
+                margin: 6px 5px;
+            }
+            
         }
         
         .mobile-screen {
             display: flex;
             flex-direction: row;
-        
+
+
             nav {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
 
                 color: aliceblue;
-        
-                width: 25%;
-        
-                display: none;
-                flex-direction: column;
-                flex-wrap: wrap;
-                justify-content: left;
-                text-align: left;
-                z-index: 1;
+
                 
-        
-        
-                .home-btn {
+
+                width: 170px;
+                height: 100%;
+                position: fixed;
                     
-                    padding: 15px 25px;
-                    font-size: 16px;
-                }
-        
-                .dropdown-button {
-                    color: white;
-                    text-decoration: none;
-        
-                    padding: 15px 25px; 
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(185, 93, 93);
                     
-                    font-size: 16px;
-                    border: none;
-            
-                }
-                .dropdown-button:hover {
-                    background-color: none;
-                }
-        
+                transition: 0.5s;
+                padding-top: 60px;
+
+
                 .dropdown {
-                    position: relative;
-                    display: inline-block;
-        
-                    padding: 15px 25px;
-        
-                    
-                }
-                .dropdown:hover {
-                    .dropdown-content{
-                        display: flex;
-                        flex-direction: column;
-                        background-color: #212121
-        
-                    } 
-                }
-        
-                .dropdown-content {
-                    display: none;
-                    position: absolute;
-        
-                    padding-top: 15px;
-        
-                    color: red;
-                    min-width: 160px;
-                    border-bottom-right-radius: 5px;
-                    border-bottom-left-radius: 5px;
-                    box-shadow: 0px 8px 16px 0px rgba(250, 6, 6, 0.2);
-                    
-        
-                    a {
-                        color: white;
-                        text-decoration: none;
-                        padding: 10px 10px;
-        
-                    }
-                    a:hover {
-                        background-color: maroon;
-                        padding: 10px 25px;
-                    }
+                    overflow-x: hidden;
                 }
 
+        
             }
+
+            
+
+        
 
             .home-container {
                 display: flex;
@@ -225,13 +186,6 @@
             justify-content: space-between;
     
             margin: auto;
-    
-    
-            .home-btn {
-                
-                padding: 15px 25px;
-                font-size: 16px;
-            }
     
             .dropdown-button {
                 color: white;
