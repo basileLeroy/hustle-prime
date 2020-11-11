@@ -50,8 +50,6 @@
 
                 color: aliceblue;
 
-                
-
                 width: 170px;
                 height: 100%;
                 position: fixed;
@@ -64,9 +62,68 @@
                 transition: 0.5s;
                 padding-top: 60px;
 
+                a{
+                    text-decoration: none;
+                }
+
+
+                .dropdown-button {
+                    color: white;
+                    text-decoration: none;
+        
+                    padding: 15px 25px; 
+                    
+                    font-size: 16px;
+                    border: none;
+            
+                }
+                .dropdown-button:hover {
+                    background-color: none;
+                }
 
                 .dropdown {
-                    overflow-x: hidden;
+                    
+
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+        
+                    padding: 15px 25px;
+        
+                    margin: auto;
+                }
+                .dropdown:hover {
+                    .dropdown-content{
+                        display: flex;
+                        flex-direction: column;
+                        background-color: #212121
+        
+                    } 
+                }
+        
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+        
+                    padding-top: 15px;
+        
+                    color: red;
+                    min-width: 160px;
+                    border-bottom-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    box-shadow: 0px 8px 16px 0px rgba(250, 6, 6, 0.2);
+                    z-index: 2;
+        
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        padding: 10px 10px;
+        
+                    }
+                    a:hover {
+                        background-color: maroon;
+                        padding: 10px 25px;
+                    }
                 }
 
         
