@@ -64,7 +64,8 @@
             justify-content: space-between;
     color: aliceblue;
     width: 170px;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
     position: fixed;
     overflow: hidden;
     z-index: 1;
@@ -319,6 +320,7 @@
   body nav {
     color: aliceblue;
     width: 75%;
+    overflow: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -468,7 +470,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 15px 100px;
+    padding: 15px 50px;
   }
   body footer a {
     text-decoration: none;
@@ -488,6 +490,10 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 95%;
+    background-color: #0b69c7;
   }
   body footer .footer-left .contact {
     display: -webkit-box;
@@ -521,6 +527,10 @@
     height: 100%;
   }
   body footer .footer-right .social {
+    background-color: #0b69c7;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 95%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
