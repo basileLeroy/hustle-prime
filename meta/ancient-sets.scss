@@ -410,21 +410,22 @@
     
             .row01-left {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: left;
     
                 margin-bottom: 100px;
     
                 .test-img {
-                    width: 150%;
+                    width: 100%;
     
                     padding-left: 20px;
                     padding-right: 50px;
     
                     margin-top: 50px;
+                    margin-bottom: 50px;
     
                     img {
-                        width: 100%;
+                        width: 50%;
                     }
                 }
     
@@ -438,6 +439,42 @@
     
             }
     
+            .row-disclaimer {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: left;
+    
+                margin-bottom: 100px;
+    
+                .disclaimer-img {
+                    width: 150%;
+    
+                    padding-left: 50px;
+                    padding-right: 20px;
+    
+                    margin-top: 50px;
+    
+                    img {
+                        width: 100%;
+                    }
+                }
+    
+                .disclaimer-txt {
+                    h2 {
+                        padding-bottom: 25px;
+                    }
+                    margin: auto;
+                    padding: 10px 15px;
+                    background-color: #464646;
+
+                    border: double;
+                    border-width: 5px;
+                    border-color: rgb(255, 94, 0);
+                }
+    
+    
+            }
+
             .row02-right {
                 display: flex;
                 flex-direction: row-reverse;
