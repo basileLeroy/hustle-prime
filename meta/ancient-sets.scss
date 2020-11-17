@@ -171,6 +171,69 @@
         
                 color: white;
         
+
+                .theme {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: left;
+        
+                    margin-bottom: 100px;
+        
+                    .theme-img {
+                        width: 100%;
+        
+        
+                        margin-top: 50px;
+                        margin-bottom: 40px;
+        
+                        img {
+                            width: 100%;
+                        }
+                    }
+        
+                    .theme-txt {
+                        h1 {
+                            padding-bottom: 25px;
+                        }
+                        margin: auto;
+                    }
+        
+        
+                }
+
+                .row-disclaimer {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: left;
+        
+                    margin-bottom: 100px;
+        
+                    .disclaimer-img {
+                        width: 100%;
+        
+                        
+                        
+                        margin-top: 50px;
+        
+                        img {
+                            width: 100%;
+                        }
+                    }
+        
+                    .disclaimer-txt {
+                        h2 {
+                            padding-bottom: 25px;
+                        }
+                        margin: auto;
+                        padding: 10px 15px;
+                        background-color: #464646;
+    
+                        border: double;
+                        border-width: 5px;
+                        border-color: rgb(255, 94, 0);
+                    }
+                }
+
                 .row01-left {
                     display: flex;
                     flex-direction: column;
@@ -408,14 +471,14 @@
     
             color: white;
     
-            .row01-left {
+            .theme {
                 display: flex;
                 flex-direction: column;
                 justify-content: left;
     
                 margin-bottom: 100px;
     
-                .test-img {
+                .theme-img {
                     width: 100%;
     
                     padding-left: 20px;
@@ -429,14 +492,12 @@
                     }
                 }
     
-                .test-txt {
-                    h2 {
+                .theme-txt {
+                    h1 {
                         padding-bottom: 25px;
                     }
                     margin: auto;
                 }
-    
-    
             }
     
             .row-disclaimer {
@@ -471,6 +532,35 @@
                     border-width: 5px;
                     border-color: rgb(255, 94, 0);
                 }
+            }
+
+            .row01-left {
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+    
+                margin-bottom: 100px;
+    
+                .test-img {
+                    width: 150%;
+    
+                    padding-left: 20px;
+                    padding-right: 50px;
+    
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+    
+                    img {
+                        width: 100%;
+                    }
+                }
+    
+                .test-txt {
+                    h2 {
+                        padding-bottom: 25px;
+                    }
+                    margin: auto;
+                }
     
     
             }
@@ -489,6 +579,7 @@
                     padding-right: 20px;
     
                     margin-top: 50px;
+                    margin-bottom: 50px;
     
                     img {
                         width: 100%;
@@ -501,7 +592,6 @@
                     }
                     margin: auto;
                 }
-    
     
             }
         }
