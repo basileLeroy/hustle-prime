@@ -622,7 +622,20 @@
   body .home-container .row02-right .test-txt h2 {
     padding-bottom: 25px;
   }
-  body .home-container .set-list {
+  body .home-container .middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .home-container .middle .allClasses {
+    width: 70%;
+    font-size: 13px;
+  }
+  body .home-container .middle .allClasses .set-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -635,24 +648,37 @@
             justify-content: left;
     margin-bottom: 0px;
   }
-  body .home-container .set-list .set-img {
+  body .home-container .middle .allClasses .set-list .set-img {
     width: 150%;
     padding-left: 50px;
     padding-right: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  body .home-container .set-list .set-img img {
+  body .home-container .middle .allClasses .set-list .set-img img {
     width: 50%;
   }
-  body .home-container .set-list .set-txt {
+  body .home-container .middle .allClasses .set-list .set-txt {
     width: 150%;
     margin: auto;
     text-align: left;
   }
-  body .home-container .set-list .set-txt h2 {
+  body .home-container .middle .allClasses .set-list .set-txt h2 {
     padding-bottom: 25px;
     padding-left: 50px;
+  }
+  body .home-container .middle .gearSlots {
+    width: 302px;
+    height: 309px;
+    background-image: url(assets/gear-blanco.png);
+    background-size: contain;
+    opacity: 0.5;
+  }
+  body .home-container .middle .gearSlots .weaponsoul {
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
   }
   body .home-container .readMore {
     width: 80%;
