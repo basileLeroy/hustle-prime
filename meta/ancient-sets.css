@@ -668,17 +668,53 @@
     padding-left: 50px;
   }
   body .home-container .middle .gearSlots {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'weaponsoul' '' 'weapon' 'armorsoul' '' 'armor' 'ring' 'amulet' 'artefact';
+    -ms-grid-columns: 2fr 2.8fr 2fr;
+        grid-template-columns: 2fr 2.8fr 2fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     width: 302px;
     height: 309px;
     background-image: url(assets/gear-blanco.png);
     background-size: contain;
-    opacity: 0.5;
   }
   body .home-container .middle .gearSlots .weaponsoul {
-    top: 100px;
-    width: 50px;
-    height: 50px;
+    margin-top: 20%;
+    border-radius: 20%;
     background-color: chartreuse;
+    opacity: 0.5;
+  }
+  body .home-container .middle .gearSlots .weapon {
+    margin-top: 20%;
+    background-color: chartreuse;
+    opacity: 0.5;
+  }
+  body .home-container .middle .gearSlots .armorsoul {
+    margin-top: 20%;
+    background-color: chartreuse;
+    opacity: 0.5;
+  }
+  body .home-container .middle .gearSlots .armor {
+    margin-top: 20%;
+    background-color: chartreuse;
+    opacity: 0.5;
+  }
+  body .home-container .middle .gearSlots .ring {
+    margin-top: 20%;
+    background-color: chartreuse;
+    opacity: 0.5;
+  }
+  body .home-container .middle .gearSlots .amulet {
+    margin-top: 20%;
+    background-color: chartreuse;
+    opacity: 0.5;
+  }
+  body .home-container .middle .gearSlots .artefact {
+    margin-top: 20%;
+    background-color: chartreuse;
+    opacity: 0.5;
   }
   body .home-container .readMore {
     width: 80%;
