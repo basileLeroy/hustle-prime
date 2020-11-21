@@ -720,30 +720,35 @@
   body .home-container .middle .gear-right .gear-avatar .gearSlots .weaponsoul {
     margin-top: 20%;
     border-radius: 20%;
+    cursor: pointer;
     background-color: chartreuse;
     opacity: 0.5;
   }
   body .home-container .middle .gear-right .gear-avatar .gearSlots .weapon {
     margin-top: 20%;
     border-radius: 20%;
+    cursor: pointer;
     background-color: chartreuse;
     opacity: 0.5;
   }
   body .home-container .middle .gear-right .gear-avatar .gearSlots .armorsoul {
     margin-top: 20%;
     border-radius: 20%;
+    cursor: pointer;
     background-color: chartreuse;
     opacity: 0.5;
   }
   body .home-container .middle .gear-right .gear-avatar .gearSlots .armor {
     margin-top: 20%;
     border-radius: 20%;
+    cursor: pointer;
     background-color: chartreuse;
     opacity: 0.5;
   }
   body .home-container .middle .gear-right .gear-avatar .gearSlots .ring {
     margin-top: 22%;
     border-radius: 20%;
+    cursor: pointer;
     margin-left: 35%;
     width: 88%;
     height: 76%;
@@ -753,6 +758,7 @@
   body .home-container .middle .gear-right .gear-avatar .gearSlots .amulet {
     margin-top: 18%;
     border-radius: 20%;
+    cursor: pointer;
     margin-left: 20%;
     width: 60%;
     height: 75%;
@@ -762,6 +768,7 @@
   body .home-container .middle .gear-right .gear-avatar .gearSlots .artefact {
     margin-top: 22%;
     border-radius: 20%;
+    cursor: pointer;
     margin-left: -20%;
     width: 88%;
     height: 76%;
@@ -775,6 +782,90 @@
   }
   body .home-container .readMore a {
     color: #408edb;
+  }
+  body .Complete-Popup .setType .select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 150%;
+    position: fixed;
+    top: -200px;
+    left: 50px;
+    z-index: 1;
+    overflow: auto;
+    -webkit-transform: scale(0.6, 0.6);
+            transform: scale(0.6, 0.6);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: #161616;
+  }
+  body .Complete-Popup .setType .select .itemName {
+    color: #afafaf;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  body .Complete-Popup .setType .select .itemName .modal-close {
+    float: right;
+    margin-right: 30px;
+    font-size: 60px;
+  }
+  body .Complete-Popup .setType .select .itemName .modal-close:hover,
+  body .Complete-Popup .setType .select .itemName .modal-close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  body .Complete-Popup .setType .select .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 10px;
+  }
+  body .Complete-Popup .setType .select .item img {
+    margin-top: 25px;
+    width: 12%;
+    margin-bottom: 25px;
+  }
+  body .Complete-Popup .setType .select .item .text-box {
+    color: #afafaf;
+    margin-left: 20px;
+  }
+  body .Complete-Popup .setType .select .item .text-box h3 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  body .Complete-Popup .setType .selectWeapon-ash {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectWsoul-ash {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectArmor-ash {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectAsoul-ash {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectRing-ash {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectAmulet-ash {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectArtifact-ash {
+    display: none;
   }
   body footer {
     background-image: url(assets/footer.png);

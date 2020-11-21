@@ -743,6 +743,7 @@
                             .weaponsoul {
                                 margin-top: 20%;
                                 border-radius: 20%;
+                                cursor: pointer;
         
         
                                 background-color: chartreuse;
@@ -751,6 +752,7 @@
                             .weapon {
                                 margin-top: 20%;
                                 border-radius: 20%;
+                                cursor: pointer;
         
                                 background-color: chartreuse;
                                 opacity: 0.5;
@@ -758,6 +760,7 @@
                             .armorsoul {
                                 margin-top: 20%;
                                 border-radius: 20%;
+                                cursor: pointer;
         
                                 background-color: chartreuse;
                                 opacity: 0.5;
@@ -765,6 +768,7 @@
                             .armor {
                                 margin-top: 20%;
                                 border-radius: 20%;
+                                cursor: pointer;
         
                                 background-color: chartreuse;
                                 opacity: 0.5;
@@ -772,6 +776,7 @@
                             .ring {
                                 margin-top: 22%;
                                 border-radius: 20%;
+                                cursor: pointer;
         
                                 margin-left: 35%;
                                 width: 88%;
@@ -783,6 +788,7 @@
                             .amulet {
                                 margin-top: 18%;
                                 border-radius: 20%;
+                                cursor: pointer;
         
                                 margin-left: 20%;
                                 width: 60%;
@@ -794,6 +800,7 @@
                             .artefact {
                                 margin-top: 22%;
                                 border-radius: 20%;
+                                cursor: pointer;
         
         
                                 margin-left: -20%;
@@ -821,6 +828,94 @@
                 }
             }
         }
+
+        .Complete-Popup {
+            .setType {
+                .select {
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto;
+                    width: 100%;
+                    height: 150%;
+
+                    position: fixed;
+                    top: -200px;
+                    left: 50px;
+                    z-index: 1;
+                    overflow: auto;
+                    transform: scale(0.6,0.6);
+    
+                    margin-top: 0px;
+                    margin-bottom: 20px;
+    
+                    background-color: rgb(22, 22, 22);
+                    .itemName {
+                        color: rgb(175, 175, 175);
+                        text-align: center;
+                        padding-top: 30px;
+                        padding-bottom: 0px;
+
+                        .modal-close {
+                            float: right;
+                            margin-right: 30px;
+                            font-size: 60px;
+
+                        }
+                        .modal-close:hover,
+                        .modal-close:focus {
+                            color: white;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+                    }
+                    .item {
+                        display: flex;
+                        flex-direction: row;
+    
+                        margin-left: 10px;
+                        img {
+                            margin-top: 25px;
+                            width: 12%;
+                            margin-bottom: 25px;
+                        }
+                        .text-box {
+                            color: rgb(175, 175, 175);
+                            margin-left: 20px;
+                            h3 {
+                                color: white;
+                                margin-top: 25px;
+                                margin-bottom: 20px;
+                                
+                            }
+    
+                        }
+    
+                    }
+                }
+                .selectWeapon-ash {
+                    display: none;
+                }
+                .selectWsoul-ash {
+                    display: none;
+                }
+                .selectArmor-ash {
+                    display: none;
+                }
+                .selectAsoul-ash {
+                    display: none;
+                }
+                .selectRing-ash {
+                    display: none;
+                }
+                .selectAmulet-ash {
+                    display: none;
+                }
+                .selectArtifact-ash {
+                    display: none;
+                }
+            }
+        }
+    
     
         footer {
             background-image: url(assets/footer.png);

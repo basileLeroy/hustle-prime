@@ -35,6 +35,8 @@ body .Complete-Popup .setType .select {
           flex-direction: column;
   margin: auto;
   width: 60%;
+  z-index: 1;
+  overflow: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #161616;
