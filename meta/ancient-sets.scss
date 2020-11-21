@@ -662,6 +662,8 @@
                         margin-bottom: 0px;
             
                         .set-img {
+                            display: flex;
+                            flex-direction: column;
                             width: 150%;
             
                             padding-left: 50px;
@@ -672,7 +674,28 @@
             
                             img {
                                 width: 50%;
+                                margin-bottom: 5px;
                             }
+
+                            .selectSet {
+                                width: 35%;
+                                padding: 10px 20px;
+                                border-radius: 5px;
+                                cursor: pointer;
+
+                                background-color: green;
+                                border-color: green;
+                                transition-duration: 0.2s;
+                            }
+                            .selectSet:hover {
+                                border-radius: 5px;
+                                background-color: rgb(61, 172, 27);
+                                border-color: green;
+                            }
+                            .selectSet:visited {
+                                border-radius: 5px;
+                            }
+
                         }
             
                         .set-txt {
