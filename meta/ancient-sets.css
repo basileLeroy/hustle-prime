@@ -498,6 +498,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    position: relative;
     width: 70%;
     margin: auto;
     color: white;
@@ -630,7 +631,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    position: relative;
   }
   body .home-container .middle .allClasses {
     width: 70%;
@@ -668,11 +668,17 @@
     padding-bottom: 25px;
     padding-left: 50px;
   }
-  body .home-container .middle .gear-avatar {
+  body .home-container .middle .gear-right {
+    width: auto;
+  }
+  body .home-container .middle .gear-right .gear-avatar {
+    top: 50px;
     width: 302px;
     height: 309px;
+    position: -webkit-sticky;
+    position: sticky;
   }
-  body .home-container .middle .gear-avatar .gearSlots {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots {
     display: -ms-grid;
     display: grid;
         grid-template-areas: 'weaponsoul' 'empty' 'weapon' 'armorsoul' 'empty' 'armor' 'ring' 'amulet' 'artefact';
@@ -685,31 +691,31 @@
     background-image: url(assets/gear-blanco.png);
     background-size: contain;
   }
-  body .home-container .middle .gear-avatar .gearSlots .weaponsoul {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots .weaponsoul {
     margin-top: 20%;
     border-radius: 20%;
     background-color: chartreuse;
     opacity: 0.5;
   }
-  body .home-container .middle .gear-avatar .gearSlots .weapon {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots .weapon {
     margin-top: 20%;
     border-radius: 20%;
     background-color: chartreuse;
     opacity: 0.5;
   }
-  body .home-container .middle .gear-avatar .gearSlots .armorsoul {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots .armorsoul {
     margin-top: 20%;
     border-radius: 20%;
     background-color: chartreuse;
     opacity: 0.5;
   }
-  body .home-container .middle .gear-avatar .gearSlots .armor {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots .armor {
     margin-top: 20%;
     border-radius: 20%;
     background-color: chartreuse;
     opacity: 0.5;
   }
-  body .home-container .middle .gear-avatar .gearSlots .ring {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots .ring {
     margin-top: 22%;
     border-radius: 20%;
     margin-left: 35%;
@@ -718,7 +724,7 @@
     background-color: chartreuse;
     opacity: 0.5;
   }
-  body .home-container .middle .gear-avatar .gearSlots .amulet {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots .amulet {
     margin-top: 18%;
     border-radius: 20%;
     margin-left: 20%;
@@ -727,7 +733,7 @@
     background-color: chartreuse;
     opacity: 0.5;
   }
-  body .home-container .middle .gear-avatar .gearSlots .artefact {
+  body .home-container .middle .gear-right .gear-avatar .gearSlots .artefact {
     margin-top: 22%;
     border-radius: 20%;
     margin-left: -20%;

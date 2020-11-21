@@ -511,6 +511,7 @@
             flex-direction: column;
             justify-content: center;
             text-align: center;
+            position: relative;
     
             width: 70%;
     
@@ -647,7 +648,7 @@
             .middle {
                 display: flex;
                 flex-direction: row;
-                position: relative;
+
                 .allClasses {
                     width: 70%;
                     font-size: 13px;
@@ -686,97 +687,103 @@
                     }
                 }
 
-                .gear-avatar {
-                    width: 302px;
-                    height: 309px;
+                .gear-right {
+                    width: auto;
                     
-                    
-                    .gearSlots {
-                        display: grid;
-    
-                        grid-template-areas:    'weaponsoul' 'empty' 'weapon'
-                                                'armorsoul' 'empty' 'armor'
-                                                'ring' 'amulet' 'artefact';
-                        
-                        grid-template-columns:  2fr 2.8fr 2fr;
-                        grid-template-rows:     1fr 1fr 1fr;
-                        
+                    .gear-avatar {
+                        top: 50px;
                         width: 302px;
                         height: 309px;
+                        position: sticky;
                         
-    
-                        background-image: url(assets/gear-blanco.png);
-                        background-size: contain;
-                        
-                        
-                        
-    
-                        .weaponsoul {
-                            margin-top: 20%;
-                            border-radius: 20%;
-    
-    
-                            background-color: chartreuse;
-                            opacity: 0.5;
+                        .gearSlots {
+                            display: grid;
+        
+                            grid-template-areas:    'weaponsoul' 'empty' 'weapon'
+                                                    'armorsoul' 'empty' 'armor'
+                                                    'ring' 'amulet' 'artefact';
+                            
+                            grid-template-columns:  2fr 2.8fr 2fr;
+                            grid-template-rows:     1fr 1fr 1fr;
+                            
+                            width: 302px;
+                            height: 309px;
+                            
+        
+                            background-image: url(assets/gear-blanco.png);
+                            background-size: contain;
+                            
+                            
+                            
+        
+                            .weaponsoul {
+                                margin-top: 20%;
+                                border-radius: 20%;
+        
+        
+                                background-color: chartreuse;
+                                opacity: 0.5;
+                            }
+                            .weapon {
+                                margin-top: 20%;
+                                border-radius: 20%;
+        
+                                background-color: chartreuse;
+                                opacity: 0.5;
+                            }
+                            .armorsoul {
+                                margin-top: 20%;
+                                border-radius: 20%;
+        
+                                background-color: chartreuse;
+                                opacity: 0.5;
+                            }
+                            .armor {
+                                margin-top: 20%;
+                                border-radius: 20%;
+        
+                                background-color: chartreuse;
+                                opacity: 0.5;
+                            }
+                            .ring {
+                                margin-top: 22%;
+                                border-radius: 20%;
+        
+                                margin-left: 35%;
+                                width: 88%;
+                                height: 76%;
+        
+                                background-color: chartreuse;
+                                opacity: 0.5;
+                            }
+                            .amulet {
+                                margin-top: 18%;
+                                border-radius: 20%;
+        
+                                margin-left: 20%;
+                                width: 60%;
+                                height: 75%;
+        
+                                background-color: chartreuse;
+                                opacity: 0.5;
+                            }
+                            .artefact {
+                                margin-top: 22%;
+                                border-radius: 20%;
+        
+        
+                                margin-left: -20%;
+                                width: 88%;
+                                height: 76%;
+        
+                                background-color: chartreuse;
+                                opacity: 0.5;
+                            }
+        
                         }
-                        .weapon {
-                            margin-top: 20%;
-                            border-radius: 20%;
-    
-                            background-color: chartreuse;
-                            opacity: 0.5;
-                        }
-                        .armorsoul {
-                            margin-top: 20%;
-                            border-radius: 20%;
-    
-                            background-color: chartreuse;
-                            opacity: 0.5;
-                        }
-                        .armor {
-                            margin-top: 20%;
-                            border-radius: 20%;
-    
-                            background-color: chartreuse;
-                            opacity: 0.5;
-                        }
-                        .ring {
-                            margin-top: 22%;
-                            border-radius: 20%;
-    
-                            margin-left: 35%;
-                            width: 88%;
-                            height: 76%;
-    
-                            background-color: chartreuse;
-                            opacity: 0.5;
-                        }
-                        .amulet {
-                            margin-top: 18%;
-                            border-radius: 20%;
-    
-                            margin-left: 20%;
-                            width: 60%;
-                            height: 75%;
-    
-                            background-color: chartreuse;
-                            opacity: 0.5;
-                        }
-                        .artefact {
-                            margin-top: 22%;
-                            border-radius: 20%;
-    
-    
-                            margin-left: -20%;
-                            width: 88%;
-                            height: 76%;
-    
-                            background-color: chartreuse;
-                            opacity: 0.5;
-                        }
-    
                     }
                 }
+                
             }
 
             .readMore {
