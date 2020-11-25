@@ -760,16 +760,17 @@
     margin-left: 20%;
     width: 60%;
     height: 75%;
-    opacity: 0.5;
+    opacity: 0;
   }
   body .home-container .middle .gear-right .gear-avatar .gearSlots .artefact {
     margin-top: 22%;
     border-radius: 20%;
     cursor: pointer;
+    background-color: grey;
     margin-left: -20%;
     width: 88%;
     height: 76%;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   body .home-container .readMore {
     width: 80%;
@@ -861,6 +862,27 @@
     display: none;
   }
   body .Complete-Popup .setType .selectArtifact-ash {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectWeapon-pala {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectWsoul-pala {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectArmor-pala {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectAsoul-pala {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectRing-pala {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectAmulet-pala {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectArtifact-pala {
     display: none;
   }
   body footer {

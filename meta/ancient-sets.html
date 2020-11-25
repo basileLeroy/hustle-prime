@@ -152,6 +152,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Paladin.png" alt="" title="Paladin">
+                            <button class="selectSet selPala">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Paladin:</h2>
@@ -162,6 +163,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Oracle.png" alt="" title="Oracle">
+                            <button class="selectSet selOracle">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Oracle:</h2>
@@ -172,6 +174,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Darkula.png" alt="" title="Darkula">
+                            <button class="selectSet selDark">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Darkula:</h2>
@@ -182,6 +185,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Annihilator.png" alt="" title="Annihilator">
+                            <button class="selectSet selAnni">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Annihilator:</h2>
@@ -192,6 +196,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Legionnaire.png" alt="" title="Legionnaire">
+                            <button class="selectSet selLegio">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Legionnaire:</h2>
@@ -202,6 +207,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Necromancer.png" alt="" title="Necromancer">
+                            <button class="selectSet selNecro">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Necromancer:</h2>
@@ -212,6 +218,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Storm.png" alt="" title="Storm">
+                            <button class="selectSet selStorm">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Storm:</h2>
@@ -222,6 +229,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Shadow.png" alt="" title="Shadow">
+                            <button class="selectSet selShadow">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Shadow:</h2>
@@ -232,6 +240,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Bane.png" alt="" title="Bane">
+                            <button class="selectSet selBane">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Bane:</h2>
@@ -242,6 +251,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Ranger.png" alt="" title="Ranger">
+                            <button class="selectSet selRanger">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Ranger:</h2>
@@ -252,6 +262,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Snake.png" alt="" title="Snake Charmer">
+                            <button class="selectSet selSnake">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Snake Charmer:</h2>
@@ -262,6 +273,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Illusionist.png" alt="" title="Illusionist">
+                            <button class="selectSet selIllu">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Illusionist:</h2>
@@ -272,6 +284,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Priest.png" alt="" title="Priest">
+                            <button class="selectSet selPriest">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Priest:</h2>
@@ -282,6 +295,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Demon Hunter.png" alt="" title="Demon Hunter">
+                            <button class="selectSet selDemon">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Demon Hunter:</h2>
@@ -292,6 +306,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Bastion.png" alt="" title="Bastion">
+                            <button class="selectSet selBast">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Bastion:</h2>
@@ -302,6 +317,7 @@
                     <div class="set-list">
                         <div class="set-img">
                             <img src="assets/Inventor.png" alt="" title="Inventor">
+                            <button class="selectSet selInvent">Select !</button>
                         </div>
                         <div class="set-txt">
                             <h2>Inventor:</h2>
@@ -327,6 +343,9 @@
                             <div class="amulet"></div>
                             <div class="artefact"></div>
                             
+                        </div>
+                        <div class="helpNote">
+                            <p><b>Note:</b> Please select a set class before clicking on the slots</p>
                         </div>
                     </div>
                 </div>
@@ -527,12 +546,196 @@
                 </div>
             </modal>
 
-
-
             <modal class="select selectArtifact-ash"></modal>
         </div>
 
-        <div class="setType paladin"></div>
+
+
+
+        <div class="setType paladin">
+
+            <modal class="select selectWeapon-pala">
+
+                <div class="itemName">
+                    <h2>WEAPON CHOICES</h2>
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                </div>
+                <hr>
+                <div class="item item01">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>1st choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+                <div class="item item02">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>2nd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+                <div class="item item03">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+                <div class="item item04">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+                <div class="item item05">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+            </modal>
+
+
+            <modal class="select selectWsoul-pala">
+
+                <div class="itemName">
+                    <h2>WEAPON SOUL CHOICES</h2>
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                </div>
+                <hr>
+                <div class="item item01">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+
+                <div class="item item02">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+            </modal>
+
+
+            <modal class="select selectArmor-pala">
+
+                <div class="itemName">
+                    <h2>ARMOR CHOICES</h2>
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                </div>
+                <hr>
+                <div class="item item01">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+
+                <div class="item item02">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+
+                <div class="item item03">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+
+                <div class="item item04">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+            </modal>
+
+
+
+            <modal class="select selectAsoul-pala">
+
+                <div class="itemName">
+                    <h2>ARMOR SOUL CHOICES</h2>
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                </div>
+                <hr>
+                <div class="item item01">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+            </modal>
+
+
+
+            <modal class="select selectRing-pala">
+
+                <div class="itemName">
+                    <h2>RINGS</h2>
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                </div>
+                <hr>
+                <div class="item item01">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+            </modal>
+
+
+
+            <modal class="select selectAmulet-pala">
+
+                <div class="itemName">
+                    <h2>AMULETS</h2>
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                </div>
+                <hr>
+                <div class="item item01">
+                    <img src="assets/" alt="" title="">
+                    <div class="text-box">
+                        <h3>3rd choice!</h3>
+                        <p>.:</p> <br>
+                        <p>.... </p>
+                    </div>
+                </div>
+            </modal>
+
+
+
+            <!-- <modal class="select selectArtifact-pala"></modal> -->
+        </div>
         <div class="setType oracle"></div>
         <div class="setType darkula"></div>
         <div class="setType annihilator"></div>

@@ -79,17 +79,12 @@ function closeNav() {
     const modal = document.querySelectorAll('modal');
     
 
-    closeModal.forEach(spanBtn => {
-        
-
-        spanBtn.addEventListener('click', function(close) {
-            modal.forEach(select =>{
-                if (close.target === select) {
-                    select.style.display = "none";
-                    console.log(select);
-                };
-            });
-            
+    closeModal.forEach((spanBtn) => {
+        spanBtn.addEventListener('click', function (close) {
+            let parent = close.target.parentElement.parentElement; //get the parent of the parent of the close btn.
+            parent.style.display = 'none';
+            console.log(parent);
+    
         });
     });
 
