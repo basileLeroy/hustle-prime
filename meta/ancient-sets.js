@@ -10,6 +10,7 @@ function closeNav() {
 (function() {
     // Button for ashbringer
     const ashbringer = document.querySelector('.selAsh');
+    const paladin = document.querySelector('.selPala');
 
     //buttons for the items
     const selWeapon = document.querySelector('.weapon');
@@ -43,7 +44,19 @@ function closeNav() {
         ring = document.querySelector('.selectRing-ash');
         amulet = document.querySelector('.selectAmulet-ash');
 
-        console.log("test");
+        //console.log("test");
+
+    });
+
+    paladin.addEventListener('click', function() {
+        weapon = document.querySelector('.selectWeapon-pala');
+        weaponSoul = document.querySelector('.selectWsoul-pala');
+        armor = document.querySelector('.selectArmor-pala');
+        armorSoul = document.querySelector('.selectAsoul-pala');
+        ring = document.querySelector('.selectRing-pala');
+        amulet = document.querySelector('.selectAmulet-pala');
+
+        //console.log("test");
 
     });
 
