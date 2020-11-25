@@ -6,10 +6,6 @@ function closeNav() {
     document.getElementById("SideNav").style.width = "0px";
 }
 
-function closeModal() {
-    document.EventTarget(".select").style.display = "none";
-    console.log("check", document.querySelector(".select").EventTarget);
-}
 
 (function() {
     // Button for ashbringer
@@ -25,7 +21,7 @@ function closeModal() {
     /*const selArtifact = document.querySelector('.'); */
 
     // Button to close the modal
-    const closeBtn = document.querySelectorAll('.modal-close');
+    
     
     
     // All the different modals to choose
@@ -79,15 +75,29 @@ function closeModal() {
         amulet.style.display = "block";
     })
 
+    const closeModal = document.querySelectorAll('.modal-close');
+    const modal = document.querySelectorAll('modal');
     
-    closeBtn.addEventListener('click', function() {
-        closeBtn.forEach(close => {
-            close = document.querySelectorAll('.select');
-            close.innerHTML.style.display = "none";
-        })
-        
-    })
 
+    closeModal.forEach(spanBtn => {
+        
+
+        spanBtn.addEventListener('click', function(close) {
+            modal.forEach(select =>{
+                if (close.target === select) {
+                    select.style.display = "none";
+                    console.log(select);
+                };
+            });
+            
+        });
+    });
+
+    
+    
+
+    
+    
     
     
     
