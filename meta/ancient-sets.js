@@ -6,6 +6,10 @@ function closeNav() {
     document.getElementById("SideNav").style.width = "0px";
 }
 
+function closeModal() {
+    document.EventTarget(".select").style.display = "none";
+    console.log("check", document.querySelector(".select").EventTarget);
+}
 
 (function() {
     // Button for ashbringer
@@ -21,7 +25,7 @@ function closeNav() {
     /*const selArtifact = document.querySelector('.'); */
 
     // Button to close the modal
-    let closeBtn = document.querySelector('.modal-close')[0];
+    const closeBtn = document.querySelectorAll('.modal-close');
     
     
     // All the different modals to choose
@@ -74,14 +78,17 @@ function closeNav() {
     selAmulet.addEventListener('click', function() {
         amulet.style.display = "block";
     })
-        
-
-
 
     
-
     closeBtn.addEventListener('click', function() {
-        armor.style.display = "none";
-    });
+        closeBtn.forEach(close => {
+            close = document.querySelectorAll('.select');
+            close.innerHTML.style.display = "none";
+        })
+        
+    })
+
+    
+    
     
 })();

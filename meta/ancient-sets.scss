@@ -683,17 +683,20 @@
                                 border-radius: 5px;
                                 cursor: pointer;
 
-                                background-color: green;
-                                border-color: green;
+                                background-color: rgb(49, 141, 247);
+                                border-color: rgb(49, 141, 247);
                                 transition-duration: 0.2s;
                             }
                             .selectSet:hover {
                                 border-radius: 5px;
-                                background-color: rgb(61, 172, 27);
-                                border-color: green;
+                                background-color: rgb(86, 161, 248);
+                                border-color: rgb(49, 141, 247);
                             }
                             .selectSet:visited {
                                 border-radius: 5px;
+                            }
+                            .selectSet:active {
+                                background-color: rgb(138, 189, 248);
                             }
 
                         }
@@ -746,7 +749,7 @@
                                 cursor: pointer;
         
         
-                                background-color: chartreuse;
+                                
                                 opacity: 0.5;
                             }
                             .weapon {
@@ -754,7 +757,7 @@
                                 border-radius: 20%;
                                 cursor: pointer;
         
-                                background-color: chartreuse;
+                                
                                 opacity: 0.5;
                             }
                             .armorsoul {
@@ -762,7 +765,7 @@
                                 border-radius: 20%;
                                 cursor: pointer;
         
-                                background-color: chartreuse;
+                                
                                 opacity: 0.5;
                             }
                             .armor {
@@ -770,7 +773,7 @@
                                 border-radius: 20%;
                                 cursor: pointer;
         
-                                background-color: chartreuse;
+                                
                                 opacity: 0.5;
                             }
                             .ring {
@@ -782,7 +785,7 @@
                                 width: 88%;
                                 height: 76%;
         
-                                background-color: chartreuse;
+                                
                                 opacity: 0.5;
                             }
                             .amulet {
@@ -794,7 +797,7 @@
                                 width: 60%;
                                 height: 75%;
         
-                                background-color: chartreuse;
+                                
                                 opacity: 0.5;
                             }
                             .artefact {
@@ -807,7 +810,7 @@
                                 width: 88%;
                                 height: 76%;
         
-                                background-color: chartreuse;
+                                
                                 opacity: 0.5;
                             }
         
