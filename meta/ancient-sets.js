@@ -13,6 +13,7 @@ function closeNav() {
     const paladin = document.querySelector('.selPala');
     const oracle = document.querySelector('.selOracle');
     const darkula = document.querySelector('.selDark');
+    const annihilator = document.querySelector('.selAnni');
 
     //buttons for the items
     const selWeapon = document.querySelector('.weapon');
@@ -81,6 +82,18 @@ function closeNav() {
         armorSoul = document.querySelector('.selectAsoul-dark');
         ring = document.querySelector('.selectRing-dark');
         amulet = document.querySelector('.selectAmulet-dark');
+
+        //console.log("test");
+
+    });
+
+    annihilator.addEventListener('click', function() {
+        weapon = document.querySelector('.selectWeapon-anni');
+        weaponSoul = document.querySelector('.selectWsoul-anni');
+        armor = document.querySelector('.selectArmor-anni');
+        armorSoul = document.querySelector('.selectAsoul-anni');
+        ring = document.querySelector('.selectRing-anni');
+        amulet = document.querySelector('.selectAmulet-anni');
 
         //console.log("test");
 

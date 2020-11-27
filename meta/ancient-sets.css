@@ -566,6 +566,27 @@
   body .Complete-Popup .setType .selectArtifact-dark {
     display: none;
   }
+  body .Complete-Popup .setType .selectWeapon-anni {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectWsoul-anni {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectArmor-anni {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectAsoul-anni {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectRing-anni {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectAmulet-anni {
+    display: none;
+  }
+  body .Complete-Popup .setType .selectArtifact-anni {
+    display: none;
+  }
   body footer {
     background-image: url(assets/footer.png);
     color: white;
