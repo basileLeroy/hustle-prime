@@ -11,6 +11,8 @@ function closeNav() {
     // Button for ashbringer
     const ashbringer = document.querySelector('.selAsh');
     const paladin = document.querySelector('.selPala');
+    const oracle = document.querySelector('.selOracle');
+    const darkula = document.querySelector('.selDark');
 
     //buttons for the items
     const selWeapon = document.querySelector('.weapon');
@@ -55,6 +57,30 @@ function closeNav() {
         armorSoul = document.querySelector('.selectAsoul-pala');
         ring = document.querySelector('.selectRing-pala');
         amulet = document.querySelector('.selectAmulet-pala');
+
+        //console.log("test");
+
+    });
+
+    oracle.addEventListener('click', function() {
+        weapon = document.querySelector('.selectWeapon-oracle');
+        weaponSoul = document.querySelector('.selectWsoul-oracle');
+        armor = document.querySelector('.selectArmor-oracle');
+        armorSoul = document.querySelector('.selectAsoul-oracle');
+        ring = document.querySelector('.selectRing-oracle');
+        amulet = document.querySelector('.selectAmulet-oracle');
+
+        //console.log("test");
+
+    });
+
+    darkula.addEventListener('click', function() {
+        weapon = document.querySelector('.selectWeapon-dark');
+        weaponSoul = document.querySelector('.selectWsoul-dark');
+        armor = document.querySelector('.selectArmor-dark');
+        armorSoul = document.querySelector('.selectAsoul-dark');
+        ring = document.querySelector('.selectRing-dark');
+        amulet = document.querySelector('.selectAmulet-dark');
 
         //console.log("test");
 
