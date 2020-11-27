@@ -25,6 +25,8 @@ function closeNav() {
     /*const selArtifact = document.querySelector('.'); */
 
     // Button to close the modal
+    const closeModal = document.querySelectorAll('.modal-close');
+    const modal = document.querySelectorAll('modal');
     
     
     
@@ -127,9 +129,6 @@ function closeNav() {
         amulet.style.display = "block";
     })
 
-    const closeModal = document.querySelectorAll('.modal-close');
-    const modal = document.querySelectorAll('modal');
-    
 
     closeModal.forEach((spanBtn) => {
         spanBtn.addEventListener('click', function (close) {
