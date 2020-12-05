@@ -40,7 +40,6 @@ function closeNav() {
     /*let artifact = document.querySelector('.selectArtifact'); */
 
 
-
     ashbringer.addEventListener('click', function() {
         weapon = document.querySelector('.selectWeapon-ash');
         weaponSoul = document.querySelector('.selectWsoul-ash');
@@ -48,6 +47,24 @@ function closeNav() {
         armorSoul = document.querySelector('.selectAsoul-ash');
         ring = document.querySelector('.selectRing-ash');
         amulet = document.querySelector('.selectAmulet-ash');
+        
+        document.querySelector('.boxAsh').style = "border-style: solid; border-width: 5px; border-color: #0779e4;";
+        document.querySelector('.boxPala').style = "border: none";
+        document.querySelector('.boxOracle').style = "border: none";
+        document.querySelector('.boxDark').style = "border: none";
+        document.querySelector('.boxAnni').style = "border: none";
+        document.querySelector('.boxLegio').style = "border: none";
+        document.querySelector('.boxNecro').style = "border: none";
+        document.querySelector('.boxStorm').style = "border: none";
+        document.querySelector('.boxShadow').style = "border: none";
+        document.querySelector('.boxBane').style = "border: none";
+        document.querySelector('.boxRanger').style = "border: none";
+        document.querySelector('.boxSnake').style = "border: none";
+        document.querySelector('.boxIllu').style = "border: none";
+        document.querySelector('.boxPriest').style = "border: none";
+        document.querySelector('.boxDemon').style = "border: none";
+        document.querySelector('.boxBastion').style = "border: none";
+        document.querySelector('.boxInventor').style = "border: none";
 
         //console.log("test");
 
@@ -61,6 +78,24 @@ function closeNav() {
         ring = document.querySelector('.selectRing-pala');
         amulet = document.querySelector('.selectAmulet-pala');
 
+        document.querySelector('.boxPala').style = "border-style: solid; border-width: 5px; border-color: #0779e4;";
+        document.querySelector('.boxAsh').style = "border: none";
+        document.querySelector('.boxOracle').style = "border: none";
+        document.querySelector('.boxDark').style = "border: none";
+        document.querySelector('.boxAnni').style = "border: none";
+        document.querySelector('.boxLegio').style = "border: none";
+        document.querySelector('.boxNecro').style = "border: none";
+        document.querySelector('.boxStorm').style = "border: none";
+        document.querySelector('.boxShadow').style = "border: none";
+        document.querySelector('.boxBane').style = "border: none";
+        document.querySelector('.boxRanger').style = "border: none";
+        document.querySelector('.boxSnake').style = "border: none";
+        document.querySelector('.boxIllu').style = "border: none";
+        document.querySelector('.boxPriest').style = "border: none";
+        document.querySelector('.boxDemon').style = "border: none";
+        document.querySelector('.boxBastion').style = "border: none";
+        document.querySelector('.boxInventor').style = "border: none";
+
         //console.log("test");
 
     });
@@ -72,6 +107,24 @@ function closeNav() {
         armorSoul = document.querySelector('.selectAsoul-oracle');
         ring = document.querySelector('.selectRing-oracle');
         amulet = document.querySelector('.selectAmulet-oracle');
+
+        document.querySelector('.boxOracle').style = "border-style: solid; border-width: 5px; border-color: #0779e4;";
+        document.querySelector('.boxAsh').style = "border: none";
+        document.querySelector('.boxPala').style = "border: none";
+        document.querySelector('.boxDark').style = "border: none";
+        document.querySelector('.boxAnni').style = "border: none";
+        document.querySelector('.boxLegio').style = "border: none";
+        document.querySelector('.boxNecro').style = "border: none";
+        document.querySelector('.boxStorm').style = "border: none";
+        document.querySelector('.boxShadow').style = "border: none";
+        document.querySelector('.boxBane').style = "border: none";
+        document.querySelector('.boxRanger').style = "border: none";
+        document.querySelector('.boxSnake').style = "border: none";
+        document.querySelector('.boxIllu').style = "border: none";
+        document.querySelector('.boxPriest').style = "border: none";
+        document.querySelector('.boxDemon').style = "border: none";
+        document.querySelector('.boxBastion').style = "border: none";
+        document.querySelector('.boxInventor').style = "border: none";
 
         //console.log("test");
 
@@ -85,6 +138,24 @@ function closeNav() {
         ring = document.querySelector('.selectRing-dark');
         amulet = document.querySelector('.selectAmulet-dark');
 
+        document.querySelector('.boxDark').style = "border-style: solid; border-width: 5px; border-color: #0779e4;";
+        document.querySelector('.boxAsh').style = "border: none";
+        document.querySelector('.boxPala').style = "border: none";
+        document.querySelector('.boxOracle').style = "border: none";
+        document.querySelector('.boxAnni').style = "border: none";
+        document.querySelector('.boxLegio').style = "border: none";
+        document.querySelector('.boxNecro').style = "border: none";
+        document.querySelector('.boxStorm').style = "border: none";
+        document.querySelector('.boxShadow').style = "border: none";
+        document.querySelector('.boxBane').style = "border: none";
+        document.querySelector('.boxRanger').style = "border: none";
+        document.querySelector('.boxSnake').style = "border: none";
+        document.querySelector('.boxIllu').style = "border: none";
+        document.querySelector('.boxPriest').style = "border: none";
+        document.querySelector('.boxDemon').style = "border: none";
+        document.querySelector('.boxBastion').style = "border: none";
+        document.querySelector('.boxInventor').style = "border: none";
+
         //console.log("test");
 
     });
@@ -97,11 +168,27 @@ function closeNav() {
         ring = document.querySelector('.selectRing-anni');
         amulet = document.querySelector('.selectAmulet-anni');
 
+        document.querySelector('.boxAnni').style = "border-style: solid; border-width: 5px; border-color: #0779e4;";
+        document.querySelector('.boxAsh').style = "border: none";
+        document.querySelector('.boxPala').style = "border: none";
+        document.querySelector('.boxOracle').style = "border: none";
+        document.querySelector('.boxDark').style = "border: none";
+        document.querySelector('.boxLegio').style = "border: none";
+        document.querySelector('.boxNecro').style = "border: none";
+        document.querySelector('.boxStorm').style = "border: none";
+        document.querySelector('.boxShadow').style = "border: none";
+        document.querySelector('.boxBane').style = "border: none";
+        document.querySelector('.boxRanger').style = "border: none";
+        document.querySelector('.boxSnake').style = "border: none";
+        document.querySelector('.boxIllu').style = "border: none";
+        document.querySelector('.boxPriest').style = "border: none";
+        document.querySelector('.boxDemon').style = "border: none";
+        document.querySelector('.boxBastion').style = "border: none";
+        document.querySelector('.boxInventor').style = "border: none";
+
         //console.log("test");
 
     });
-
-
 
      
 

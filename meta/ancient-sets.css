@@ -272,7 +272,9 @@
             flex-direction: row;
   }
   body .home-container .middle .allClasses {
-    width: 70%;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 13px;
   }
   body .home-container .middle .allClasses .set-list {
@@ -286,6 +288,7 @@
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
+    padding: 5px 10px;
     margin-bottom: 0px;
   }
   body .home-container .middle .allClasses .set-list .set-img {
