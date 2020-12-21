@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="arena.css">
 
 </head>
 <body>
@@ -91,11 +91,11 @@
 
             <div class="theme">
                 <div class="theme-img">
-                    <img src="assets/WorldMap.jpg" alt="" title="World-map">
+                    <img src="assets/Arena-Banner.png" alt="" title="Arena">
                 </div>
                 <div class="theme-txt">
-                    <h1>THE MAP</h1>
-                    <p>What do you want to know about the map?<br> In this page you will find almost anything there is to know about this game's world map!</p>
+                    <h1>ARENA</h1>
+                    <p>How does it work? What are the rules? How can I use this to my advantage?<br>Here you will find all the info we have on how to dominate the Arena and it's brackets!</p>
                 </div>
             </div>
 
@@ -104,7 +104,7 @@
                     <img src="assets/Campain-Story01.jpg" alt="" title="Abyss Lord and Olivia">
                 </div>
                 <div class="test-txt">
-                    <h2>Campain / Story-line</h2>
+                    <h2>Arena Brackets:</h2>
                     <p>It is the legend of a brave Lord (you) that had to discover that his dearly loved Olivia had been captured by no one else than the infamous Abyss Lord! <br><br>As you go on with your army, you will need to march trough multiple hostile territorries. All the Abyss Lord's allies (or more like presured to cooperate) will try to stop you in your quest to Olivia's freedom! <br><br> But.. Are those the only dangers you will have to face?</p>
                 </div>
             </div>
@@ -116,8 +116,66 @@
                     <img src="assets/Pvp-Castle.jpg" alt="" title="Player on PVP map">
                 </div>
                 <div class="test-txt">
-                    <h2>PVP</h2>
+                    <h2>The 3-Bracket Rule:</h2>
                     <p>When you advance in the story-line, you will onlock new sections of the map. those sections will give you the room to encounter PVP adversairies. <br><br> By attacking those players you will be able to gain even more resources to make your castle stronger!</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row01-left">
+                <div class="test-img">
+                    <img src="assets/Campain-Story01.jpg" alt="" title="Abyss Lord and Olivia">
+                </div>
+                <div class="test-txt">
+                    <h2>Fighter Training Room (FTR)</h2>
+                    <p>It is the legend of a brave Lord (you) that had to discover that his dearly loved Olivia had been captured by no one else than the infamous Abyss Lord! <br><br>As you go on with your army, you will need to march trough multiple hostile territorries. All the Abyss Lord's allies (or more like presured to cooperate) will try to stop you in your quest to Olivia's freedom! <br><br> But.. Are those the only dangers you will have to face?</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="readMore">
+                <h2>Calculate your own bracket!</h2>
+                <p>By following the following steps:</p>
+
+                <br>
+
+                <div class="bracket-explaination">
+                    <h3>Your Barracks lvl:</h3>
+                    <p>First you look at the level your Barracks is, this will be needed to calculate your bracket.</p>
+                    <br><br>
+                    <h3>Get your fighter levels:</h3>
+                    <p>When you know the level of your Barracks, you go trough your castle and look at your <b>n</b> strongest fighters, <b>n</b> beeing the number of fightsers equal to the level of your Barracks</p><br>
+                    <p>For example: <br> you have a lvl 5 Barracks, wich means you have to look for your 5 strongest fighters in your castle.</p>
+                    <br><br>
+                    <h3>Calculate your average fighter level:</h3>
+                    <p>Sum up the n number of fighters and devide them by n. (classic formulla for averages)</p>
+                    <br><br>
+                    <h3>Compare your average with the bracket list:</h3>
+                    <p>Look at your average and see in wich bracket your average would fall.<br> (Don't forget to check if you are not braking any of the rules mentioned on this page!)</p>
+                </div>
+
+                <!-- Stil in the making -->
+                <div class="bracket-Calc">
+                    <label for="barracks">Select your Barracks level:</label>
+                    <select id="barracks" name="barracks">
+                        <option value="none">select</option>
+                        <option value="3">lvl 3</option>
+                        <option value="4">lvl 4</option>
+                        <option value="5">lvl 5</option>
+                        <option value="6">lvl 6</option>
+                        <option value="7">lvl 7</option>
+                        <option value="8">lvl 8</option>
+                    </select>
+
+                    <br><br>
+
+                    <div class="Figther-Lvls">
+                        <label for="level">Fill in your strongest fighter levels from your castle:</label><br><br>
+                        <input type="number" id="fighterLvl" name="fighterLvl" min="1" max="100"><br><br>
+                        <input type="submit" value="submit">
+                    </div>
                 </div>
             </div>
         </div>
