@@ -174,6 +174,35 @@
                     margin: auto;
                 }
             }
+
+            .readMore {
+                width: 80%;
+                text-align: left;
+
+                margin-bottom: 100px;
+
+                a {
+                    color: rgb(64, 142, 219);
+                }
+
+                .bracket-Calc {
+                    display: none;
+                }
+
+                .bracket-explaination {
+                    h3 {
+                        padding-left: 20px;
+                        padding-bottom: 10px;
+                    }
+                    p {
+                        padding-left: 20px;
+                    }
+                }
+
+                span {
+                    color: rgb(230, 3, 192);
+                }
+            }
     
             .row01-left {
                 display: flex;
@@ -198,8 +227,10 @@
                 .test-txt {
                     h2 {
                         padding-bottom: 25px;
+                        text-align: center;
                     }
                     margin: auto;
+                    text-align: left;
                 }
     
     
@@ -228,8 +259,10 @@
                 .test-txt {
                     h2 {
                         padding-bottom: 25px;
+                        text-align: center;
                     }
                     margin: auto;
+                    text-align: left;
                 }
     
     
