@@ -183,6 +183,9 @@
   body .home-container .readMore .bracket-explaination p {
     padding-left: 20px;
   }
+  body .home-container .readMore span {
+    color: red;
+  }
   body .home-container .row01-left {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -238,6 +241,9 @@
   }
   body .home-container .row02-right .test-txt h2 {
     padding-bottom: 25px;
+  }
+  body .home-container .row02-right .test-txt span {
+    color: red;
   }
   body .home-container hr {
     margin-top: 20px;
