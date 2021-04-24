@@ -9,14 +9,13 @@ import CtBoard from '../../../../images/ct-board.png'
 import CtLeaderBoard from '../../../../images/ct-leaderboard.png'
 import BossChart from '../../../../images/boss-chart.png'
 import TownHall from '../../../../images/CT-thLevels.png'
-import OldMage from '../../../../images/oldMage.png'
 
 const ClanTerritories = () => {
 
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="w-nine mx-auto rounded-md" />
+                <img src={Banner} className="w-nine mx-auto rounded-md" alt="oops" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -53,7 +52,7 @@ const ClanTerritories = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={CtBoard} className="lg:w-1/2 w-nine mx-auto" />
+                    <img src={CtBoard} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
                 </div>
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
@@ -133,7 +132,7 @@ const ClanTerritories = () => {
                 </div>
 
                 <div className="mx-auto my-6 pb-12">
-                    <img src={hunterBonusses} className="lg:w-1/2 mx-auto rounded-md" />
+                    <img src={hunterBonusses} className="lg:w-1/2 mx-auto rounded-md" alt="oops" />
                 </div>
 
                 
@@ -153,7 +152,7 @@ const ClanTerritories = () => {
                 </div>
 
                 <div className="mx-auto my-6 pb-12">
-                    <img src={BossChart} className="lg:w-nine mx-auto rounded-md" />
+                    <img src={BossChart} className="lg:w-nine mx-auto rounded-md" alt="oops" />
                 </div>
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">

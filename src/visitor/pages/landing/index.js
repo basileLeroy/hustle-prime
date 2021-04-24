@@ -8,7 +8,7 @@ const Landing = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Welcome} className="w-nine mx-auto rounded-md" />
+                <img src={Welcome} className="w-nine mx-auto rounded-md" alt="oops" />
             </div>
 
             <div className="relative flex flex-col lg:flex-row mx-auto brown-white bg-opacity-20 cursor-not-allowed mb-28">

@@ -8,7 +8,7 @@ const Map = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={map} className="lg:w-1/2 w-nine mx-auto rounded-md" />
+                <img src={map} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">

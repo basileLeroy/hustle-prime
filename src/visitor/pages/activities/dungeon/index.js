@@ -9,7 +9,7 @@ const Dungeon = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -25,7 +25,7 @@ const Dungeon = () => {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={HeroAndMount} className="lg:w-150 rounded-md" alt="" title="" />
+                        <img src={HeroAndMount} className="lg:w-150 rounded-md" alt="oops" title="" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
@@ -59,7 +59,7 @@ const Dungeon = () => {
                         </p>
                     </div>
                     <div className="lg:w-nine my-auto w-full lg:pr-24 py-5">
-                        <img src={DungeonWarrior} className="lg:w-nine rounded-md" alt="" title="" />
+                        <img src={DungeonWarrior} className="lg:w-nine rounded-md" alt="oops" title="" />
                     </div>
                 </div>
 

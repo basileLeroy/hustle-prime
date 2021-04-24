@@ -12,7 +12,7 @@ const Portal = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -92,7 +92,7 @@ const Portal = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={portalImg} className="lg:w-1/2 w-nine mx-auto rounded-md" />
+                    <img src={portalImg} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" />
                 </div>
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
@@ -153,8 +153,8 @@ const Portal = () => {
                 </div>
 
                 <div className="mx-auto my-6 w-nine">
-                    <img src={portalmod0} className="lg:w-1/2 w-nine mx-auto rounded-md" />
-                    <img src={portalmod1} className="lg:w-1/2 w-nine mx-auto rounded-md" />
+                    <img src={portalmod0} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" />
+                    <img src={portalmod1} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" />
                 </div>
 
                 <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">

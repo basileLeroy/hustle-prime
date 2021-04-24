@@ -11,7 +11,7 @@ const Gembay = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -80,7 +80,7 @@ const Gembay = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={gemBayMenu} className="lg:w-1/2 w-nine mx-auto rounded-md" />
+                    <img src={gemBayMenu} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" />
                 </div>
 
                 <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">
@@ -106,7 +106,7 @@ const Gembay = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={gemBayFighter} className="lg:w-1/2 w-nine mx-auto rounded-md" />
+                    <img src={gemBayFighter} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" />
                 </div>
 
                 <div className="flex flex-col w-nine justify-center text-left mx-auto mb-8 lg:pl-24 lg:pr-56">
@@ -158,7 +158,7 @@ const Gembay = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={gemBaySpells} className="lg:w-3/5 w-nine mx-auto rounded-md" />
+                    <img src={gemBaySpells} className="lg:w-3/5 w-nine mx-auto rounded-md" alt="oops" />
                 </div>
 
                 <hr
