@@ -3,7 +3,6 @@ import Banner from '../../../../images/Arena-Banner.png'
 import Warrior from '../../../../images/warrior-image.png'
 import Bracket from '../../../../images/Bracket-List.jpg'
 import BracketLegend from '../../../../images/Bracket-List-Legent.jpg'
-import ArenaIcon from '../../../../images/Arena-Icon.png'
 import scarecrowIcon from '../../../../images/scarecrowIcon.png'
 import Info from '../../../../images/info.png'
 
@@ -11,7 +10,7 @@ const Arena = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
