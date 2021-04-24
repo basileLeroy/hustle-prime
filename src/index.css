@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #212121;
+  color: rgb(214, 214, 214);
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+
+}
+
+body header {
+  height: 5rem;
+  width: 100%;
+
+  background-image: url(./images/hp-header.png);
+}
+
+body .App-container {
+  max-width: 2000px;
+  margin: auto;
+}
+
+body footer {
+  height: 3rem;
+  width: 100%;
+
+  bottom: 0;
+
+  background-image: url(./images/footer.png);
+}
+
