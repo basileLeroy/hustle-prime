@@ -1,7 +1,7 @@
 {
   "name": "hustle-prime",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@headlessui/react": "^1.0.0",
