@@ -6,8 +6,8 @@ import campain01 from '../../../../images/Campain-Story01.jpg'
 
 const AncientSets = () => {
 
-    const [choiceDisplay, setChoiceDisplay] = useState(false);
-    const [gearDisplay, setGearDisplay] = useState(true);
+    const [choiceDisplay, setChoiceDisplay] = useState(true);
+    const [gearDisplay, setGearDisplay] = useState(false);
     const [displaySetComponent, setDisplaySetComponent] = useState(<SetChoice />);
 
     const ChangeChoiceDisplay = () => {
