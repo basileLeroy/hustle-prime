@@ -4,6 +4,7 @@ import { Header, Footer } from './visitor/components'
 import { Landing } from './visitor/pages'
 import { Map, Arena, Portal, Gembay, Dungeon } from './visitor/pages/activities'
 import { ClanTerritories } from './visitor/pages/clans'
+import { AncientSets } from './visitor/pages/META'
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
               <Route path="/activities/dungeon" exact component={ Dungeon } />
 
               <Route path="/clans/clan-territories" exact component={ ClanTerritories } />
+
+              <Route path="/meta/ancient-sets" exact component={ AncientSets } />
           </Switch>
         </div>
         <Footer />

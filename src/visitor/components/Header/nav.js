@@ -248,7 +248,7 @@ const Nav = () => {
 
                                             <Menu.Item>
                                             {({ active }) => (
-                                                <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Ancient Sets</Link>
+                                                <Link to="/meta/ancient-sets" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Ancient Sets</Link>
                                             )}
                                             </Menu.Item>
 
