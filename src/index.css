@@ -14,13 +14,27 @@
   .desktop-nav {
     display: none;
   }
+
+  .avatar {
+    background-image: url(./images/gear-blanco.png);
+    background-size: cover;
+    width: auto;
+    height: 350px;
+  }
 }
 @media only screen and (min-width: 600px) {
   .mobile-nav {
     display: none;
   }
-}
 
+  .avatar {
+    background-image: url(./images/gear-blanco.png);
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+
+  }
+}
 
 
 body {
