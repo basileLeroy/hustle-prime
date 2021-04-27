@@ -56,11 +56,11 @@ export const SidebarData = [
         path: '#',
         cName: 'nav-text flex justify-start items-center py-2 h-14 list-none',
     },
-        {
-            title: 'Squads',
-            path: '/meta/#',
-            cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
-        },
+        // {
+        //     title: 'Squads',
+        //     path: '/meta/#',
+        //     cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
+        // },
         {
             title: 'Ancient Sets',
             path: '/meta/#',

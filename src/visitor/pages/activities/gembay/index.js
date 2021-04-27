@@ -18,7 +18,11 @@ const Gembay = () => {
                 <div className="flex flex-col lg:mx-32">
                     <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-yellow-500">GEM-BAY</h1>
                     <p className="font-medium">
-                        ~~~ Introduction text ~~~
+                        Ahoy there, me hearties, and welcome to the Gem Bay! 
+                        Set sail in Hustle Castle’s most dangerous waters, where a series of 15 opponents awaits. 
+                        Plan your strategy carefully, as each opponent is more difficult to defeat than the last, and once your fighters die, they stay dead until you return home. 
+                        The more opponents you defeat, the greater your reward, which includes powerful gems to enhance your equipment, and ancient set materials. 
+                        Yo ho ho!
                     </p>
                 </div>
             </div>

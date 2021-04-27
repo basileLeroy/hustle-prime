@@ -192,7 +192,7 @@ const Nav = () => {
                                         className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                                     >
                                         <div className="py-1">
-                                            <Menu.Item>
+                                            {/* <Menu.Item>
                                             {({ active }) => (
                                                 <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2 cursor-not-allowed' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>What is it?</Link>
                                             )}
@@ -202,7 +202,7 @@ const Nav = () => {
                                             {({ active }) => (
                                                 <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2 cursor-not-allowed' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Clan Wars</Link>
                                             )}
-                                            </Menu.Item>
+                                            </Menu.Item> */}
 
                                             <Menu.Item>
                                             {({ active }) => (
@@ -240,11 +240,11 @@ const Nav = () => {
                                         className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                                     >
                                         <div className="py-1">
-                                            <Menu.Item>
+                                            {/* <Menu.Item>
                                             {({ active }) => (
                                                 <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Squads</Link>
                                             )}
-                                            </Menu.Item>
+                                            </Menu.Item> */}
 
                                             <Menu.Item>
                                             {({ active }) => (
