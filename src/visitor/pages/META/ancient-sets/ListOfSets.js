@@ -9,7 +9,7 @@ import HolidayRing from '../../../../images/Holiday-Ring.png'
 import HolidayAmu from '../../../../images/Holiday-Amulet.png'
 import MightRing from '../../../../images/Mighty-Ring.png'
 import SeaRing from '../../../../images/Sea-Ring.png'
-import UfoAmu from '../../../../images/Alien-Amulet.jpg'
+import AlienAmulet from '../../../../images/Alien-Amulet.jpg'
 import AlienRing from '../../../../images/Alien-Ring.png'
 
 
@@ -613,7 +613,7 @@ export const ListOfSets = [
 
                 {
                     rank: '3RD',
-                    img: UfoAmu,
+                    img: AlienAmulet,
                     name: 'UFO necklace',
                     info: '',
                 },
