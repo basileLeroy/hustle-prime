@@ -36,6 +36,9 @@ const AncientSets = () => {
                     <p className="font-medium">
                         If you're looking for an in-depth guide of what sets to go for and which items to use for these sets, look no further. I'll try to be as <span className="font-bold">clear and simple</span> as possible while still giving an explanation of why I chose a certain item.
                     </p>
+                    <p className=" justify-end text-right mt-8 mr-24">
+                        ~ <span className=" text-yellow-600 font-extrabold">Seditiar</span>
+                    </p>
                 </div>
             </div>
 
