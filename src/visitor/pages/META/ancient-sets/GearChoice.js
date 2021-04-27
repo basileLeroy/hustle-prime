@@ -183,9 +183,9 @@ function GearChoice() {
 
         <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">
             <p>
-                To make it a little bit more easy for you, We have put together a compilation of best/most recommended sets and their top best gear choices.
-                Keep in mind that this is a <span className="font-extrabold">PERSONAL SUGGESTION</span>, made by players of the community. 
-                This is by no means a set-in-stone guide and will change regularly according to new gear beeing introduced in the game!
+                To make it a little bit more easy for you, We have put together an application based on <span className=" text-yellow-600 font-extrabold">Seditiar</span>'s Set documentation.
+                Keep in mind that this is a <span className="font-extrabold">GUIDELINE</span>! 
+                Due to the nature of the game, It will be updated regularly as new items are frequently introduced into the game !
             </p>
         </div>
 
