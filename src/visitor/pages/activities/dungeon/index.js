@@ -16,7 +16,10 @@ const Dungeon = () => {
                 <div className="flex flex-col lg:mx-32">
                     <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-purple-600">DUNGEONS</h1>
                     <p className="font-medium">
-                        ~~~ Introduction text ~~~
+                        Welcome to the Dungeon, the greatest challenge Hustle Castle has to offer. 
+                        Team up with a friend to help face dastardly demons, badass bosses, and perhaps the most difficult opponent in the game: yourself! 
+                        Defeat these opponents to earn various rewards, including ancient set materials, items to upgrade your hero, and unique skins and mounts. 
+                        Upgrade your hero to provide massive boosts and special abilities to your squad.
                     </p>
                 </div>
             </div>

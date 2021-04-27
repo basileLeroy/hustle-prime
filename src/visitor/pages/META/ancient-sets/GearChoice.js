@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { ListOfSets } from './ListOfSets'
-import setIcons from '../../../../images/set-choice.png'
+import GearIcon from '../../../../images/GearChoice.png'
 
 function GearChoice() {
     const [displaySelectedSet, setDisplaySelectedSet] = useState('ash');
+    const [display, setDisplay] = useState();
 
     const SelectedSet = ListOfSets[0][displaySelectedSet];
     // const Selectedweapons = SelectedSet[0].weapons;
@@ -14,22 +15,150 @@ function GearChoice() {
     // const SelectedNecklaces = SelectedSet[0].amulets;
 
     const openWeaponModal = () => {
+        
+        const weapons = SelectedSet.weapons
+        
+
+        setDisplay(
+            <>
+            <h2 className="text-3xl m-auto text-center mb-12">{SelectedSet.title}'s Weapons</h2>
+            {weapons.map((item, index) => {
+                return (
+                    <>
+                        <div className="bg-gray-500 rounded-2xl" key={index}>
+                            <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
+                                <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
+                                <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                            </div>
+                        </div>
+                        <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
+                    </>
+                );
+            })}
+            </>
+        )
 
     }
     const openWeaponSoulModal = () => {
+        const weaponSouls = SelectedSet.weaponSoul
+        
 
+        setDisplay(
+            <>
+            <h2 className="text-3xl m-auto text-center mb-12">{SelectedSet.title}'s Weapon Souls</h2>
+            {weaponSouls.map((item, index) => {
+                return (
+                    <>
+                        <div className="bg-gray-500 rounded-2xl" key={index}>
+                            <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
+                                <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
+                                <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                            </div>
+                        </div>
+                        <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
+                    </>
+                );
+            })}
+            </>
+        )
     }
     const openArmorModal = () => {
+        const armors = SelectedSet.armors
+        
 
+        setDisplay(
+            <>
+            <h2 className="text-3xl m-auto text-center mb-12">{SelectedSet.title}'s Armor</h2>
+            {armors.map((item, index) => {
+                return (
+                    <>
+                        <div className="bg-gray-500 rounded-2xl" key={index}>
+                            <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
+                                <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
+                                <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                            </div>
+                        </div>
+                        <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
+                    </>
+                );
+            })}
+            </>
+        )
     }
     const openArmorSoulModal = () => {
+        const armorSouls = SelectedSet.armorSoul
+        
 
+        setDisplay(
+            <>
+            <h2 className="text-3xl m-auto text-center mb-12">{SelectedSet.title}'s Armor Souls</h2>
+            {armorSouls.map((item, index) => {
+                return (
+                    <>
+                        <div className="bg-gray-500 rounded-2xl" key={index}>
+                            <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
+                                <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
+                                <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                            </div>
+                        </div>
+                        <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
+                    </>
+                );
+            })}
+            </>
+        )
     }
     const openRingModal = () => {
+        const rings = SelectedSet.rings
+        
 
+        setDisplay(
+            <>
+            <h2 className="text-3xl m-auto text-center mb-12">{SelectedSet.title}'s Rings</h2>
+            {rings.map((item, index) => {
+                return (
+                    <>
+                        <div className="bg-gray-500 rounded-2xl" key={index}>
+                            <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
+                                <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
+                                <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                            </div>
+                        </div>
+                        <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
+                    </>
+                );
+            })}
+            </>
+        )
     }
     const openNecklaceModal = () => {
+        const necklaces = SelectedSet.amulets
+        
 
+        setDisplay(
+            <>
+            <h2 className="text-3xl m-auto text-center mb-12">{SelectedSet.title}'s Necklaces</h2>
+            {necklaces.map((item, index) => {
+                return (
+                    <>
+                        <div className="bg-gray-500 rounded-2xl" key={index}>
+                            <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
+                                <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
+                                <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                            </div>
+                        </div>
+                        <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
+                    </>
+                );
+            })}
+            </>
+        )
     }
 
     return (
@@ -37,11 +166,11 @@ function GearChoice() {
         <div className="flex flex-col w-nine justify-center mx-auto">
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mt-20 mb-12">
                 <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                    <img src={setIcons} className="w-full rounded-md" alt="" title="" />
+                    <img src={GearIcon} className="w-full rounded-md" alt="" title="" />
                 </div>
                 <div className="flex flex-col text-center lg:ml-4 lg:mr-8">
                     <div className="flex flex-col text-center lg:mx-12">
-                        <h1 className="text-2xl font-extrabold mt-12 mb-8 text-center">Choosing your Gear:</h1>
+                        <h1 className="text-2xl font-extrabold mt-12 mb-8 text-center">Choosing Your Gear:</h1>
                         <p>
                             Sets can be heavily influenced by the gear you forge into your sets. Some combinations work very well and others don't work together.
                             When choosing the right gear, not only do you have to take into account the gemslots it has, but also the effect it provides,
@@ -91,22 +220,23 @@ function GearChoice() {
         </div>
 
         <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-24">
-            <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-pink-500">{SelectedSet[0].title || "Select a Set"}</h1>
+            <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-pink-500">{SelectedSet.title || "Select a Set"}</h1>
             <p className="text-center italic font-bold">Click on one of the gear slots to see the recommended gear!</p>
-            <div className="mt-12 avatar m-auto relative">
-                <div onClick={openWeaponSoulModal} className="absolute lg:w-32 lg:h-32 lg:top-8 rounded-3xl cursor-pointer"></div>
-                <div onClick={openArmorSoulModal} className="absolute lg:w-32 lg:h-32 lg:top-44 rounded-3xl cursor-pointer"></div>
-                <div onClick={openRingModal} className="absolute lg:w-28 lg:h-28 bottom-0 lg:left-12 rounded-3xl cursor-pointer"></div>
-                <div onClick={openNecklaceModal} className="absolute lg:w-28 lg:h-28 bottom-0 lg:left-44 rounded-3xl cursor-pointer"></div>
-                <div className="absolute bg-black bg-opacity-40 lg:w-28 lg:h-28 bottom-0 right-12 rounded-3xl cursor-not-allowed"></div>
-                <div onClick={openWeaponModal} className="absolute lg:w-32 lg:h-32 top-8 right-0 rounded-3xl cursor-pointer"></div>
-                <div onClick={openArmorModal} className="absolute lg:w-32 lg:h-32 top-44 right-0 rounded-3xl cursor-pointer"></div>
+            <div className="mt-12 avatar lg:m-auto relative">
+                <div onClick={openWeaponSoulModal} className="absolute w-24 h-24 top-6 lg:w-32 lg:h-32 lg:top-8 rounded-3xl cursor-pointer"></div>
+                <div onClick={openArmorSoulModal} className="absolute w-24 h-24 top-36 lg:w-32 lg:h-32 lg:top-44 rounded-3xl cursor-pointer"></div>
+                <div onClick={openRingModal} className="absolute w-24 h-24 left-6 lg:w-28 lg:h-28 bottom-0 lg:left-12 rounded-3xl cursor-pointer"></div>
+                <div onClick={openNecklaceModal} className="absolute w-24 h-24 left-32 lg:w-28 lg:h-28 bottom-0 lg:left-44 rounded-3xl cursor-pointer"></div>
+                <div className="absolute w-24 h-24 right-6 lg:w-28 lg:h-28 bottom-0 lg:right-12 rounded-3xl cursor-not-allowed"></div>
+                <div onClick={openWeaponModal} className="absolute w-24 h-24 top-6 lg:w-32 lg:h-32 lg:top-8 right-0 rounded-3xl cursor-pointer"></div>
+                <div onClick={openArmorModal} className="absolute w-24 h-24 top-36 lg:w-32 lg:h-32 lg:top-44 right-0 rounded-3xl cursor-pointer"></div>
 
             </div>
         </div>
 
         <div className="bg-gray-700 flex flex-col lg:w-3/4 w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-24">
-            <div className="mt-12 m-auto">
+            <div className="mt-4 m-auto flex-col w-full">
+                {display}
             </div>
         </div>
 

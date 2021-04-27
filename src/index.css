@@ -18,7 +18,7 @@
   .avatar {
     background-image: url(./images/gear-blanco.png);
     background-size: cover;
-    width: auto;
+    width: 350px;
     height: 350px;
   }
 }
