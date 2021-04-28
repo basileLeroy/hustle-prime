@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Banner from '../../../../images/dungeon-banner.png'
+import Banner from '../../../../images/RuneEventBanner.png'
 import RuneEvent from '../../../../images/RuneEvent.png'
 import RuneIcons from '../../../../images/RuneIcons.png'
 import RuneMenu from '../../../../images/RuneMenu.png'
@@ -10,7 +10,7 @@ function Runes() {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto rounded-xl" alt="oops" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
