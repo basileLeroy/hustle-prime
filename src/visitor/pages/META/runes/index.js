@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Banner from '../../../../images/dungeon-banner.png'
 import RuneEvent from '../../../../images/RuneEvent.png'
-import DungeonWarrior from '../../../../images/dungeonWarrior.png'
-import Vampire from '../../../../images/vampire-boss.png'
+import RuneIcons from '../../../../images/RuneIcons.png'
+import RuneMenu from '../../../../images/RuneMenu.png'
+import DragonRuneEvent from '../../../../images/DragonRuneEvent.png'
 
 function Runes() {
     return (
@@ -26,7 +27,7 @@ function Runes() {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={RuneEvent} className="lg:w-150 rounded-md" alt="oops" title="" />
+                        <img src={RuneIcons} className="lg:w-150 rounded-md" alt="oops" title="" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
@@ -71,7 +72,7 @@ function Runes() {
                         </p>
                     </div>
                     <div className="lg:w-nine my-auto w-full lg:pr-24 py-5">
-                        <img src={DungeonWarrior} className="lg:w-nine rounded-md" alt="oops" title="" />
+                        <img src={DragonRuneEvent} className="lg:w-nine rounded-md" alt="oops" title="" />
                     </div>
                 </div>
 
@@ -93,7 +94,7 @@ function Runes() {
                 </div>
 
                 
-                <div className="flex flex-col w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-24 mt-24">
+                <div className="flex flex-col w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-12 mt-24">
                     <p>
                         Runes will be set based on your Throne Room level. This means top 3 levels of possible max training levels.
                         <br /><br />
@@ -124,6 +125,15 @@ function Runes() {
                     <span className="text-sm italic ml-2 pt-8">* ONE exception of Runes at throne 10 is the requirement of at least one level 88 fighter to trigger 90-100 runes.</span>
                 </div>
 
+                <div className="flex flex-col w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-12">
+                    <p>
+                        NOTE:
+                        One of the biggest advantages on rune events, is that it comes back with the same runes + new ones. If you can not collect all runes during one event, the next one will give you a change of getting the missing ones <br /> <br />
+                        <span className="text-lg font-extrabold">IF YOU ALREADY HAVE A RUNE, the next event will not provide that same rune again within the same TR LEVEL !!!</span> <br/>
+                        The only way to have A rune twice, will be to have it by doing rune events in different Throne Room levels. As you can not get the same rune twice withing the same Throne Room Level.
+                    </p>
+                </div>
+
 
                 <hr
                     className="bg-gray-400 h-1 w-nine mx-auto"
@@ -131,7 +141,7 @@ function Runes() {
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
                     <div className="lg:w-nine my-auto w-full lg:pl-24 py-5">
-                        <img src={Vampire} className="lg:w-nine" alt="" title="" />
+                        <img src={RuneMenu} className="lg:w-nine rounded-lg" alt="" title="" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Type of Runes:</h1>
@@ -142,7 +152,7 @@ function Runes() {
                             <span className="text-red-600">Class-specific runes</span> (where runes will only work on a certain fighter class) & 
                             <span className="text-red-600"> Universal runes</span> (where as long as you put it on the right type of item, it can be used on any type of fighter) 
                             <br /><br />
-                            <span className="text-purple-600">We are currently working on a list with all the bosses and how to beat them.</span>
+                            <span className="text-gray-400">You can see the type of those runes by clicking on them or by "trying" those on items, it will tell you if it is compatible or not.</span>
                         </p>
                     </div>
                 </div>

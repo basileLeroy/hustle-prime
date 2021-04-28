@@ -18,7 +18,7 @@ const Arena = () => {
                     <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-blue-400">ARENA</h1>
                     <p className="font-medium">
                         How does it work? What are the rules? How can I use this to my advantage?<br />
-                        Here you will find all the info we have on how to dominate the Arena and it's brackets!
+                        Here you will find info on how to dominate the Arena and it's brackets!
                     </p>
                 </div>
             </div>
@@ -31,8 +31,8 @@ const Arena = () => {
                     <div className="flex flex-col text-center lg:mx-32">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">Arena Brackets</h1>
                         <p>
-                            The tournaments are devided in a lot of different brackets. The bracket system will make sure that players with similar kind of squad compositions and powers are fighting against eachother.<br /><br /> 
-                            With that said, there is still a lot of room inside each bracket to avoid having only oponents of your own level. Wich keeps the arena interesting if you ask me!
+                            The tournaments are divided in a lot of different brackets. The bracket system will make sure that players with similar kind of squad sizes and powers are fighting against eachother.<br /><br /> 
+                            With that said, there is still a lot of room inside each bracket to avoid having only opponents of your own level. Wich keeps the arena interesting if you ask me!
                         </p>
                     </div>
                 </div>
