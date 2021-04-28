@@ -30,8 +30,14 @@ const Landing = () => {
                         <img src={test_image01} className="w-full rounded-md" alt="" title="Test-02" />
                     </div>
                     <div className="flex flex-col lg:ml-32">
-                        <h2 className="text-3xl font-bold mb-12 text-center">WELCOME!</h2>
-                        <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab aliquid soluta, at tempore atque doloremque! Labore in itaque, assumenda ratione debitis voluptate commodi magnam repellat quaerat quas, odit sit blanditiis minima tenetur vitae officiis culpa possimus? Perspiciatis voluptas amet quod. Omnis modi consequatur, blanditiis adipisci ipsam iusto animi magni voluptas.</p>
+                        <h2 className="text-3xl font-bold mb-12 text-center">Welcome to the HUSTLE PRIME website</h2>
+                        <p className="text-center">
+                            Hustle Castle was launched on November 3, 2017 and has had an incredible history. 
+                            Whether you are a new player or a veteran, or returning after a long absence, 
+                            we are proud to host some of that history here in this community.
+                            Read up on player made discoveries and interact with players around the world. 
+                            For more in-depth guides you can also visit our discord server. Enjoy !
+                        </p>
                     </div>
                 </div>
             </div>

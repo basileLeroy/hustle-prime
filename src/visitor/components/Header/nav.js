@@ -254,13 +254,13 @@ const Nav = () => {
 
                                             <Menu.Item>
                                             {({ active }) => (
-                                                <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Gems</Link>
+                                                <Link to="/meta/gems" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Gems</Link>
                                             )}
                                             </Menu.Item>
 
                                             <Menu.Item>
                                             {({ active }) => (
-                                                <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Runes</Link>
+                                                <Link to="/meta/runes" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Runes</Link>
                                             )}
                                             </Menu.Item>
                                         </div>
