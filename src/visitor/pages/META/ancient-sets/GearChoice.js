@@ -234,7 +234,7 @@ function GearChoice() {
             </div>
         </div>
 
-        <div className="bg-gray-700 flex flex-col lg:w-3/4 w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-24">
+        <div className="bg-gray-700 flex flex-col lg:w-3/4 w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-24 rounded-md">
             <div className="mt-4 m-auto flex-col w-full">
                 {display}
             </div>
