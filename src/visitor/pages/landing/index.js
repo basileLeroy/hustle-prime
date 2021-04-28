@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import Welcome from '../../../images/Welcome.jpg'
 import test_image01 from '../../../images/test_image01.jpg'
@@ -20,7 +19,6 @@ const Landing = () => {
                 </div>
                 <div className="hover:opacity-50 absolute top-0 bottom-0 left-0 right-0 bg-white opacity-0 border rounded-lg text-3xl text-center lg:pt-0 pt-20 text-black">
                     <h3>Comming soon!</h3>
-                    <p className="text-base">Read more about it <Link to="/authentication" className="font-extrabold text-blue-500">here</Link>.</p>
                 </div>
             </div>
 
