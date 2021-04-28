@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, Switch} from 'react-router-dom'
 import { Header, Footer } from './visitor/components'
-import { Landing } from './visitor/pages'
+import { Error, Landing } from './visitor/pages'
 import { Map, Arena, Portal, Gembay, Dungeon } from './visitor/pages/activities'
 import { ClanTerritories } from './visitor/pages/clans'
 import { AncientSets, Gems, Runes } from './visitor/pages/META'
@@ -29,6 +29,8 @@ const App = () => {
 
               <Route path="/about" exact component={ About } />
               <Route path="/ourteam" exact component={ Team } />
+
+              <Route path="/error" exact component={ Error } />
           </Switch>
         </div>
         <Footer />
