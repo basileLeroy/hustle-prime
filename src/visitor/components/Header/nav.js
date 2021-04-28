@@ -296,13 +296,13 @@ const Nav = () => {
                                         <div className="py-1">
                                             <Menu.Item>
                                             {({ active }) => (
-                                                <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Who are we?</Link>
+                                                <Link to="/about" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Who are we?</Link>
                                             )}
                                             </Menu.Item>
 
                                             <Menu.Item>
                                             {({ active }) => (
-                                                <Link to="#" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Discord</Link>
+                                                <Link to="/ourteam" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Our Team</Link>
                                             )}
                                             </Menu.Item>
                                         </div>

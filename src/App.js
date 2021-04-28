@@ -5,6 +5,7 @@ import { Landing } from './visitor/pages'
 import { Map, Arena, Portal, Gembay, Dungeon } from './visitor/pages/activities'
 import { ClanTerritories } from './visitor/pages/clans'
 import { AncientSets, Gems, Runes } from './visitor/pages/META'
+import { About, Team } from './visitor/pages/about';
 
 const App = () => {
   return (
@@ -25,6 +26,9 @@ const App = () => {
               <Route path="/meta/ancient-sets" exact component={ AncientSets } />
               <Route path="/meta/runes" exact component={ Runes } />
               <Route path="/meta/gems" exact component={ Gems } />
+
+              <Route path="/about" exact component={ About } />
+              <Route path="/ourteam" exact component={ Team } />
           </Switch>
         </div>
         <Footer />
