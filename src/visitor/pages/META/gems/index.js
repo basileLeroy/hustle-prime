@@ -4,7 +4,6 @@ import GemOffer from '../../../../images/GemOffer.png'
 import GemLevelUp from '../../../../images/GemLevelUp.png'
 import GemMerging from '../../../../images/GemMerging.png'
 import ScrollsOfSuccess from '../../../../images/ScrollsOfSuccess.png'
-import Vampire from '../../../../images/vampire-boss.png'
 
 function Gems() {
     return (

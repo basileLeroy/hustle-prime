@@ -1,10 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Banner from '../../../../images/dungeon-banner.png'
-import RuneEvent from '../../../../images/RuneEvent.png'
 import SleepyPrime from '../../../../images/SleepyPrime.png'
-import RuneMenu from '../../../../images/RuneMenu.png'
-import DragonRuneEvent from '../../../../images/DragonRuneEvent.png'
+
 
 function About() {
     return (
