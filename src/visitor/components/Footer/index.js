@@ -10,7 +10,7 @@ const Footer = () => {
 
         setCurrentYear(result);
 
-    });
+    }, []);
 
     return (
         <div>
