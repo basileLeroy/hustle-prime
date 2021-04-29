@@ -73,7 +73,7 @@ const Nav = () => {
                                 >
                                     <Menu.Items
                                         static
-                                        className="origin-top-right absolute mt-2 w-56 bg-gray-hustle bg-opacity-70 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                                        className="origin-top-right absolute mt-2 w-56 bg-gray-hustle bg-opacity-70 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10"
                                     >
                                         <div className="py-1">
                                             <Menu.Item>
@@ -134,7 +134,7 @@ const Nav = () => {
                                 >
                                     <Menu.Items
                                         static
-                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10"
                                     >
                                         <div className="py-1">
                                             <Menu.Item>
@@ -189,7 +189,7 @@ const Nav = () => {
                                 >
                                     <Menu.Items
                                         static
-                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10"
                                     >
                                         <div className="py-1">
                                             {/* <Menu.Item>
@@ -237,7 +237,7 @@ const Nav = () => {
                                 >
                                     <Menu.Items
                                         static
-                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10"
                                     >
                                         <div className="py-1">
                                             {/* <Menu.Item>
@@ -291,7 +291,7 @@ const Nav = () => {
                                 >
                                     <Menu.Items
                                         static
-                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                                        className="origin-top-right absolute bg-gray-hustle bg-opacity-70 mt-2 w-56 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10"
                                     >
                                         <div className="py-1">
                                             <Menu.Item>
