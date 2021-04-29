@@ -4,12 +4,6 @@ import ErrorMsgBackground from '../../../images/ErrorMsgBackground.png'
 function Error() {
     return (
         <>
-        <script>
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'G-62QRKJ2Q3E', 'auto');
-            ga('send', 'pageview');
-        </script>
-        <script async src='https://www.google-analytics.com/analytics.js'></script>
         <div className="flex flex-row mx-auto">
             <div className="m-auto my-8 lg:my-4 relative bg-blue-100 lg:w-3/5 max-w-4xl w-nine text-gray-600 text-center font-extrabold text-4xl rounded-2xl">
                 <div className="Error m-8">
