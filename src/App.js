@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Switch} from 'react-router-dom'
+import { Route, Switch, Redirect} from 'react-router-dom'
 import { Header, Footer } from './visitor/components'
 import { Error, Landing } from './visitor/pages'
 import { Map, Arena, Portal, Gembay, Dungeon } from './visitor/pages/activities'
@@ -30,7 +30,8 @@ const App = () => {
               <Route path="/about" exact component={ About } />
               <Route path="/ourteam" exact component={ Team } />
 
-              <Route path="/error" exact component={ Error } />
+              <Route path="/404" component={ Error } />
+              <Redirect to="/404" />
           </Switch>
         </div>
         <Footer />
