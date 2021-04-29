@@ -20,9 +20,11 @@ const App = () => {
     })
   }
 
+  analyticConnection()
+
   return (
     <div className="App">
-        {analyticConnection()}
+        analyticConnection()
         <Header />
         <div className="App-container">
           <Switch>
