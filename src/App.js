@@ -24,7 +24,6 @@ const App = () => {
 
   return (
     <div className="App">
-        analyticConnection()
         <Header />
         <div className="App-container">
           <Switch>
