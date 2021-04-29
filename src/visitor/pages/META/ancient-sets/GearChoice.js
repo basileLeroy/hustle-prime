@@ -163,6 +163,13 @@ function GearChoice() {
 
     return (
         <>
+        <script>
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', 'G-62QRKJ2Q3E', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script async src='https://www.google-analytics.com/analytics.js'></script>
+        
         <div className="flex flex-col w-nine justify-center mx-auto">
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mt-20 mb-12">
                 <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">

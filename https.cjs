@@ -32,7 +32,8 @@ const mimeTypes
 https ( { key, cert },                                                                                  
 ( request, response ) =>                                                                                
 { try {                                                                                                 
-    const url = new URL ( request.url, `https:\\hustleprime.fun` )                                                      const url = new URL ( request.url, `https://hustleprime.fun` )                                      
+    const url = new URL ( request.url, `https:\\hustleprime.fun` )                                                      
+    const url = new URL ( request.url, `https://hustleprime.fun` )                                      
     url.pathname = url.pathname                                                                         
       .replace ( /(\/\/)|(\.\.\/)/g, `/` )                                                              
       .replace ( /\/\//g, `/` )                                                                         

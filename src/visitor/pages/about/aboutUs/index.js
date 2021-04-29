@@ -5,9 +5,12 @@ import SleepyPrime from '../../../../images/SleepyPrime.png'
 function About() {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
-            {/* <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
-            </div> */}
+            <script>
+                window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+                ga('create', 'G-62QRKJ2Q3E', 'auto');
+                ga('send', 'pageview');
+            </script>
+            <script async src='https://www.google-analytics.com/analytics.js'></script>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-12">
                 <div className="flex flex-col lg:mx-32">

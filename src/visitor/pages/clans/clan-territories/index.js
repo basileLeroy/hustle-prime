@@ -14,6 +14,12 @@ const ClanTerritories = () => {
 
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
+            <script>
+                window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+                ga('create', 'G-62QRKJ2Q3E', 'auto');
+                ga('send', 'pageview');
+            </script>
+            <script async src='https://www.google-analytics.com/analytics.js'></script>
             <div className="mx-auto my-6">
                 <img src={Banner} className="w-nine mx-auto rounded-md" alt="oops" />
             </div>
