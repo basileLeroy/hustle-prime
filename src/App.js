@@ -8,7 +8,7 @@ import { ClanTerritories } from './visitor/pages/clans'
 import { AncientSets, Gems, Runes } from './visitor/pages/META'
 import { About, Team } from './visitor/pages/about';
 
-import { ReactGA } from 'react-ga'
+import ReactGA from 'react-ga'
 
 ReactGA.initialize('G-VNNQ5YPTEZ')
 
