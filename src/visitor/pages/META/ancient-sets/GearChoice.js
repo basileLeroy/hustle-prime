@@ -204,17 +204,17 @@ function GearChoice() {
                     <option value="dark" className="py-2 pl-10">Darkula</option>
                     <option value="anni" className="py-2 pl-10">Annihilator</option>
                     <option value="legio" className="py-2 pl-10">Legionnaire</option>
-                    <option value="necro" className="py-2 pl-10">Necromancer</option>
+                    {/* <option value="necro" className="py-2 pl-10">Necromancer</option> */}
                     <option value="storm" className="py-2 pl-10">Storm</option>
-                    <option value="shadow" className="py-2 pl-10">Shadow</option>
+                    {/* <option value="shadow" className="py-2 pl-10">Shadow</option> */}
                     <option value="bane" className="py-2 pl-10">Bane</option>
-                    <option value="ranger" className="py-2 pl-10">Ranger</option>
-                    <option value="snake" className="py-2 pl-10">Snake Charmer</option>
-                    <option value="illu" className="py-2 pl-10">Illusionist</option>
+                    {/* <option value="ranger" className="py-2 pl-10">Ranger</option>
+                    <option value="snake" className="py-2 pl-10">Snake Charmer</option> */}
+                    {/* <option value="illu" className="py-2 pl-10">Illusionist</option>
                     <option value="priest" className="py-2 pl-10">Priest</option>
-                    <option value="demon" className="py-2 pl-10">Demon Hunter</option>
-                    <option value="bastion" className="py-2 pl-10">Bastion</option>
-                    <option value="inventor" className="py-2 pl-10">Inventor</option>
+                    <option value="demon" className="py-2 pl-10">Demon Hunter</option> */}
+                    {/* <option value="bastion" className="py-2 pl-10">Bastion</option>
+                    <option value="inventor" className="py-2 pl-10">Inventor</option> */}
                 </select>
             </div>
             <p className="text-xs italic">* Not all sets are added to our archives yet, if you can't find the set you are looking for, We recommend asking about it on our <a href="https://discord.gg/hustle-prime" alt="" className="text-purple-500 font-extrabold hover:underline">Discord</a> server!</p>

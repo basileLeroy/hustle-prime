@@ -28,12 +28,17 @@ import SeaWand from '../../../../images/SeaWand.png'
 import SeaSpear from '../../../../images/SeaSpear.png'
 import RainbowOrb from '../../../../images/RainbowOrb.png'
 import RapidFire from '../../../../images/RapidFire.png'
+import ElvenSword from '../../../../images/ElvenSword.png'
+import AngelSword from '../../../../images/AngelSword.png'
+import SeaSword from '../../../../images/SeaSword.png'
+
 
 
 // WEAPON SOULS
 import WandSoul from '../../../../images/WandSoul.png'
 import ScepterSoul from '../../../../images/ScepterSoul.png'
 import MaceSoul from '../../../../images/MaceSoul.png'
+import SwordSoul from '../../../../images/SwordSoul.png'
 import OrbSoul from '../../../../images/OrbSoul.png'
 import AxeSoul from '../../../../images/AxeSoul.png'
 import SpearSoul from '../../../../images/SpearSoul.png'
@@ -43,6 +48,7 @@ import CrossbowSoul from '../../../../images/CrossbowSoul.png'
 // ARMORS
 import AlienMageArmor from '../../../../images/AlienMageArmor.png'
 import AlienTankArmor from '../../../../images/AlienTankArmor.png'
+import AlienArcherArmor from '../../../../images/AlienArcherArmor.png'
 import SeaMageArmor from '../../../../images/SeaMageArmor.png'
 import SeaTankArmor from '../../../../images/SeaTankArmor.png'
 import SeaArcherArmor from '../../../../images/SeaArcherArmor.png'
@@ -986,216 +992,125 @@ export const ListOfSets = [
             weapons: [
                 {
                     rank: '1ST',
-                    img: '',
-                    name: '',
+                    img: ElvenSword,
+                    name: 'Elven Sword',
                     info: '',
                 },
 
                 {
                     rank: '2ND',
-                    img: '',
-                    name: '',
+                    img: AngelSword,
+                    name: 'Angel Sword',
                     info: '',
                 },
 
                 {
                     rank: '3RD',
-                    img: '',
-                    name: '',
+                    img: SeaSword,
+                    name: 'Sea Sword',
                     info: '',
                 },
 
                 {
                     rank: '4TH',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '5TH',
-                    img: '',
-                    name: '',
+                    img: NormalIcon,
+                    name: 'Decrease Armor Sword',
                     info: '',
                 },
             ],
             weaponSoul: [
                 {
                     rank: '1ST',
-                    img: '',
-                    name: '',
+                    img: SwordSoul,
+                    name: 'Increase Damage Soul',
                     info: '',
                 },
 
                 {
                     rank: '2ND',
-                    img: '',
-                    name: '',
+                    img: SwordSoul,
+                    name: 'Decrease Armor Soul',
                     info: '',
                 },
 
                 {
                     rank: '3RD',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '4TH',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '5TH',
-                    img: '',
-                    name: '',
+                    img: SwordSoul,
+                    name: 'Healing Soul',
                     info: '',
                 },
             ],
             armors: [
                 {
                     rank: '1ST',
-                    img: '',
-                    name: '',
+                    img: AngelArcherArmor,
+                    name: 'Angel Armor (ARCHER)',
                     info: '',
                 },
 
                 {
                     rank: '2ND',
-                    img: '',
-                    name: '',
+                    img: SeaArcherArmor,
+                    name: 'Sea Armor (ARCHER)',
                     info: '',
                 },
 
                 {
                     rank: '3RD',
-                    img: '',
-                    name: '',
+                    img: AlienArcherArmor,
+                    name: 'Alien Armor (ARCHER)',
                     info: '',
                 },
 
                 {
                     rank: '4TH',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '5TH',
-                    img: '',
-                    name: '',
+                    img: DinoArcherArmor,
+                    name: 'Dino Armor (ARCHER)',
                     info: '',
                 },
             ],
             armorSoul: [
                 {
                     rank: '1ST',
-                    img: '',
-                    name: '',
+                    img: ArcherArmorSoul,
+                    name: 'Self Resurrection Soul',
                     info: '',
                 },
 
                 {
                     rank: '2ND',
-                    img: '',
-                    name: '',
+                    img: ArcherArmorSoul,
+                    name: 'Healing Soul',
                     info: '',
                 },
 
                 {
                     rank: '3RD',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '4TH',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '5TH',
-                    img: '',
-                    name: '',
+                    img: ArcherArmorSoul,
+                    name: 'Dodge Soul',
                     info: '',
                 },
             ],
             rings: [
                 {
                     rank: '1ST',
-                    img: '',
-                    name: '',
+                    img: MightRing,
+                    name: 'Might Ring',
                     info: '',
                 },
 
                 {
                     rank: '2ND',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '3RD',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '4TH',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '5TH',
-                    img: '',
-                    name: '',
+                    img: NormalIcon,
+                    name: 'As many Dodge as Possible',
                     info: '',
                 },
             ],
             amulets: [
                 {
                     rank: '1ST',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '2ND',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '3RD',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '4TH',
-                    img: '',
-                    name: '',
-                    info: '',
-                },
-
-                {
-                    rank: '5TH',
-                    img: '',
-                    name: '',
+                    img: NormalIcon,
+                    name: 'Mix: Health/Magic Armor',
                     info: '',
                 },
             ],
