@@ -6,9 +6,10 @@ import { Map, Arena, Portal, Gembay, Dungeon } from './visitor/pages/activities'
 import { ClanTerritories } from './visitor/pages/clans'
 import { AncientSets, Gems, Runes } from './visitor/pages/META'
 import { About, Team } from './visitor/pages/about';
+import useGaTracker from './useGaTracker'
 
 const App = () => {
-
+  useGaTracker();
   return (
     <div className="App">
         <Header />
