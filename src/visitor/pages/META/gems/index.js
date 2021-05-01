@@ -16,7 +16,11 @@ function Gems() {
                 <div className="flex flex-col lg:mx-32">
                     <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-purple-600">GEMS</h1>
                     <p className="font-medium">
-                        ~~ Welcome Message Needed ~~
+                    Gems play an important role in improving your team’s power.  
+                    While equipment abilities largely determine your squad’s effectiveness, 
+                    socketing the right gems can put your team over the top by providing substantial boosts to your basic statistics: 
+                    damage, magic damage, armor, magic armor, spell power, health, and critical hits.  
+                    Plan your gem inlays carefully, as the wrong placement can cost you diamonds and unnecessarily inflate your squad power.
                     </p>
                 </div>
             </div>

@@ -268,6 +268,122 @@ export const ListOfSets = [
                 },
             ],
         },
+        palamag: {
+            title: 'Paladin-Mage',
+            weapons: [
+                {
+                    rank: '1ST',
+                    img: AngelWand,
+                    name: 'Angel Wand',
+                    info: '',
+                },
+                {
+                    rank: '2ND',
+                    img: AlienScepter,
+                    name: 'Alien Scepter',
+                    info: '',
+                },
+                {
+                    rank: '3RD',
+                    img: ArenaIcon,
+                    name: 'Insta-Kill',
+                    info: '',
+                },
+                {
+                    rank: '4TH',
+                    img: SeaWand,
+                    name: 'Sea Wand',
+                    info: '',
+                },
+            ],
+            weaponSoul: [
+                {
+                    rank: '1ST',
+                    img: WandSoul,
+                    name: 'Resurrection Soul',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: WandSoul,
+                    name: 'Insta-Kill (only if weapon is Res)',
+                    info: '',
+                }
+            ],
+            armors: [
+                {
+                    rank: '1ST',
+                    img: AlienTankArmor,
+                    name: 'Alien Armor (TANK)',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: ElvenTankArmor,
+                    name: 'Elven Armor (TANK)',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: WolfTankArmor,
+                    name: 'Wolf Armor (TANK)',
+                    info: '',
+                },
+
+                {
+                    rank: '4TH',
+                    img: NormalIcon,
+                    name: 'Healing Armor (TANK)',
+                    info: '',
+                },
+            ],
+            armorSoul: [
+                {
+                    rank: '1ST',
+                    img: TankArmorSoul,
+                    name: 'Health Increase Soul',
+                    info: '',
+                },
+                {
+                    rank: '2ND',
+                    img: TankArmorSoul,
+                    name: 'Absorb Soul (ARENA)',
+                    info: '',
+                },
+                {
+                    rank: '3RD',
+                    img: TankArmorSoul,
+                    name: 'Magic Armor Increase Soul',
+                    info: '',
+                },
+            ],
+            rings: [
+                {
+                    rank: '1ST',
+                    img: NormalIcon,
+                    name: 'Dodge Ring',
+                    info: '',
+                },
+            ],
+            amulets: [
+                {
+                    rank: '1ST',
+                    img: AlienAmulet,
+                    name: 'UFO Necklace',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: NormalIcon,
+                    name: 'As much SpellPower as Possible',
+                    info: '',
+                },
+            ],
+        },
         oracle: {
             title: 'Oracle',
             weapons: [
@@ -766,6 +882,155 @@ export const ListOfSets = [
                     info: '',
                 },
 
+            ],
+        },
+        eol: {
+            title: 'Executioner of Light',
+            weapons: [
+                {
+                    rank: '1ST',
+                    img: PhoenixAxe,
+                    name: 'Phoenix Axe',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: DinoAxe,
+                    name: 'Dino Axe',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: ArenaIcon,
+                    name: 'Damage increase on any Ressurection',
+                    info: '',
+                },
+
+                {
+                    rank: '4TH',
+                    img: NormalIcon,
+                    name: 'Damage Increase Axe',
+                    info: '',
+                },
+            ],
+            weaponSoul: [
+                {
+                    rank: '1ST',
+                    img: AxeSoul,
+                    name: 'Damage Increase on any Ressurection Soul',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: AxeSoul,
+                    name: 'Damage Increase Soul',
+                    info: '',
+                },
+            ],
+            armors: [
+                {
+                    rank: '1ST',
+                    img: SeaTankArmor,
+                    name: 'Sea Armor',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: AlienTankArmor,
+                    name: 'Alien Armor',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: ElvenTankArmor,
+                    name: 'Elven Armor',
+                    info: '',
+                },
+
+                {
+                    rank: '4TH',
+                    img: DinoTankArmor,
+                    name: 'Dino Armor',
+                    info: '',
+                },
+
+                {
+                    rank: '5TH',
+                    img: WolfTankArmor,
+                    name: 'Wolf Armor',
+                    info: '',
+                },
+            ],
+            armorSoul: [
+                {
+                    rank: '1ST',
+                    img: TankArmorSoul,
+                    name: 'Health Increase Soul',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: TankArmorSoul,
+                    name: 'Absorb Soul (arena)',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: TankArmorSoul,
+                    name: 'Damage Increase Soul',
+                    info: '',
+                },
+            ],
+            rings: [
+                {
+                    rank: '1ST',
+                    img: NormalIcon,
+                    name: '+3 Dodge slots Ring',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: MightRing,
+                    name: 'Might Ring',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: SeaRing,
+                    name: 'Sea Ring',
+                    info: '',
+                },
+            ],
+            amulets: [
+                {
+                    rank: '1ST',
+                    img: NormalIcon,
+                    name: 'Mix: Health/Magic Armor Necklace',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: RoyalAmu,
+                    name: 'Royal Challenge Necklace',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: AlienAmulet,
+                    name: 'UFO necklace',
+                    info: '',
+                },
             ],
         },
         necro: {
@@ -1429,6 +1694,113 @@ export const ListOfSets = [
                     rank: '2ND',
                     img: NormalIcon,
                     name: 'If Alien weapon: Crit | If Rapid Fire: Damage',
+                    info: '',
+                },
+            ],
+            amulets: [
+                {
+                    rank: '1ST',
+                    img: DinoAmu,
+                    name: 'Dino Necklace',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: NormalIcon,
+                    name: 'Mix: Health/Magic Armor Necklace',
+                    info: '',
+                },
+            ],
+        },
+        palabane: {
+            title: 'Paladin-Bane',
+            weapons: [
+                {
+                    rank: '1ST',
+                    img: AlienCrossbow,
+                    name: 'Alien Crossbow',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: RapidFire,
+                    name: 'Rapid Fire',
+                    info: '',
+                },
+            ],
+            weaponSoul: [
+                {
+                    rank: '1ST',
+                    img: CrossbowSoul,
+                    name: 'Crit/Damage Increase on Crit',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: CrossbowSoul,
+                    name: 'Damage Increase Soul',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: CrossbowSoul,
+                    name: 'Damage Increase on any Resurrection',
+                    info: '',
+                },
+            ],
+            armors: [
+                {
+                    rank: '1ST',
+                    img: ElvenTankArmor,
+                    name: 'Elven Armor (TANK)',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: AlienTankArmor,
+                    name: 'Alien Armor (TANK)',
+                    info: '',
+                },
+            ],
+            armorSoul: [
+                {
+                    rank: '1ST',
+                    img: TankArmorSoul,
+                    name: 'Health Increase Soul (TANK)',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: TankArmorSoul,
+                    name: 'Absorb Soul (Arena)(TANK)',
+                    info: '',
+                },
+
+                {
+                    rank: '3RD',
+                    img: TankArmorSoul,
+                    name: 'Magic Armor Increase Soul (TANK)',
+                    info: '',
+                },
+            ],
+            rings: [
+                {
+                    rank: '1ST',
+                    img: DinoRing,
+                    name: 'Dino Ring',
+                    info: '',
+                },
+
+                {
+                    rank: '2ND',
+                    img: NormalIcon,
+                    name: 'As Much Crit/Damage as Possible',
                     info: '',
                 },
             ],

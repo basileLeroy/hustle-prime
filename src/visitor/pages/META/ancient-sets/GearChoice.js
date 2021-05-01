@@ -200,14 +200,17 @@ function GearChoice() {
                 <select id="sets" className="lg:w-56 w-nine lg:ml-28 bg-blue-ocean rounded-md" onChange={(e) => {setDisplaySelectedSet(e.target.value)}}>
                     <option value="ash" className="py-2 pl-10">Incinerator</option>
                     <option value="pala" className="py-2 pl-10">Paladin</option>
+                    <option value="palamag" className="py-2 pl-10">Paladin-Mage</option>
                     <option value="oracle" className="py-2 pl-10">Oracle</option>
                     <option value="dark" className="py-2 pl-10">Darkula</option>
                     <option value="anni" className="py-2 pl-10">Annihilator</option>
                     <option value="legio" className="py-2 pl-10">Legionnaire</option>
                     {/* <option value="necro" className="py-2 pl-10">Necromancer</option> */}
+                    <option value="eol" className="py-2 pl-10">Executioner of Light</option>
                     <option value="storm" className="py-2 pl-10">Storm</option>
                     {/* <option value="shadow" className="py-2 pl-10">Shadow</option> */}
                     <option value="bane" className="py-2 pl-10">Bane</option>
+                    <option value="palabane" className="py-2 pl-10">Paladin-Bane</option>
                     {/* <option value="ranger" className="py-2 pl-10">Ranger</option>
                     <option value="snake" className="py-2 pl-10">Snake Charmer</option> */}
                     {/* <option value="illu" className="py-2 pl-10">Illusionist</option>
