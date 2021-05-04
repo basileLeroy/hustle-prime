@@ -63,17 +63,17 @@ export const SidebarData = [
         // },
         {
             title: 'Ancient Sets',
-            path: '/meta/#',
+            path: '/meta/ancient-sets',
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
         {
             title: 'Gems',
-            path: '/meta/#',
+            path: '/meta/gems',
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
         {
             title: 'Runes',
-            path: '/meta/#',
+            path: '/meta/runes',
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
     {
@@ -84,12 +84,12 @@ export const SidebarData = [
     },
         {
             title: 'Who are we?',
-            path: '/about/#',
+            path: '/about',
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
         {
             title: 'Discord',
-            path: '/about/#',
+            path: '/discord',
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
 ]
