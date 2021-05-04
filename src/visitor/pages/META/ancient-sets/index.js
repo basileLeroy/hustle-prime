@@ -65,13 +65,31 @@ const AncientSets = () => {
                 />
 
                 <div className="flex lg:flex-row flex-col w-nine h-12 justify-around mx-auto my-8 lg:px-24">
-                    <button onClick={ChangeChoiceDisplay} className={choiceDisplay ? 'bg-gray-500 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto' : 'bg-gray-700 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto hover:bg-gray-500'}><p className="my-auto">Set Choices</p></ button>
-                    <button onClick={ChangeGearDisplay} className={gearDisplay ? 'bg-gray-500 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto' : 'bg-gray-700 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto hover:bg-gray-500'}><p>Gear Choices</p></ button>
+                    <button onClick={ChangeChoiceDisplay} className={choiceDisplay ? 'bg-gray-500 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto' : 'bg-gray-700 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto hover:bg-gray-500 transition duration-200 ease-in-out'}><p className="my-auto">Set Choices</p></ button>
+                    <button onClick={ChangeGearDisplay} className={gearDisplay ? 'bg-gray-500 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto' : 'bg-gray-700 lg:w-1/2 py-3 mx-4 mt-2 rounded-xl text-center my-auto hover:bg-gray-500 transition duration-200 ease-in-out'}><p>Gear Choices</p></ button>
                 </div>
 
                 
                     {displaySetComponent}
                 
+                <hr
+                    className="bg-gray-400 h-1 w-nine mx-auto"
+                />
+
+                <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16 mb-12">
+                    <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Our Discord:</h1>
+                    <p>
+                        In case you didn't find enough on this page, you can certainly check out our Discord and discuss all kinds of topics with other players!
+                        <br /><br />
+                        <li>Latest updates</li>
+                        <li>A huge community</li>
+                        <li>Guides for beginners and end-gamers alike</li>
+                        <li>Direct contact with a official Community Manager</li>
+                        <li>Discussion channels with other players for all subjects</li>
+                        <br />
+                        <span className="text-purple-600">You can find us on <a href="https://discord.gg/hustle-prime" className=" font-extrabold hover:underline">Discord</a> !</span>
+                    </p>
+                </div>
             </div>
         </div>
     )

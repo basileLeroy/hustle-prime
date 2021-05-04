@@ -300,11 +300,11 @@ const Nav = () => {
                                             )}
                                             </Menu.Item>
 
-                                            {/* <Menu.Item>
+                                            <Menu.Item>
                                             {({ active }) => (
-                                                <Link to="/ourteam" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Our Team</Link>
+                                                <Link to="/discord" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Discord</Link>
                                             )}
-                                            </Menu.Item> */}
+                                            </Menu.Item>
                                         </div>
                                     </Menu.Items>
 

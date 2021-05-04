@@ -5,7 +5,7 @@ import { Error, Landing } from './visitor/pages'
 import { Map, Arena, Portal, Gembay, Dungeon } from './visitor/pages/activities'
 import { ClanTerritories } from './visitor/pages/clans'
 import { AncientSets, Gems, Runes } from './visitor/pages/META'
-import { About, Team } from './visitor/pages/about';
+import { About, Discord } from './visitor/pages/about';
 import useGaTracker from './useGaTracker'
 
 const App = () => {
@@ -30,7 +30,7 @@ const App = () => {
               <Route path="/meta/gems" exact component={ Gems } />
 
               <Route path="/about" exact component={ About } />
-              <Route path="/ourteam" exact component={ Team } />
+              <Route path="/discord" exact component={ Discord } />
 
               <Route path="/404" component={ Error } />
               <Redirect to="/404" />

@@ -126,6 +126,26 @@ const Arena = () => {
                     <h3 className="text-2xl">Compare your average with the bracket list:</h3>
                     <p>Look at your average and see in wich bracket your average would fall.<br /> (Don't forget to check if you are not breaking any of the rules mentioned on this page!)</p>
                 </div>
+
+                <hr
+                    className="bg-gray-400 h-1 w-nine mx-auto"
+                />
+
+                <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16 mb-12">
+                    <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Our Discord:</h1>
+                    <p>
+                        In case you didn't find enough on this page, you can certainly check out our Discord and discuss all kinds of topics with other players!
+                        <br /><br />
+                        <li>Latest updates</li>
+                        <li>A huge community</li>
+                        <li>Guides for beginners and end-gamers alike</li>
+                        <li>Direct contact with a official Community Manager</li>
+                        <li>Discussion channels with other players for all subjects</li>
+                        <br />
+                        <span className="text-purple-600">You can find us on <a href="https://discord.gg/hustle-prime" className=" font-extrabold hover:underline">Discord</a> !</span>
+                    </p>
+                </div>
+
             </div>
 
         </div>

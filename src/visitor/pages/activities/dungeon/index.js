@@ -101,7 +101,7 @@ const Dungeon = () => {
                             And each dungeon boss has specific characteristics. Wich also means there are certain tactics to deploy in order to defeat them. <br />
                             Some of them are about surviving it instead of beating it, others are about using ranged units instead of tanks.
                             <br /><br />
-                            <span className="text-purple-600">We are currently working on a list with all the bosses and how to beat them.</span>
+                            <span className="text-purple-600">You can find our cheat sheet on <a href="https://discord.gg/hustle-prime" className=" font-extrabold hover:underline">Discord</a> !</span>
                         </p>
                     </div>
                 </div>

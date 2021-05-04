@@ -94,6 +94,21 @@ function Gems() {
                     className="bg-gray-400 h-1 w-nine mx-auto"
                 />
 
+                <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16 mb-12">
+                    <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Our Discord:</h1>
+                    <p>
+                        In case you didn't find enough on this page, you can certainly check out our Discord and discuss all kinds of topics with other players!
+                        <br /><br />
+                        <li>Latest updates</li>
+                        <li>A huge community</li>
+                        <li>Guides for beginners and end-gamers alike</li>
+                        <li>Direct contact with a official Community Manager</li>
+                        <li>Discussion channels with other players for all subjects</li>
+                        <br />
+                        <span className="text-purple-600">You can find us on <a href="https://discord.gg/hustle-prime" className=" font-extrabold hover:underline">Discord</a> !</span>
+                    </p>
+                </div>
+
             </div>
 
         </div>
