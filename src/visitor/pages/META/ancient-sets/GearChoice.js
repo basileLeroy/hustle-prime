@@ -29,7 +29,7 @@ function GearChoice() {
                             <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
                                 <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
                                 <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
-                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" title={item.name + " - © Hustle Castle"} />
                             </div>
                         </div>
                         <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
@@ -54,7 +54,7 @@ function GearChoice() {
                             <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
                                 <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
                                 <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
-                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" title={item.name + " - © Hustle Castle"} />
                             </div>
                         </div>
                         <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
@@ -78,7 +78,7 @@ function GearChoice() {
                             <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
                                 <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
                                 <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
-                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" title={item.name + " - © Hustle Castle"} />
                             </div>
                         </div>
                         <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
@@ -102,7 +102,7 @@ function GearChoice() {
                             <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
                                 <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
                                 <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
-                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" title={item.name + " - © Hustle Castle"} />
                             </div>
                         </div>
                         <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
@@ -126,7 +126,7 @@ function GearChoice() {
                             <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
                                 <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
                                 <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
-                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" title={item.name + " - © Hustle Castle"} />
                             </div>
                         </div>
                         <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
@@ -150,7 +150,7 @@ function GearChoice() {
                             <div className="flex flex-col lg:flex-row w-full mx-auto lg:justify-between text-center lg:px-12">
                                 <h2 className="text-2xl lg:my-auto lg:left-0 my-4">{item.rank}</h2>
                                 <h2 className="text-2xl lg:my-auto lg:text-center my-4">{item.name}</h2>
-                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" />
+                                <img src={item.img}  alt={item.img} className="rounded-lg lg:right-0 mx-auto lg:mx-0 w-1/2 lg:w-auto" title={item.name + " - © Hustle Castle"} />
                             </div>
                         </div>
                         <hr className="bg-gray-400 h-1 w-nine mx-auto my-4" />
@@ -167,7 +167,7 @@ function GearChoice() {
         <div className="flex flex-col w-nine justify-center mx-auto">
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mt-20 mb-12">
                 <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                    <img src={GearIcon} className="w-full rounded-md" alt="" title="" />
+                    <img src={GearIcon} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center lg:ml-4 lg:mr-8">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -226,7 +226,7 @@ function GearChoice() {
         <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-24">
             <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-pink-500">{SelectedSet.title || "Select a Set"}</h1>
             <p className="text-center italic font-bold">Click on one of the gear slots to see the recommended gear!</p>
-            <div className="mt-12 avatar lg:m-auto relative">
+            <div className="mt-12 avatar lg:m-auto relative" title="Avatar - © Hustle Castle">
                 <div onClick={openWeaponSoulModal} className="absolute w-24 h-24 top-6 lg:w-32 lg:h-32 lg:top-8 rounded-3xl cursor-pointer"></div>
                 <div onClick={openArmorSoulModal} className="absolute w-24 h-24 top-36 lg:w-32 lg:h-32 lg:top-44 rounded-3xl cursor-pointer"></div>
                 <div onClick={openRingModal} className="absolute w-24 h-24 left-6 lg:w-28 lg:h-28 bottom-0 lg:left-12 rounded-3xl cursor-pointer"></div>

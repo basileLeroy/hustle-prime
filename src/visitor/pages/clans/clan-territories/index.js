@@ -15,7 +15,7 @@ const ClanTerritories = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="w-nine mx-auto rounded-md" alt="oops" />
+                <img src={Banner} className="w-nine mx-auto rounded-md" alt="oops" title="CT-Banner - © Hustle Castle" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -34,7 +34,7 @@ const ClanTerritories = () => {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={ClanCoin} className="lg:w-150 rounded-md" alt="" title="" />
+                        <img src={ClanCoin} className="lg:w-150 rounded-md" alt="" title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Clan Coins</h1>
@@ -52,7 +52,7 @@ const ClanTerritories = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={CtBoard} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
+                    <img src={CtBoard} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="Image - © Hustle Castle" />
                 </div>
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
@@ -65,7 +65,7 @@ const ClanTerritories = () => {
                         </p>
                     </div>
                     <div className="lg:w-150 my-auto w-full lg:pr-24 py-5">
-                        <img src={CtLeaderBoard} className="lg:w-nine" alt="" title="" />
+                        <img src={CtLeaderBoard} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
                     </div>
                 </div>
 
@@ -98,7 +98,7 @@ const ClanTerritories = () => {
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-4">
                     <div className="lg:w-150 my-auto w-full py-5">
-                        <img src={TownHall} className="lg:w-nine" alt="" title="" />
+                        <img src={TownHall} className="lg:w-nine" alt="" title="Town-Hall table - © Hustle Prime" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:w-nine lg:ml-8 lg:mr-8">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Town Hall</h1>
@@ -127,12 +127,12 @@ const ClanTerritories = () => {
                         </p>
                     </div>
                     <div className="lg:w-nine my-auto w-full lg:pr-24 py-5">
-                        <img src={HuntersHood} className="lg:w-nine" alt="" title="" />
+                        <img src={HuntersHood} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
                     </div>
                 </div>
 
                 <div className="mx-auto my-6 pb-12">
-                    <img src={hunterBonusses} className="lg:w-1/2 mx-auto rounded-md" alt="oops" />
+                    <img src={hunterBonusses} className="lg:w-1/2 mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
                 </div>
 
                 
@@ -152,7 +152,7 @@ const ClanTerritories = () => {
                 </div>
 
                 <div className="mx-auto my-6 pb-12">
-                    <img src={BossChart} className="lg:w-nine mx-auto rounded-md" alt="oops" />
+                    <img src={BossChart} className="lg:w-nine mx-auto rounded-md" alt="oops" title="Boss-chart" />
                 </div>
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
@@ -173,7 +173,7 @@ const ClanTerritories = () => {
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-4">
                     <div className="lg:w-nine my-auto w-full lg:pl-24 py-5">
-                        <img src={Keanu} className="lg:w-nine" alt="" title="" />
+                        <img src={Keanu} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Expedition Marquee</h1>

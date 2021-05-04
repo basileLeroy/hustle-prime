@@ -27,7 +27,7 @@ const AncientSets = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="Ancient-Sets - © Hustle Castle" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -56,7 +56,7 @@ const AncientSets = () => {
                         </div>
                     </div>
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={campain01} className="w-full rounded-md" alt="" title="" />
+                        <img src={campain01} className="w-full rounded-md" alt="" title="Image - © Hustle Castle" />
                     </div>
                 </div>
 

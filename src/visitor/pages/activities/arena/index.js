@@ -10,7 +10,7 @@ const Arena = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="Arena - © Hustle Castle" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -26,7 +26,7 @@ const Arena = () => {
             <div className="flex flex-col w-nine justify-center mx-auto">
                 <div className="flex flex-col mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 w-full lg:pr-12 lg:pl-36 py-5">
-                        <img src={Warrior} className="w-full" alt="" title="Test-02" />
+                        <img src={Warrior} className="w-full" alt="" title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col text-center lg:mx-32">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">Arena Brackets</h1>
@@ -40,8 +40,8 @@ const Arena = () => {
                 <div className="flex flex-col w-nine justify-center mx-auto mb-24">
                     <h1 className="lg:pl-36 text-3xl font-extrabold">List of Brackets:</h1>
                     <div className="w-nine lg:pr-12 lg:pl-36 py-5">
-                        <img src={Bracket} className="w-full rounded-md" alt="" title="Test-02" />
-                        <img src={BracketLegend} className="lg:w-2/3 w-full mt-3 rounded-md" alt="" title="Test-02" />
+                        <img src={Bracket} className="w-full rounded-md" alt="" ttitle="Bracket-image" />
+                        <img src={BracketLegend} className="lg:w-2/3 w-full mt-3 rounded-md" alt="" ttitle="Bracket-legend" />
                     </div>
                     
                 </div>
@@ -67,7 +67,7 @@ const Arena = () => {
                         </p>
                     </div>
                     <div className="lg:w-150 w-full lg:pr-12 py-5">
-                        <img src={Info} className="w-full" alt="" title="Test-02" />
+                        <img src={Info} className="w-full" alt="" title="Image - © Hustle Castle" />
                     </div>
                 </div>
 
@@ -84,7 +84,7 @@ const Arena = () => {
 
                 <div className="flex flex-col mx-auto h-auto justify-center w-nine lg:flex-row mb-24 mt-24">
                     <div className="lg:w-150 w-full my-auto lg:pr-12 lg:pl-36 py-5">
-                        <img src={scarecrowIcon} className="w-full rounded-md" alt="" title="Test-02" />
+                        <img src={scarecrowIcon} className="w-full rounded-md" alt="" title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col text-center lg:mx-32">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">Fighter Training Room (FTR)</h1>

@@ -10,7 +10,7 @@ function Runes() {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto rounded-xl" alt="oops" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto rounded-xl" alt="oops" title="Runes - © Hustle Castle" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -27,7 +27,7 @@ function Runes() {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={RuneIcons} className="lg:w-150 rounded-md" alt="oops" title="" />
+                        <img src={RuneIcons} className="lg:w-150 rounded-md" alt="oops" title="Icon - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
@@ -72,7 +72,7 @@ function Runes() {
                         </p>
                     </div>
                     <div className="lg:w-nine my-auto w-full lg:pr-24 py-5">
-                        <img src={DragonRuneEvent} className="lg:w-nine rounded-md" alt="oops" title="" />
+                        <img src={DragonRuneEvent} className="lg:w-nine rounded-md" alt="oops" title="Image - © Hustle Castle" />
                     </div>
                 </div>
 
@@ -90,7 +90,7 @@ function Runes() {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={RuneEvent} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" />
+                    <img src={RuneEvent} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
                 </div>
 
                 
@@ -141,7 +141,7 @@ function Runes() {
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
                     <div className="lg:w-nine my-auto w-full lg:pl-24 py-5">
-                        <img src={RuneMenu} className="lg:w-nine rounded-lg" alt="" title="" />
+                        <img src={RuneMenu} className="lg:w-nine rounded-lg" alt="" title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Type of Runes:</h1>

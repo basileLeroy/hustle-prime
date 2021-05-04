@@ -6,7 +6,7 @@ import Logo from '../../../images/hustle-prime-logo.png'
 const Header = () => {
     return (
         <div className="w-full flex flex-col">
-            <header className="lg:h-20 h-20 w-full flex justify-center py-2">
+            <header className="lg:h-20 h-20 w-full flex justify-center py-2" title="Header-image - © Hustle Castle">
                 
                 <Link href="/"><img src={Logo} className="px-6" alt="#" title="Hustle Prime - home" /></Link>
             </header>

@@ -14,7 +14,7 @@ const Footer = () => {
 
     return (
         <div>
-            <footer>
+            <footer title="Footer-image - © Hustle Castle">
                 <div className="flex flex-row w-full">
                     <div className="mx-auto mt-4">
                         <p>© {currentYear} Hustle-Prime</p>

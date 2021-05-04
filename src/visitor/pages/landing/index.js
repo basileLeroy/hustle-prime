@@ -7,7 +7,7 @@ const Landing = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Welcome} className="w-nine mx-auto rounded-md" alt="oops" />
+                <img src={Welcome} className="w-nine mx-auto rounded-md" alt="oops" title="Banner - © Hustle Prime"/>
             </div>
 
             <div className="relative flex flex-col lg:flex-row mx-auto brown-white bg-opacity-20 cursor-not-allowed mb-28">
@@ -25,7 +25,7 @@ const Landing = () => {
             <div className="flex flex-col w-nine justify-center mx-auto">
                 <div className="flex flex-col mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 w-full lg:pr-12 py-5">
-                        <img src={test_image01} className="w-full rounded-md" alt="" title="Test-02" />
+                        <img src={test_image01} className="w-full rounded-md" alt="oops.." title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:ml-32">
                         <h2 className="text-3xl font-bold mb-12 text-center">Welcome to the HUSTLE PRIME website</h2>

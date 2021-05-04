@@ -17,7 +17,7 @@ function SetChoice() {
         <div className="flex flex-col w-nine justify-center mx-auto">
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mt-20 mb-12">
                 <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                    <img src={setIcons} className="w-full rounded-md" alt="" title="" />
+                    <img src={setIcons} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center lg:ml-4 lg:mr-8">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -42,7 +42,7 @@ function SetChoice() {
         </div>
 
         <div className="mx-auto my-6 pb-12">
-            <img src={setCombo} className="lg:w-nine mx-auto rounded-md" alt="oops" />
+            <img src={setCombo} className="lg:w-nine mx-auto rounded-md" alt="oops" title="Set-table - © Seditiar" />
         </div>
 
         <hr
@@ -58,7 +58,7 @@ function SetChoice() {
 
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full  lg:pl-24 py-5">
-                    <img src={Ashbringer} className="w-full rounded-md" alt="" title="" />
+                    <img src={Ashbringer} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex lg:w-4/5 flex-col text-center">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -73,7 +73,7 @@ function SetChoice() {
             </div>
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full lg:pl-24 py-5">
-                    <img src={Paladin} className="w-full rounded-md" alt="" title="" />
+                    <img src={Paladin} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex lg:w-4/5 flex-col text-center">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -90,7 +90,7 @@ function SetChoice() {
             </div>
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full  lg:pl-24 py-5">
-                    <img src={Darkula} className="w-full rounded-md" alt="" title="" />
+                    <img src={Darkula} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center  lg:w-4/5">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -104,7 +104,7 @@ function SetChoice() {
             </div>
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full  lg:pl-24 py-5">
-                    <img src={Annihilator} className="w-full rounded-md" alt="" title="" />
+                    <img src={Annihilator} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center  lg:w-4/5">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -118,7 +118,7 @@ function SetChoice() {
             </div>
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full  lg:pl-24 py-5">
-                    <img src={Legionnaire} className="w-full rounded-md" alt="" title="" />
+                    <img src={Legionnaire} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center  lg:w-4/5">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -133,7 +133,7 @@ function SetChoice() {
             </div>
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full  lg:pl-24 py-5">
-                    <img src={Bane} className="w-full rounded-md" alt="" title="" />
+                    <img src={Bane} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center  lg:w-4/5">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -148,7 +148,7 @@ function SetChoice() {
             </div>
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full  lg:pl-24 py-5">
-                    <img src={Storm} className="w-full rounded-md" alt="" title="" />
+                    <img src={Storm} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center  lg:w-4/5">
                     <div className="flex flex-col text-center lg:mx-12">
@@ -163,7 +163,7 @@ function SetChoice() {
             </div>
             <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-12">
                 <div className=" lg:w-1/5 my-auto w-full  lg:pl-24 py-5">
-                    <img src={setIcons} className="w-full rounded-md" alt="" title="" />
+                    <img src={setIcons} className="w-full rounded-md" alt="" title="Icon - © Hustle Castle" />
                 </div>
                 <div className="flex flex-col text-center  lg:w-4/5">
                     <div className="flex flex-col text-center lg:mx-12">

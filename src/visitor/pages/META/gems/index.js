@@ -9,7 +9,7 @@ function Gems() {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto rounded-xl" alt="oops" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto rounded-xl" alt="oops" title="Gems - © Hustle Castle" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -29,7 +29,7 @@ function Gems() {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-8">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={GemOffer} className="lg:w-nine rounded-2xl" alt="oops" title="" />
+                        <img src={GemOffer} className="lg:w-nine rounded-2xl" alt="oops" title="Reward - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
@@ -71,7 +71,7 @@ function Gems() {
                         </p>
                     </div>
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={GemLevelUp} className="lg:w-nine rounded-2xl" alt="oops" title="" />
+                        <img src={GemLevelUp} className="lg:w-nine rounded-2xl" alt="oops" title="Image - © Hustle Castle" />
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-8 mt-8">
@@ -84,10 +84,10 @@ function Gems() {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={ScrollsOfSuccess} className="lg:w-1/2 w-nine mx-auto rounded-2xl" alt="oops" />
+                    <img src={ScrollsOfSuccess} className="lg:w-1/2 w-nine mx-auto rounded-2xl" alt="oops" title="Image - © Hustle Castle" />
                 </div>
                 <div className="mx-auto my-6">
-                    <img src={GemMerging} className="lg:w-1/2 w-nine mx-auto rounded-2xl" alt="oops" />
+                    <img src={GemMerging} className="lg:w-1/2 w-nine mx-auto rounded-2xl" alt="oops" title="Image - © Hustle Castle" />
                 </div>
 
                 <hr

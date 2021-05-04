@@ -9,7 +9,7 @@ const Dungeon = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="Dungeons - © Hustle Castle" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -28,7 +28,7 @@ const Dungeon = () => {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={HeroAndMount} className="lg:w-150 rounded-md" alt="oops" title="" />
+                        <img src={HeroAndMount} className="lg:w-150 rounded-md" alt="oops" title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
@@ -62,7 +62,7 @@ const Dungeon = () => {
                         </p>
                     </div>
                     <div className="lg:w-nine my-auto w-full lg:pr-24 py-5">
-                        <img src={DungeonWarrior} className="lg:w-nine rounded-md" alt="oops" title="" />
+                        <img src={DungeonWarrior} className="lg:w-nine rounded-md" alt="oops" title="Image - © Hustle Castle" />
                     </div>
                 </div>
 
@@ -90,7 +90,7 @@ const Dungeon = () => {
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
                     <div className="lg:w-nine my-auto w-full lg:pl-24 py-5">
-                        <img src={Vampire} className="lg:w-nine" alt="" title="" />
+                        <img src={Vampire} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Dungeon Bosses:</h1>
@@ -101,7 +101,7 @@ const Dungeon = () => {
                             And each dungeon boss has specific characteristics. Wich also means there are certain tactics to deploy in order to defeat them. <br />
                             Some of them are about surviving it instead of beating it, others are about using ranged units instead of tanks.
                             <br /><br />
-                            <span className="text-purple-600">You can find our cheat sheet on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline">Discord</a> !</span>
+                            <span className="text-purple-600">You can find our cheat sheet on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline" title="Hustle-Prime Discord server">Discord</a> !</span>
                         </p>
                     </div>
                 </div>
