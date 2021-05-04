@@ -220,7 +220,7 @@ function GearChoice() {
                     <option value="inventor" className="py-2 pl-10">Inventor</option> */}
                 </select>
             </div>
-            <p className="text-xs italic">* Not all sets are added to our archives yet, if you can't find the set you are looking for, We recommend asking about it on our <a href="https://discord.gg/hustle-prime" alt="" className="text-purple-500 font-extrabold hover:underline">Discord</a> server!</p>
+            <p className="text-xs italic">* Not all sets are added to our archives yet, if you can't find the set you are looking for, We recommend asking about it on our <a href="https://discord.gg/7vhfVRm" alt="" className="text-purple-500 font-extrabold hover:underline">Discord</a> server!</p>
         </div>
 
         <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-24">

@@ -105,7 +105,7 @@ function Gems() {
                         <li>Direct contact with a official Community Manager</li>
                         <li>Discussion channels with other players for all subjects</li>
                         <br />
-                        <span className="text-purple-600">You can find us on <a href="https://discord.gg/hustle-prime" className=" font-extrabold hover:underline">Discord</a> !</span>
+                        <span className="text-purple-600">You can find us on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline">Discord</a> !</span>
                     </p>
                 </div>
 

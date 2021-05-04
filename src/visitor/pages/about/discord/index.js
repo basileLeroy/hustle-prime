@@ -17,14 +17,14 @@ const Discord = () => {
                         <li>Discussion channels with other players for all subjects</li>
                     </div>
                     <br />
-                    <span className="text-purple-600">You can find us on <a href="https://discord.gg/hustle-prime" className=" font-extrabold hover:underline">Discord</a> !</span>
+                    <span className="text-purple-600">You can find us on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline">Discord</a> !</span>
                 </p>
             </div>
 
             <div className="flex flex-col min-h-full h-auto mb-6">
             <h1 className="text-3xl font-extrabold text-center mt-12 mb-2">Click Here!</h1>
                 <div className="mx-auto my-6">
-                    <a href="https://discord.gg/hustle-prime" className="">
+                    <a href="https://discord.gg/7vhfVRm" className="">
                         <img src={JoinDiscord} className="lg:w-full w-nine mx-auto rounded-3xl hover:shadow-discord transition duration-300 ease-in-out" alt="oops" />
                     </a>
                 </div>

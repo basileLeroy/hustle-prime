@@ -186,7 +186,7 @@ const ClanTerritories = () => {
                             <br /><br />
                             The activity takes place twice a day.
                             <br /><br />
-                            For more info you can join our <a href="https://discord.gg/hustle-prime" className="text-purple-500 hover:underline">Discord</a> server.
+                            For more info you can join our <a href="https://discord.gg/7vhfVRm" className="text-purple-500 hover:underline">Discord</a> server.
                         </p>
                     </div>
                 </div>
@@ -206,10 +206,10 @@ const ClanTerritories = () => {
                         <li>Direct contact with a official Community Manager</li>
                         <li>Discussion channels with other players for all subjects</li>
                         <br />
-                        <span className="text-purple-600">You can find us on <a href="https://discord.gg/hustle-prime" className=" font-extrabold hover:underline">Discord</a> !</span>
+                        <span className="text-purple-600">You can find us on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline">Discord</a> !</span>
                     </p>
                 </div>
-                
+
             </div>
         </div>
     )
