@@ -81,16 +81,16 @@ const ClanTerritories = () => {
                         <br /><br />
                         SUPPORT: <br />
                         <ul className="ml-4 text-blue-400">
-                            <li className="hover:underline"><Link to="#">Neightborhoods ( Hunters - Workers - Raiders - <i>Miners*</i> )</Link></li>
-                            <li className="hover:underline"><Link to="#">Tavern</Link></li>
-                            <li className="hover:underline"><Link to="#">Store</Link></li>
+                            <li className=""><Link to="#">Neightborhoods ( Hunters - Workers - Raiders - <i>Miners*</i> )</Link></li>
+                            <li className=""><Link to="#">Tavern</Link></li>
+                            <li className=""><Link to="#">Store</Link></li>
                         </ul>
                         <br />
                         ACTIVITIES: <br />
                         <ul className="ml-4 text-blue-400">
-                            <li className="hover:underline"><Link to="#">Gate of the Abyss</Link></li>
-                            <li className="hover:underline"><Link to="#">Message Board</Link></li>
-                            <li className="hover:underline"><Link to="#">Expedition Marquee</Link></li>
+                            <li className=""><Link to="#">Gate of the Abyss</Link></li>
+                            <li className=""><Link to="#">Message Board</Link></li>
+                            <li className=""><Link to="#">Expedition Marquee</Link></li>
                         </ul>
                     </p>
                     <span className="text-xs italic mt-6">*Miners is not released yet</span>
