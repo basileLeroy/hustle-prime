@@ -24,7 +24,7 @@ const Nav = () => {
                         <FaIcons.FaBars onClick={ShowSidebar} />
                     </Link>
                 </div>
-                <nav className={sidebar ? 'nav-menu bg-gray-600 w-64 h-screen flex justify-center fixed overflow-auto top-0 left-0 duration-400 active' : 'nav-menu bg-gray-600 w-64 h-screen flex justify-center fixed top-0 -left-full duration-700'}>
+                <nav className={sidebar ? 'nav-menu bg-gray-600 w-64 h-screen flex justify-center fixed overflow-auto top-0 left-0 duration-700 active' : 'nav-menu bg-gray-600 w-64 h-screen flex justify-center fixed top-0 -left-full duration-700'}>
                     <ul className="nav-menu-items w-nine" onClick={ShowSidebar}>
                         <li className="navbar-toggle">
                             <Link className="menu-bars flex justify-end text-2xl">
