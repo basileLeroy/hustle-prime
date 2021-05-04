@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Banner from '../../../../images/RuneEventBanner.png'
 import RuneEvent from '../../../../images/RuneEvent.png'
 import RuneIcons from '../../../../images/RuneIcons.png'
@@ -61,13 +60,13 @@ function Runes() {
                             Massacre, and Fun. Each of these 3 categories has 3
                             subcategories: <br />
                             <li>
-                                <Link className="text-red-600">Confrontation Runes</Link>
+                                <span className="text-red-600">Confrontation Runes</span>
                             </li>
                             <li>
-                                <Link className="text-red-600">Massacre Runes</Link>
+                                <span className="text-red-600">Massacre Runes</span>
                             </li>
                             <li>
-                                <Link className="text-red-600">Fun Runes</Link>
+                                <span className="text-red-600">Fun Runes</span>
                             </li>
                         </p>
                     </div>
