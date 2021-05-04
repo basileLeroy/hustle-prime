@@ -27,14 +27,14 @@ const Nav = () => {
                 <nav className={sidebar ? 'nav-menu bg-gray-600 w-64 h-screen flex justify-center fixed overflow-auto top-0 left-0 duration-700 active' : 'nav-menu bg-gray-600 w-64 h-screen flex justify-center fixed top-0 -left-full duration-700'}>
                     <ul className="nav-menu-items w-nine" onClick={ShowSidebar}>
                         <li className="navbar-toggle">
-                            <Link className="menu-bars flex justify-end text-2xl">
+                            <Link className="menu-bars flex justify-end mt-4 text-3xl">
                                 <AiIcons.AiOutlineClose/>  
                             </Link>
                         </li>
                         {SidebarData.map((item, index) => {
                             return (
                                 <li key={index} className={item.cName} >
-                                    <Link to={item.path} className="no-underline text-white w-full h-full flex items-center py-0 px-4 hover:bg-red-500 rounded-md">
+                                    <Link to={item.path} className="no-underline w-full h-full flex items-center py-0 px-4 hover:bg-red-500 rounded-md">
                                         {item.title}
                                     </Link>
                                 </li>

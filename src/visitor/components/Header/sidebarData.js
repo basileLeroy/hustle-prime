@@ -1,13 +1,13 @@
 export const SidebarData = [
     {
-        title: 'Home',
+        title: 'HOME',
         path: '/',
-        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none',
+        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none font-extrabold text-blue-300',
     },
     {
-        title: 'Activities',
+        title: 'ACTIVITIES',
         path: '#',
-        cName: 'nav-text flex justify-start items-center pt-2 h-14 list-none',
+        cName: 'nav-text flex justify-start items-center pt-2 h-14 list-none text-red-300',
     },
         {
             title: 'Map',
@@ -35,15 +35,15 @@ export const SidebarData = [
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
     {
-        title: 'Castle - WiP',
+        title: 'CASTLE - WiP',
         path: '#',
-        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none',
+        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none text-red-300',
 
     },
     {
-        title: 'Clans',
+        title: 'CLANS',
         path: '#',
-        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none',
+        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none text-red-300',
 
     },
         {
@@ -54,7 +54,7 @@ export const SidebarData = [
     {
         title: 'META',
         path: '#',
-        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none',
+        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none text-red-300',
     },
         // {
         //     title: 'Squads',
@@ -77,10 +77,9 @@ export const SidebarData = [
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
     {
-        title: 'About Us',
+        title: 'ABOUT US',
         path: '#',
-        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none',
-
+        cName: 'nav-text flex justify-start items-center py-2 h-14 list-none text-red-300',
     },
         {
             title: 'Who are we?',
