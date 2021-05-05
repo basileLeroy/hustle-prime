@@ -24,7 +24,7 @@ const Discord = () => {
             <div className="flex flex-col min-h-full h-auto mb-6">
                 <div className="mx-auto my-6">
                     <a href="https://discord.gg/7vhfVRm" className="">
-                        <img src={JoinDiscord} className="lg:w-full w-nine mx-auto rounded-3xl hover:shadow-discord transition duration-300 ease-in-out" alt="oops" title="Banner - © Hustle Castle" />
+                        <img src={JoinDiscord} className="lg:w-full w-nine mx-auto rounded-3xl hover:shadow-discord transition duration-300 ease-in-out" alt="oops" title="Banner - © Courtesy of MyGames" />
                     </a>
                 </div>
             </div>

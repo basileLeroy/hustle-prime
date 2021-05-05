@@ -12,7 +12,7 @@ const Portal = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="Portal - © Hustle Castle" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="Portal - © Courtesy of MyGames" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -27,7 +27,7 @@ const Portal = () => {
             <div className="flex flex-col w-nine justify-center mx-auto">
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={campain01} className="w-full rounded-md" alt="" title="Image - © Hustle Castle" />
+                        <img src={campain01} className="w-full rounded-md" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col lg:text-left text-center lg:ml-4 lg:mr-16">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8">What is it?</h1>
@@ -69,7 +69,7 @@ const Portal = () => {
                         </p>
                     </div>
                     <div className="lg:w-150 w-full lg:pr-12 py-5">
-                        <img src={darkSoulGoblin} className="w-full" alt="" title="Image - © Hustle Castle" />
+                        <img src={darkSoulGoblin} className="w-full" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                 </div>
 
@@ -92,12 +92,12 @@ const Portal = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={portalImg} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
+                    <img src={portalImg} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Courtesy of MyGames" />
                 </div>
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-nine my-auto w-full lg:pr-24 lg:pl-24 py-5">
-                        <img src={portalSouls} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
+                        <img src={portalSouls} className="lg:w-nine" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col lg:text-left text-center  lg:mr-16">
                         <h1 className="text-3xl font-extrabold mt-12 mb-24">Soul Stealers</h1>
@@ -131,7 +131,7 @@ const Portal = () => {
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
                     <div className="lg:w-nine w-full py-5">
-                        <img src={veryDarkSoulGoblin} className="lg:w-nine lg:px-24" alt="" title="Image - © Hustle Castle" />
+                        <img src={veryDarkSoulGoblin} className="lg:w-nine lg:px-24" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col lg:min-h-full text-left ">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">PORTAL: Dark Souls</h1>
@@ -153,8 +153,8 @@ const Portal = () => {
                 </div>
 
                 <div className="mx-auto my-6 w-nine">
-                    <img src={portalmod0} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
-                    <img src={portalmod1} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
+                    <img src={portalmod0} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Courtesy of MyGames" />
+                    <img src={portalmod1} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Courtesy of MyGames" />
                 </div>
 
                 <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">

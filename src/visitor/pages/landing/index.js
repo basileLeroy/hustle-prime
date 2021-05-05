@@ -10,7 +10,7 @@ const Landing = () => {
                 <img src={Welcome} className="w-nine mx-auto rounded-md" alt="oops" title="Banner - © Hustle Prime"/>
             </div>
 
-            <div className="relative flex flex-col lg:flex-row mx-auto brown-white bg-opacity-20 cursor-not-allowed mb-28">
+            {/* <div className="relative flex flex-col lg:flex-row mx-auto brown-white bg-opacity-20 cursor-not-allowed mb-28">
                 <div className="bg-gray-700 w-60 h-20 mx-20 rounded-br-xl rounded-tl-xl text-2xl text-center text-black my-6">
                     <h3>Join as Visitor</h3>
                 </div>
@@ -20,12 +20,12 @@ const Landing = () => {
                 <div className="hover:opacity-50 absolute top-0 bottom-0 left-0 right-0 bg-white opacity-0 border rounded-lg text-3xl text-center lg:pt-12 pt-20 text-black transition duration-300 ease-in-out">
                     <h3>Comming soon!</h3>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col w-nine justify-center mx-auto">
+            <div className="flex flex-col w-nine justify-center mx-auto mt-24">
                 <div className="flex flex-col mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 w-full lg:pr-12 py-5">
-                        <img src={test_image01} className="w-full rounded-md" alt="oops.." title="Image - © Hustle Castle" />
+                        <img src={test_image01} className="w-full rounded-md" alt="oops.." title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col lg:ml-32">
                         <h2 className="text-3xl font-bold mb-12 text-center">Welcome to the HUSTLE PRIME website</h2>

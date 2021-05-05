@@ -8,7 +8,7 @@ const Map = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={map} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="World-Map - © Hustle Castle" />
+                <img src={map} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="World-Map - © Courtesy of MyGames" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -21,7 +21,7 @@ const Map = () => {
             <div className="flex flex-col w-nine justify-center mx-auto">
                 <div className="flex flex-col mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-150 w-full lg:pr-12 py-5">
-                        <img src={campain01} className="w-full rounded-md" alt="" title="Image - © Hustle Castle" />
+                        <img src={campain01} className="w-full rounded-md" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col text-center lg:mx-32">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">Campain / Story-line</h1>
@@ -47,7 +47,7 @@ const Map = () => {
                         </p>
                     </div>
                     <div className="lg:w-150 w-full lg:pr-12 py-5">
-                        <img src={pvp} className="w-full rounded-md" alt="" title="Image - © Hustle Castle" />
+                        <img src={pvp} className="w-full rounded-md" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                 </div>
 

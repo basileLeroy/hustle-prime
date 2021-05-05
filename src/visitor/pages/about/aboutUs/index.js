@@ -16,7 +16,7 @@ function About() {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-8">
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={SleepyPrime} className="lg:w-150 rounded-full" alt="oops" title="Image - © Hustle Castle" />
+                        <img src={SleepyPrime} className="lg:w-150 rounded-full" alt="oops" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">A Little Story ...</h1>

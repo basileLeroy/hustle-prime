@@ -11,7 +11,7 @@ const Gembay = () => {
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
-                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="GemBay - © Hustle Castle" />
+                <img src={Banner} className="lg:w-1/2 w-nine mx-auto" alt="oops" title="GemBay - © Courtesy of MyGames" />
             </div>
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
@@ -31,7 +31,7 @@ const Gembay = () => {
 
                 <div className="flex flex-col h-auto mx-auto justify-center w-nine lg:flex-row mb-24">
                     <div className="lg:w-nine my-auto w-full  lg:pl-24 py-5">
-                        <img src={Pirate} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
+                        <img src={Pirate} className="lg:w-nine" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:ml-4 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
@@ -73,7 +73,7 @@ const Gembay = () => {
                         </p>
                     </div>
                     <div className="lg:w-nine my-auto w-full lg:pr-24 py-5">
-                        <img src={Octopus} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
+                        <img src={Octopus} className="lg:w-nine" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                 </div>
 
@@ -84,7 +84,7 @@ const Gembay = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={gemBayMenu} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
+                    <img src={gemBayMenu} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Courtesy of MyGames" />
                 </div>
 
                 <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">
@@ -110,7 +110,7 @@ const Gembay = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={gemBayFighter} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
+                    <img src={gemBayFighter} className="lg:w-1/2 w-nine mx-auto rounded-md" alt="oops" title="Image - © Courtesy of MyGames" />
                 </div>
 
                 <div className="flex flex-col w-nine justify-center text-left mx-auto mb-8 lg:pl-24 lg:pr-56">
@@ -131,7 +131,7 @@ const Gembay = () => {
 
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
                     <div className="lg:w-150 my-auto w-full lg:pl-4">
-                        <img src={OldMage} className="lg:w-nine" alt="" title="Image - © Hustle Castle" />
+                        <img src={OldMage} className="lg:w-nine" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col lg:text-left lg:ml-8 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Spells:</h1>
@@ -162,7 +162,7 @@ const Gembay = () => {
                 </div>
 
                 <div className="mx-auto my-6">
-                    <img src={gemBaySpells} className="lg:w-3/5 w-nine mx-auto rounded-md" alt="oops" title="Image - © Hustle Castle" />
+                    <img src={gemBaySpells} className="lg:w-3/5 w-nine mx-auto rounded-md" alt="oops" title="Image - © Courtesy of MyGames" />
                 </div>
 
                 <hr
@@ -188,7 +188,7 @@ const Gembay = () => {
                         </p>
                     </div>
                     <div className="lg:w-150 my-auto w-full lg:pr-24 py-5">
-                        <img src={gemBayFighter} className="lg:w-nine rounded-md" alt="" title="Image - © Hustle Castle" />
+                        <img src={gemBayFighter} className="lg:w-nine rounded-md" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                 </div>
 
