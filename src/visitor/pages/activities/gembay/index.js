@@ -16,7 +16,7 @@ const Gembay = () => {
 
             <div className="flex flex-col w-nine justify-center mx-auto text-center mb-36">
                 <div className="flex flex-col lg:mx-32">
-                    <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-yellow-500">GEM-BAY</h1>
+                    <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-yellow-500">GEM BAY</h1>
                     <p className="font-medium">
                         Ahoy there, me hearties, and welcome to the Gem Bay! 
                         Set sail in Hustle Castle’s most dangerous waters, where a series of 15 opponents awaits. 
@@ -83,7 +83,7 @@ const Gembay = () => {
                     </p>
                     <br /><br />
                     <p>
-                        <span className="text-xl font-bold mb-2 text-left text-yellow-500">Beware:</span> The Strength of your oponents in Gem Bay is directly connected with your <span className="font-extrabold">Historical Power</span>.
+                        <span className="text-xl font-bold mb-2 text-left text-yellow-500">Beware:</span> The Strength of your oponents in Gem Bay is directly connected to your <span className="font-extrabold">Historical Power</span>.
                     </p>
                 </div>
 
@@ -231,7 +231,7 @@ const Gembay = () => {
                         </li>
                         <br />
                         <li>
-                            <p>On the other side of the spectrum, don't pad your squad with with so many tanks as to alter your historical might.</p>
+                            <p>On the other side of the spectrum, don't pad your squad with so many tanks as to alter your historical power.</p>
                         </li>
                     </ul>
                 </div>

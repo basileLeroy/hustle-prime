@@ -96,7 +96,7 @@ const Nav = () => {
 
                                             <Menu.Item>
                                             {({ active }) => (
-                                                <Link to="/activities/gembay" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2 ' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Gem-bay</Link>
+                                                <Link to="/activities/gembay" className={classNames( active ? 'bg-red-700 text-blue-aliceBlue ml-2 ' : 'text-blue-aliceBlue', 'block px-4 py-2 text-lg' )}>Gem Bay</Link>
                                             )}
                                             </Menu.Item>
 

@@ -54,7 +54,7 @@ const Arena = () => {
                     <div className="flex flex-col text-center lg:mx-32">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">The 3-Bracket Rules:</h1>
                         <p>
-                            One of the most confusing rules might be the "3-bracket rules"... <br /> 
+                            One of the most confusing rules might be the "3-Bracket rules"... <br /> 
                             The 3-Brackets rule basically tells you that you can not have fighters that span over more than 2 consecutive brackets. 
                             <br /><br /> Let's say we have a team with 6 players: 
                             <br /><br /> 85 - 85 - 85 - 85 - 85 - 85 
@@ -117,7 +117,7 @@ const Arena = () => {
                     <p>First you look at the level your Barracks is, this will be needed to calculate your bracket.</p>
                     <br /><br />
                     <h3 className="text-2xl">Get your fighter levels:</h3>
-                    <p>When you know the level of your Barracks, you go trough your castle and look at your <span className="text-blue-500 font-bold">n</span> strongest fighters, <span className="text-blue-500 font-bold">n</span> beeing the number of fightsers equal to the level of your Barracks</p><br />
+                    <p>When you know the level of your Barracks, you go trough your castle and look at your <span className="text-blue-500 font-bold">n</span> strongest fighters, <span className="text-blue-500 font-bold">n</span> being the number of fighters equal to the level of your Barracks</p><br />
                     <p>For example: <br /> you have a lvl 5 Barracks, wich means you have to look for your 5 strongest fighters in your castle.</p>
                     <br /><br />
                     <h3 className="text-2xl">Calculate your average fighter level:</h3>

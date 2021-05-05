@@ -105,7 +105,7 @@ const Portal = () => {
                             <br />
                             3x soul stealers will, just like the double stealer, give you 2x the amount of souls in addition to the usual amount.
                             <br /><br />
-                            And unlike portal chests, you can use it as many times as you want on any level. as long as there are still souls left!
+                            And unlike portal chests, you can use it as many times as you want on any level. As long as there are still souls left!
                         </p>
                     </div>
 
@@ -114,7 +114,7 @@ const Portal = () => {
                 <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">
                     <h2 className="text-xl font-bold mb-2 text-left">Farming Tips:</h2>
                     <p>
-                        As you work your way up, the levels fluctuate in difficulty, generally getting harder as you climb the ladder but, it is not a hard and fast rule.  
+                        As you work your way up, the levels fluctuate in difficulty, generally getting harder as you climb the ladder, but it is not a hard and fast rule.  
                         To find a good farming level you'll want to go as high as you can, preferably finding a level that you can win with little to no spells. 
                         Sometimes you'll hit a very difficult level, (most notable is lvl 46 or lvl 53-54), there is an easier level past it, (e.g. 47 or 55). 
                         These levels usually have similar difficulties to the few levels below, but earns many more souls. Well worth trying to push through.
@@ -144,7 +144,7 @@ const Portal = () => {
                     <p>
                         As with previous stages these battles are also multi-stage but include one major difference, level modifiers. 
                         These modifiers cause a variety of different conditions so it's important to check them when setting up your squad.
-                        It should be noted that the modifiers changes every week.
+                        It should be noted that the modifiers change every week.
                     </p>
                 </div>
 

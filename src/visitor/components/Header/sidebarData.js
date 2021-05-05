@@ -25,7 +25,7 @@ export const SidebarData = [
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },
         {
-            title: 'Gem-Bay',
+            title: 'Gem Bay',
             path: '/activities/gembay',
             cName: 'nav-text flex justify-start items-center pl-4 h-12 list-none',
         },

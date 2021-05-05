@@ -24,10 +24,10 @@ const Map = () => {
                         <img src={campain01} className="w-full rounded-md" alt="" title="Image - © Courtesy of MyGames" />
                     </div>
                     <div className="flex flex-col text-center lg:mx-32">
-                        <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">Campain / Story-line</h1>
+                        <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">Campaign / Storyline</h1>
                         <p>
                             It is the legend of a brave Lord (you), that had to discover that his dearly loved Olivia had been captured by the infamous Abyss Lord! <br /><br />
-                            As you go on with your army, you will need to march trough multiple hostile territorries. All the Abyss Lord's allies (or more likely those pressured to cooperate) 
+                            As you go on with your army, you will need to march through multiple hostile territories. All the Abyss Lord's allies (or more likely those pressured to cooperate) 
                             will try to stop you in your quest for Olivia's freedom! <br /><br /> 
                             But.. Are those the only dangers you will have to face?
                         </p>

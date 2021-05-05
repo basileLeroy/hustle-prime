@@ -79,7 +79,7 @@ const Dungeon = () => {
                 />
 
                 <div className="flex flex-col w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-24 mt-24">
-                    <h2 className="text-3xl font-bold mb-2 text-left">Monster' Powers:</h2>
+                    <h2 className="text-3xl font-bold mb-2 text-left">Monster Powers:</h2>
                     <p>
                         The power of the monsters Is suggested to be the strongest squadpower of the 2 players. 
                         In general we advise you to find a dungeon partner with equal power as 
@@ -103,7 +103,7 @@ const Dungeon = () => {
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Dungeon Bosses:</h1>
                         <p>
-                            Each dungeon has also a number or bosses to defeat. some dungeon runs will have 2 bosses in it (basic runs). 
+                            Each dungeon has also a number of bosses to defeat. Some dungeon runs will have 2 bosses in it (basic runs). 
                             Others will have 4 Bosses, while there are also boss dungeons that only have bosses in it.
                             <br /><br />
                             Each dungeon boss has specific characteristics. This means there are certain tactics to employ in order to defeat them. <br />
