@@ -18,7 +18,7 @@ const Dungeon = () => {
                     <p className="font-medium">
                         Welcome to the Dungeon, the greatest challenge Hustle Castle has to offer. 
                         Team up with a friend to help face dastardly demons, badass bosses, and perhaps the most difficult opponent in the game: yourself! 
-                        Defeat these opponents to earn various rewards, including ancient set materials, items to upgrade your hero, and unique skins and mounts. 
+                        Defeat these opponents to earn various rewards, including ancient set materials, items to personalize your hero such as unique skins and mounts. 
                         Upgrade your hero to provide massive boosts and special abilities to your squad.
                     </p>
                 </div>
@@ -36,8 +36,8 @@ const Dungeon = () => {
                             Dungeon is a place where you can team up with another player to defeat monsters.
                             <br /><br />
                             When starting a journey in the dungeon, you will have the choice to select a "friend" from the friend-list, 
-                            a "clan-member" wich will be an open invite thrown in the clan chat for all clan members to see. 
-                            At last there is also the "random" option, wich will pair you up with a random player around your own level.
+                            a "clan-member" which will be an open invite posted in the clan chat for all members to see. 
+                            There is also the "random" option, wich will pair you up with a random player based on your Throne level.
                         </p>
                     </div>
                 </div>
@@ -51,19 +51,27 @@ const Dungeon = () => {
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Squads:</h1>
                         <p>
                             As mentioned earlier, you are doing journeys with another player! 
-                            Each one of you will be able to select 8 fighters to take with you on your journey.
+                            Each one of you will be able to select up to 8 fighters to take with you on your journey.
                             <br /><br />
-                            The emphasis is on selecting fighters that complement your partners squad. 
+                            The emphasis is on selecting fighters that complement your partner's squad. 
                             E.g. when you don't have a good archer, let the other player take 2 archers, 
                             you on the other hand could be compensating with another tank
                             <br /><br />
-                            The most basic composition would be as follows: <br />
+                            The most basic combined composition would be as follows: <br />
                             <span className="text-purple-600">2 archers</span> | <span className="text-purple-600">4 Tanks</span> | <span className="text-purple-600">2 Damage Mages</span> | <span className="text-purple-600">4 Healers</span> | <span className="text-purple-600">4 Rez</span>
                         </p>
                     </div>
                     <div className="lg:w-nine my-auto w-full lg:pr-24 py-5">
                         <img src={DungeonWarrior} className="lg:w-nine rounded-md" alt="oops" title="Image - © Courtesy of MyGames" />
                     </div>
+                </div>
+
+                <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">
+                    <h2 className="text-xl font-bold mb-2 text-left text-purple-600">NOTE:</h2>
+                    <p>
+                        Every combined squad can vary depending on your own preferences, there is no right or wrong! <br />
+                        i.e. "The Mungeon"
+                    </p>
                 </div>
 
                 <hr
@@ -73,12 +81,12 @@ const Dungeon = () => {
                 <div className="flex flex-col w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-24 mt-24">
                     <h2 className="text-3xl font-bold mb-2 text-left">Monster' Powers:</h2>
                     <p>
-                        The power of the monsters Is determined by the strongest squadpower of the 2 players. 
-                        In general we suggest that you find a dungeon partner with equal power as 
+                        The power of the monsters Is suggested to be the strongest squadpower of the 2 players. 
+                        In general we advise you to find a dungeon partner with equal power as 
                         yourself to have the advantage against the monsters and bosses.
                         <br /><br />
-                        There are also other combinations of squads you can use, like going with a way stronger dungeon partner. 
-                        Or having a partner with higher squadpower, while not beeing the strongest of the two, etc ...
+                        There are also other options you can use, like going with a way stronger dungeon partner, 
+                        having a partner with higher squadpower, by not being the strongest of the two, etc ...
                         <br /><br />
                         It really is <span className="text-purple-600">up to you</span> to find the combination that suits you best!
                     </p>
@@ -98,8 +106,8 @@ const Dungeon = () => {
                             Each dungeon has also a number or bosses to defeat. some dungeon runs will have 2 bosses in it (basic runs). 
                             Others will have 4 Bosses, while there are also boss dungeons that only have bosses in it.
                             <br /><br />
-                            And each dungeon boss has specific characteristics. Wich also means there are certain tactics to deploy in order to defeat them. <br />
-                            Some of them are about surviving it instead of beating it, others are about using ranged units instead of tanks.
+                            Each dungeon boss has specific characteristics. This means there are certain tactics to employ in order to defeat them. <br />
+                            Pay attention to the boss write-ups. The hints are there.
                             <br /><br />
                             <span className="text-purple-600">You can find our cheat sheet on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline" title="Hustle-Prime Discord server">Discord</a> !</span>
                         </p>

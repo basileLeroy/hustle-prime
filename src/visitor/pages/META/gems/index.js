@@ -34,10 +34,10 @@ function Gems() {
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
                         <p>
-                            Gems are stones you can insert into your items, Each item over TR6 has slots for certain gems. 
-                            Those slots are predetermined and can not be changed on that item. Those items will be boosted by the type of gems you can inlay in it. 
+                            Gems are stones you can insert into your items, Each item over TR8 has slots for certain gems. 
+                            Those slots are predetermined and can not be changed on that item. Those items will be boosted by the type of gems you can inlay on it. 
                             <br /><br />
-                            For example If your armor has <span className="text-green-vrt">health slot</span>, You will be able to instert a Health gem in that slot. and depending on the level of that gem, your armor will revieve <span className="text-green-vrt">+ gem-health</span> .
+                            For example if your armor has a <span className="text-green-vrt">health slot</span>, you will be able to insert a Health gem in that slot. Depending on the level of that gem, your armor will revieve a <span className="text-green-vrt">+ gem-health</span> bonus.
 
                         </p>
                     </div>
@@ -52,7 +52,7 @@ function Gems() {
                                 <span className="text-red-600 font-extrabold text-xl">Red Gems</span>
                             </li>
                             <li>
-                                <span className="text-yellow-600 font-extrabold text-xl">Organge Gems</span>
+                                <span className="text-yellow-600 font-extrabold text-xl">Orange Gems</span>
                             </li>
                             <li>
                                 <span className="text-purple-600 font-extrabold text-xl">Purple Gems</span>
@@ -67,7 +67,7 @@ function Gems() {
                                 <span className="text-gray-400 font-extrabold text-xl">Gray Gems</span>
                             </li>
                             <br /><br />
-                            You can level up gems by using dust (can be attained by destroying items, bought in gembay or by opening chests). You can select a gem and add the amount of dust needed to level up your gem.
+                            You can level up gems by using dust (can be attained by destroying gems, bought in gembay, or by opening chests). You can select a gem and add the amount of dust needed to level up your gem.
                         </p>
                     </div>
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
@@ -77,7 +77,7 @@ function Gems() {
                 <div className="flex flex-col lg:flex-row w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-8 mt-8">
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <p>
-                            When you have a pair of maxed out gems, you can merge those together to create a new higher tier gem. <br/>
+                            When you have a pair of maxed gems, you can merge them together to create a new higher tier gem. <br/>
                             Chances of failure can be minimalised by using merging scrolls of success.
                         </p>
                     </div>

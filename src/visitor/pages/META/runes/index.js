@@ -16,7 +16,7 @@ function Runes() {
                 <div className="flex flex-col lg:mx-32">
                     <h1 className="text-4xl font-extrabold mt-12 mb-8 text-center text-red-600">RUNES</h1>
                     <p className="font-medium">
-                        A rune event is starting! grab your gear, coffee, snacks, powerbank, charger, and what not!
+                        Grab your gear, coffee, snacks, powerbank, charger, and whatnot!
                         Here you will be finding a little bit of information on runes and how to get them!
                     </p>
                 </div>
@@ -35,7 +35,7 @@ function Runes() {
                             add a new ability beside the current one, or both. Runes can be attached to the
                             weapons, armors, rings, amulets, or artifacts. Each Rune works differently and
                             can be attached only to a specific item type/class. Runes have different abilities
-                            based on fighter’s class, weapon type, and/or armor type. Runes are removable,
+                            based on fighter’s class, weapon type, and/or armor type. Runes are interchangeable,
                             so you can attach and detach them whenever you want.
                         </p>
                     </div>
@@ -52,13 +52,11 @@ function Runes() {
                             Runes can be obtained from <span className="text-red-600">Rune events</span>.
                             These events usually come around every 3-4
                             months, and when that happens, the “Under
-                            Construction!” island on the left side of the map
+                            Construction!” island on the left side of the pvp map
                             becomes available.
                             <br /><br />
-                            The Runes are divided into <span className="text-red-600">3 major
-                            categories</span> during these events: Confrontation,
-                            Massacre, and Fun. Each of these 3 categories has 3
-                            subcategories: <br />
+                            The Runes are divided into <span className="text-red-600">3
+                            categories</span> : <br />
                             <li>
                                 <span className="text-red-600">Confrontation Runes</span>
                             </li>
@@ -82,9 +80,9 @@ function Runes() {
                 <div className="flex flex-col w-nine justify-center mx-auto lg:pl-24 lg:pr-56 mb-24 mt-24">
                     <h2 className="text-3xl font-bold mb-2 text-left">Rune Events:</h2>
                     <p>
-                        Rune events are a type of events where you need to collect "Cards" in order to be able to complete a collection of cards.
+                        Rune events are a type of events where you need to collect "Cards" in order to be able to complete a collection.
                         <br /><br />
-                        When having a full set of cards, you can collect it in exchange for an event chest. That chest will have a chance to drop one or more (or no) runes, depending on your luck.
+                        When having a full set of cards, you exchange it for an event chest. That chest will have a chance to drop one or more (or no) runes, depending on your luck.
                     </p>
                 </div>
 
@@ -129,7 +127,6 @@ function Runes() {
                         NOTE:
                         One of the biggest advantages on rune events, is that it comes back with the same runes + new ones. If you can not collect all runes during one event, the next one will give you a change of getting the missing ones <br /> <br />
                         <span className="text-lg font-extrabold">IF YOU ALREADY HAVE A RUNE, the next event will not provide that same rune again within the same TR LEVEL !!!</span> <br/>
-                        The only way to have A rune twice, will be to have it by doing rune events in different Throne Room levels. As you can not get the same rune twice withing the same Throne Room Level.
                     </p>
                 </div>
 
@@ -145,9 +142,9 @@ function Runes() {
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Type of Runes:</h1>
                         <p>
-                            As runes are attached to the items your fighter wears, you can probably guess that there are different types of runes: <span className="text-red-600">Weapon Runes</span> | <span className="text-red-600">Armor Runes</span> | <span className="text-red-600">Ring Runes</span> | <span className="text-red-600">Necklace Runes</span> | <span className="text-red-600">Artefact Runes</span>.
+                            Runes are attached to the gear your fighter has equipped. These are the different types of runes: <span className="text-red-600">Weapon Runes</span> | <span className="text-red-600">Armor Runes</span> | <span className="text-red-600">Ring Runes</span> | <span className="text-red-600">Necklace Runes</span> | <span className="text-red-600">Artifact Runes</span>.
                             <br /><br />
-                            But Within those classes, Runes ade again devided by types: <br/>
+                            Within these classes, Runes are again divided by types: <br/>
                             <span className="text-red-600">Class-specific runes</span> (where runes will only work on a certain fighter class) & 
                             <span className="text-red-600"> Universal runes</span> (where as long as you put it on the right type of item, it can be used on any type of fighter) 
                             <br /><br />

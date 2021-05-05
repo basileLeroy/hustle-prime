@@ -36,8 +36,8 @@ function SetChoice() {
             <p>
                 <span className="font-extrabold">After the top 2</span>, the order is going to be different for everyone. 
                 Preferences play a big part in this but also material farming and the gear choices of each player are going to be different. 
-                I can't stress this enough, <span className="font-extrabold">use this list as a general guideline only</span>, double check in #gear-comparisons on the 
-                <a href="https://discord.gg/7vhfVRm" alt="" className="text-purple-500 font-extrabold hover:underline">Hustle Prime Discord</a> server to make sure.
+                I can't stress this enough, <span className="font-extrabold">use this list as a general guideline only</span>, 
+                double check in #gear-comparisons on the <a href="https://discord.gg/7vhfVRm" alt="" className="text-purple-500 font-extrabold hover:underline">Hustle Prime Discord</a> server to make sure.
             </p>
         </div>
 

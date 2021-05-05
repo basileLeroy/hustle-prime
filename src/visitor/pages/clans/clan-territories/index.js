@@ -39,11 +39,11 @@ const ClanTerritories = () => {
                     <div className="flex flex-col lg:text-left lg:pl-20">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Clan Coins</h1>
                         <p>
-                            The basic currency for CT is clan coins. Coins can be earned for doing various tasks, which will be covered later. 
-                            They are used to upgrade CT buildings to higher levels (Investing) or can be spent in the Clan Store on a variety of items. 
+                            The basic currency for CT is clan coins. Coins can be earned for doing various tasks, which will be covered below. 
+                            They are used to upgrade CT buildings to higher levels or can be spent in the Clan Store on a variety of items. 
                             As tempting as it is to spend coins on store items, it is also important to invest coins into the various CT buildings for increased clan 
-                            bonuses and rewards.  Each clan's leadership should establish an upgrade plan that entails who invests in what buildings and when, 
-                            and do so in a way that is fair and equitable.
+                            bonuses and rewards. Each clan will have it's own upgrade plan that entails who can invests in what buildings and when, 
+                            and do so in a way that is fair and equitable to them.
                             <br /><br />
                             Every clan member can see the progress of CT, as well as the earnings and investments made by all members 
                             (over the past two weeks and all-time numbers) here:
@@ -58,10 +58,9 @@ const ClanTerritories = () => {
                 <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-24">
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <p>
-                            There's a lot of useful information in here. 
-                            The buttons on the top right will list either earnings or investments. 
-                            The other tabs will show which clan members are earning summoning scrolls, glory, or ingredients. 
-                            The last tab is for "marauder cards" which has recently been released.
+                            The first tab shows details about clan coins. 
+                            The buttons below "all time" will list either earnings or investments. 
+                            The other tabs will show which clan members are earning summoning scrolls, glory, ingredients, or Marauder-maps. 
                         </p>
                     </div>
                     <div className="lg:w-150 my-auto w-full lg:pr-24 py-5">
@@ -77,20 +76,20 @@ const ClanTerritories = () => {
                     <h2 className="text-3xl font-bold text-center text-blue-600 mb-8">Buildings and Activities:</h2>
                     <p>
                         There are basically 2 types of options in CT. There are building that support you in all types of things. <br />
-                        And there are buildings that are activities for the memebers of the clan. <br />
+                        And there are buildings that are activities for the members of the clan. <br />
                         <br /><br />
                         SUPPORT: <br />
                         <ul className="ml-4 text-blue-400">
-                            <li className=""><Link to="#">Neightborhoods ( Hunters - Workers - Raiders - <i>Miners*</i> )</Link></li>
-                            <li className=""><Link to="#">Tavern</Link></li>
-                            <li className=""><Link to="#">Store</Link></li>
+                            <li className=""><span to="#">Neighbourhoods ( Hunters - Workers - Raiders - <i>Miners*</i> )</span></li>
+                            <li className=""><span to="#">Tavern</span></li>
+                            <li className=""><span to="#">Store</span></li>
                         </ul>
                         <br />
                         ACTIVITIES: <br />
                         <ul className="ml-4 text-blue-400">
-                            <li className=""><Link to="#">Gate of the Abyss</Link></li>
-                            <li className=""><Link to="#">Message Board</Link></li>
-                            <li className=""><Link to="#">Expedition Marquee</Link></li>
+                            <li className=""><span to="#">Gate of the Abyss</span></li>
+                            <li className=""><span to="#">Message Board</span></li>
+                            <li className=""><span to="#">Expedition Marquee</span></li>
                         </ul>
                     </p>
                     <span className="text-xs italic mt-6">*Miners is not released yet</span>
@@ -105,24 +104,24 @@ const ClanTerritories = () => {
                         <p>
                         The Town Hall actually doesn't do anything. However, similar to the Throne Room in your castle, 
                         upgrading it enables you to upgrade other buildings to higher levels, unlocking better clanwide bonuses. 
-                        The maximum Town Hall level as of January 7, 2021 is five.  Town Hall levels provide access to the following buildings, 
+                        Town Hall levels provide access to the following buildings, 
                         and their maximum levels.
                         </p>
                     </div>
                 </div>
 
-                <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-4 neighborhoods">
+                <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-24 mt-4 neighbourhoods">
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
-                        <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Neightborhoods</h1>
+                        <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Neighbourhoods</h1>
                         <p>
-                            Each neightborhood is a "part of town" where you can move into. If you are deployed in a neightborhood
-                            you will be able to reviece bonus rewards when doing specific activities. <br /><br />
-                            For example, the Hunter's neightborhood will give you extra clan tokens when doing dungeon bosses or extra tickets during invasions.
+                            Each neighbourhood is a "part of town" where you can move into. If you are deployed in a neighbourhood
+                            you will recieve bonus rewards when doing specific activities. <br /><br />
+                            For example, the Hunter's neighbourhood will give you extra ether when doing dungeons and scrolls for doing invasions and dungeon bosses.
                             <br /><br />
-                            Only a Clan leader; Deputy leader; Warlord has the ability to move players into and out of the neighborhoods.
+                            Only a Clan leader; Deputy leader; Warlord have the ability to move players in and out of the neighbourhoods.
                             <br /><br />
-                            And when you place a player in a neightborhood-spot, that spot will be in a cooldown for 1 hour, even if the player leaves the spot,
-                            it will be on cooldown for the remaining time of that hour. <br />
+                            And when you place a player in a neighbourhood-spot, that spot will be in a cooldown for 1 hour, even if the player leaves the spot,
+                            it will be on cooldown for the remainder of that hour. <br />
                             This may sound absurd, but was implemented to make the CT more strategic.
                         </p>
                     </div>
@@ -136,16 +135,16 @@ const ClanTerritories = () => {
                 </div>
 
                 
-                <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-8 mt-24">
+                <div className="flex flex-col mx-auto justify-center w-nine h-auto lg:flex-row mb-8 mt-8">
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Gate of the Abyss</h1>
                         <p>
                             The Gate of the Abyss is where clan bosses are summoned.  
                             The building does not have levels and only serves to house the clan bosses.
                             <br /><br />
-                            As of January 7, 2021 there are three clan bosses that can be fought.  PUMBA 3000, Papa Troll, and Sporozilla. 
+                            There are three clan bosses that can be fought.  PUMBA 3000, Papa Troll, and Sporozilla. 
                             Each have varying strategies that can be used for success, these strategies will be covered elsewhere. 
-                            The following is courtesy of <span className="text-yellow-500">San Transarm</span>:
+                            The following table is courtesy of our <span className="text-yellow-500">Hustle Prime community</span>:
                             <br /><br />
                         </p>
                     </div>
@@ -178,15 +177,11 @@ const ClanTerritories = () => {
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Expedition Marquee</h1>
                         <p>
-                            The latest feature of the game: Expedition marquee!
-                            <br /><br />
                             A Raid activity where You can group up with 3 other players from your clan and fight agains another clan's group.
                             <br /><br />
-                            You can create as many groups as you want for your members, as long as you have enough marauder cards.
+                            You can create as many groups as you want for your members, as long as you have enough marauder maps.
                             <br /><br />
-                            The activity takes place twice a day.
-                            <br /><br />
-                            For more info you can join our <a href="https://discord.gg/7vhfVRm" className="text-purple-500 hover:underline">Discord</a> server.
+                            The activity currently takes place twice a day.
                         </p>
                     </div>
                 </div>

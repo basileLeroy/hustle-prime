@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SetChoice from './SetChoice'
 import GearChoice from './GearChoice'
 import Banner from '../../../../images/sets.png'
-import campain01 from '../../../../images/Campain-Story01.jpg'
+import Seditiar from '../../../../images/seditiar.jpg'
 
 const AncientSets = () => {
 
@@ -56,7 +56,7 @@ const AncientSets = () => {
                         </div>
                     </div>
                     <div className="lg:w-150 my-auto w-full  lg:pl-24 py-5">
-                        <img src={campain01} className="w-full rounded-md" alt="" title="Image - © Courtesy of MyGames" />
+                        <img src={Seditiar} className="w-full rounded-md" alt="" title="Seditiar" />
                     </div>
                 </div>
 
