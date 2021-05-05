@@ -31,8 +31,8 @@ const Arena = () => {
                     <div className="flex flex-col text-center lg:mx-32">
                         <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">Arena Brackets</h1>
                         <p>
-                            The tournaments are divided in a lot of different brackets. The bracket system will make sure that players with similar kind of squad sizes and powers are fighting against eachother.<br /><br /> 
-                            With that said, there is still a lot of room inside each bracket to avoid having only opponents of your own level. Wich keeps the arena interesting if you ask me!
+                            The tournaments are divided into many different brackets. The bracket system will make sure that players with similar squad sizes and powers are fighting against each other.<br /><br /> 
+                            With that said, there is still a lot of room inside each bracket to avoid having only opponents of your own level. Which keeps the arena interesting!
                         </p>
                     </div>
                 </div>
@@ -52,9 +52,9 @@ const Arena = () => {
 
                 <div className="flex flex-col mx-auto justify-center w-nine lg:flex-row mb-24 mt-24">
                     <div className="flex flex-col text-center lg:mx-32">
-                        <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">The 3-Bracket Rule:</h1>
+                        <h1 className="text-3xl font-extrabold mt-12 mb-8 text-center">The 3-Bracket Rules:</h1>
                         <p>
-                            One of the most confusing rules might be the "3-brackets rule"... <br /> 
+                            One of the most confusing rules might be the "3-bracket rules"... <br /> 
                             The 3-Brackets rule basically tells you that you can not have fighters that span over more than 2 consecutive brackets. 
                             <br /><br /> Let's say we have a team with 6 players: 
                             <br /><br /> 85 - 85 - 85 - 85 - 85 - 85 
@@ -74,7 +74,7 @@ const Arena = () => {
                 <div className="flex flex-col w-nine justify-center mx-auto mb-24 lg:pr-56">
                     <p>
                         Because we now have one fighter in the <span className="text-blue-500">100 bracket</span>, one in the <span className="text-blue-500">94 bracket</span> and the others in the 85 bracket. This is spanning over more than 2 different brackets. 
-                        The game will then calculate from highest bracket to lowest: calculating only the average of your lvl 100 and 94 fighters. Wich will put you in the 6x100 bracket.
+                        The game will then calculate from highest bracket to lowest: calculating only the average of your lvl 100 and 94 fighters. Which will put you in the 6x100 bracket.
                     </p>
                 </div>
 
@@ -95,12 +95,12 @@ const Arena = () => {
                             <br />
                             <br /> If trains 41-55, minimum fighter level 36
                             <br /> If trains 56-70, minimum fighter level 51
-                            <br /> If  trains 71-85, minimum fighter level 66
+                            <br /> If trains 71-85, minimum fighter level 66
                             <br /> If trains 86-100, minimum fighter level 81
                             <br /><br />
                             NOTE:
-                            If all fighters level in castle is below FTR min level, the highest level fighter will used for bracket calculation. 
-                            So if FTR trains 86-100 but highest fighter level 70, will play in 70 bracket. If at 71, plays 77 bracket.
+                            If all fighter levels in castle are below the FTR minimum level, the highest level fighter will be used for bracket calculation. 
+                            So if FTR trains 86-100 but highest fighter level is 70, will play in 70 bracket. If at 71, plays in the 77 bracket.
                         </p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ const Arena = () => {
                         <li>Latest updates</li>
                         <li>A huge community</li>
                         <li>Guides for beginners and end-gamers alike</li>
-                        <li>Direct contact with a official Community Manager</li>
+                        <li>Direct contact with an official Community Manager</li>
                         <li>Discussion channels with other players for all subjects</li>
                         <br />
                         <span className="text-purple-600">You can find us on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline">Discord</a> !</span>

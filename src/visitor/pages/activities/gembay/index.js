@@ -20,7 +20,7 @@ const Gembay = () => {
                     <p className="font-medium">
                         Ahoy there, me hearties, and welcome to the Gem Bay! 
                         Set sail in Hustle Castle’s most dangerous waters, where a series of 15 opponents awaits. 
-                        Plan your strategy carefully, as each opponent is more difficult to defeat than the last, and once your fighters die, they stay dead until you return home. 
+                        Plan your strategy carefully, as each opponent is more difficult to defeat than the last. Once your fighters die, they stay dead until you return home. 
                         The more opponents you defeat, the greater your reward, which includes powerful gems to enhance your equipment, and ancient set materials. 
                         Yo ho ho!
                     </p>
@@ -36,8 +36,8 @@ const Gembay = () => {
                     <div className="flex flex-col lg:text-left lg:ml-4 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">What is it?</h1>
                         <p>
-                            Gem Bay is another activity that unlocks upon reaching Throne Room lvl 8.
-                            It is a place where you can collect certain items that also come into play once reaching TR8.
+                            Gem Bay is an activity that unlocks upon reaching Throne Room lvl 8.
+                            It is a place to collect certain items that come into play at TR8 and above.
                             <br /><br /><br /><br />
                             <span className="text-yellow-500">GEMS</span>: Used to enhance fighter equipment
                             <br />
@@ -64,11 +64,11 @@ const Gembay = () => {
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Fighting in Gem Bay</h1>
                         <p>
-                            Every day you can enter Gem Bay once for free, twice if you have Premium. 
+                            Every day you can enter Gem Bay once for free, (twice if you have Premium). 
                             After your free journey has been used up, you will need to spend food to go on additional journeys. 
                             You may purchase up to 2 additional food runs, any after that cost diamonds.
                             <br /><br />
-                            I strongly recommend that you take full advantage of the free journey. 
+                            It is strongly recommended that you take full advantage of the free journey(s). 
                             The only potential drawback to entering the bay for free is that you could end up expending spells.
                         </p>
                     </div>
@@ -79,7 +79,11 @@ const Gembay = () => {
 
                 <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">
                     <p>
-                        When you enter Gem Bay, you are prompted to select up to 12 fighters to bring with you on your journey, and up to 9 spells.
+                        When you enter Gem Bay, you are prompted to select up to 12 fighters to bring with you on your journey, and up to 12 spells.
+                    </p>
+                    <br /><br />
+                    <p>
+                        <span className="text-xl font-bold mb-2 text-left text-yellow-500">Beware:</span> The Strength of your oponents in Gem Bay is directly connected with your <span className="font-extrabold">Historical Power</span>.
                     </p>
                 </div>
 
@@ -90,9 +94,29 @@ const Gembay = () => {
                 <div className="flex flex-col w-nine justify-center mx-auto mb-8 lg:pl-24 lg:pr-56">
                     <h2 className="text-xl font-bold mb-2 text-left text-yellow-500">NOTE:</h2>
                     <p>
-                        If you have a Premium account, then you will get 2 free journeys per day, 
-                        rather than one. You also can bring up to 12 spells on your journey with Premium, 
-                        rather than the standard 9 spells from a non premium run.
+                        All Throne Rooms share the same price for additional (diamond) runs, as follows: <br />
+                        <li>
+                            <span className="text-blue-500">100</span> Diamonds
+                        </li>
+                        <li>
+                            <span className="text-blue-500">150</span> Diamonds
+                        </li>
+                        <li>
+                            <span className="text-blue-500">200</span> Diamonds
+                        </li>
+                        <li>
+                            <span className="text-blue-500">250</span> Diamonds
+                        </li>
+                        <li>
+                            <span className="text-blue-500">300</span> Diamonds
+                        </li>
+                        <li>
+                            <span className="text-blue-500">350</span> Diamonds
+                        </li>
+                        <li>
+                            <span className="text-blue-500">400</span> Diamonds
+                        </li>
+                        After that it jumps to <span className="text-blue-500">500</span> and then goes to <span className="text-blue-500">300</span> diamonds (which becomes the fixed cost).
                     </p>
                 </div>
 
@@ -103,9 +127,9 @@ const Gembay = () => {
                 <div className="flex flex-col w-nine justify-center text-left mx-auto mb-8 lg:pl-24 lg:pr-56">
                     <h2 className="text-3xl font-extrabold text-center mt-12 mb-8">Fighters:</h2>
                     <p>
-                        There is no disadvantage to bringing a full complement of 12 fighters on your journey with you. 
-                        You will only use 6 at a time, and so the more options you have available to build this team of 6, 
-                        the better you will perform.
+                        The advantages to bringing a full complement of 12 fighters on your journey with you, outweigh the disadvantages. 
+                        If any fighter dies, you have a replacement or substitute to counter your oponent.
+                        You will have the option to use between 5 and 8 fighters, depending on your barracks size.
                     </p>
                 </div>
 
@@ -120,8 +144,8 @@ const Gembay = () => {
                         This is usually a good idea, and can save you some time, but be aware that it selects dwellers based on their current equipment, 
                         and so it might not necessarily select the highest-leveled fighters.
                         <br /><br />
-                        You will need to equip your fighters as desired before you click the Confirm button. 
-                        Once you confirm your journey squad, you will not be able to adjust their equipment.
+                        You will need to equip your fighters (and Hero) as desired before you click the Confirm button. 
+                        Once you confirm your journey's squad, you will not be able to adjust their equipment.
                     </p>
                 </div>
 
@@ -174,7 +198,7 @@ const Gembay = () => {
                     <div className="flex flex-col lg:text-left lg:ml-16 lg:mr-16">
                         <h1 className="text-3xl font-extrabold text-center mt-12 mb-8">Build Your Squad:</h1>
                         <p>
-                            For each battle, you can select up to 6 fighters (out of the 12 brought into Gem Bay) to form your squad. 
+                            For each battle, you can select between 5 to 8 fighters (out of the 12 brought into Gem Bay) to form your squad. 
                             You can also select up to 6 spells. You will be given the opportunity to both hire Mercenaries 
                             and buy Spells in between each battle.
                             <br /><br />
@@ -195,23 +219,19 @@ const Gembay = () => {
                 <div className="bg-yellow-900 flex flex-col lg:w-3/5 w-nine justify-center p-6 text-left mx-auto mb-8 lg:ml-24 lg:mr-56 rounded-md">
                     <ul>
                         <li>
-                            <p>You might want to use your weaker fighters early on in the easier battles so that your stronger fighters are fresh when things get tough.</p>
+                            <p>One strategy is to use your weaker fighters early on in the easier battles so that your stronger fighters are fresh when things get tough.</p>
                         </li>
                         <br />
                         <li>
-                            <p>Make sure your squad is strong enough. If you get wiped out on one of the early levels, then you will lose 6 of your 12 fighters. This can seriously limit how far your journey will go.</p>
+                            <p>Make sure your squad is strong enough. If you get wiped out on one of the early levels, then you will some of your fighters. This may seriously limit how far your journey will go.</p>
                         </li>
                         <br />
                         <li>
-                            <p>Beware of relying on resurrect mages. If you win a battle while one of your fighters is dead, then you will lose that fighter for the rest of the journey. It can be a bit random and frustrating.</p>
+                            <p>Don’t pad your squad with production dwellers. They will die quickly, and your mages will waste precious resurrect and heal spells on them.</p>
                         </li>
                         <br />
                         <li>
-                            <p>Have plenty of strong tanks available in reserve. They tend to be the most likely to be dead at the end of a battle.</p>
-                        </li>
-                        <br />
-                        <li>
-                            <p>Don’t pad your squad with weak dwellers such as cooks or treasurers. They will die quickly, and your mages will waste precious resurrect and heal spells on them.</p>
+                            <p>On the other side of the spectrum, don't pad your squad with with so many tanks as to alter your historical might.</p>
                         </li>
                     </ul>
                 </div>
@@ -228,7 +248,7 @@ const Gembay = () => {
                         <li>Latest updates</li>
                         <li>A huge community</li>
                         <li>Guides for beginners and end-gamers alike</li>
-                        <li>Direct contact with a official Community Manager</li>
+                        <li>Direct contact with an official Community Manager</li>
                         <li>Discussion channels with other players for all subjects</li>
                         <br />
                         <span className="text-purple-600">You can find us on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline">Discord</a> !</span>

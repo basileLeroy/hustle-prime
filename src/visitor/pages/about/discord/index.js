@@ -13,7 +13,7 @@ const Discord = () => {
                         <li>Latest updates</li>
                         <li>A huge community</li>
                         <li>Guides for beginners and end-gamers alike</li>
-                        <li>Direct contact with a official Community Manager</li>
+                        <li>Direct contact with an official Community Manager</li>
                         <li>Discussion channels with other players for all subjects</li>
                     </div>
                     <br />

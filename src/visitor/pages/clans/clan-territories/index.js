@@ -203,7 +203,7 @@ const ClanTerritories = () => {
                         <li>Latest updates</li>
                         <li>A huge community</li>
                         <li>Guides for beginners and end-gamers alike</li>
-                        <li>Direct contact with a official Community Manager</li>
+                        <li>Direct contact with an official Community Manager</li>
                         <li>Discussion channels with other players for all subjects</li>
                         <br />
                         <span className="text-purple-600">You can find us on <a href="https://discord.gg/7vhfVRm" className=" font-extrabold hover:underline">Discord</a> !</span>
