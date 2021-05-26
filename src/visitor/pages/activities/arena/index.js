@@ -6,7 +6,11 @@ import BracketLegend from '../../../../images/Bracket-List-Legent.jpg'
 import scarecrowIcon from '../../../../images/scarecrowIcon.png'
 import Info from '../../../../images/info.png'
 
+import { BracketCalc } from './BracketCalc'
+
 const Arena = () => {
+
+
     return (
         <div className="flex flex-col min-h-full h-auto mb-6">
             <div className="mx-auto my-6">
@@ -126,6 +130,8 @@ const Arena = () => {
                     <h3 className="text-2xl">Compare your average with the bracket list:</h3>
                     <p>Look at your average and see in wich bracket your average would fall.<br /> (Don't forget to check if you are not breaking any of the rules mentioned on this page!)</p>
                 </div>
+
+                <BracketCalc />
 
                 <hr
                     className="bg-gray-400 h-1 w-nine mx-auto"

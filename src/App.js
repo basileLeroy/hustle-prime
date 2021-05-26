@@ -7,6 +7,7 @@ import { ClanTerritories } from './visitor/pages/clans'
 import { AncientSets, Gems, Runes } from './visitor/pages/META'
 import { About, Discord } from './visitor/pages/about';
 import useGaTracker from './useGaTracker'
+import CookieConsent from "react-cookie-consent";
 
 const App = () => {
   useGaTracker();
@@ -37,6 +38,11 @@ const App = () => {
           </Switch>
         </div>
         <Footer />
+        <CookieConsent 
+          buttonStyle={{ color: "#4e503b", fontSize: "18px", }}
+          style={{ background: "#2B373B", whidh: "100vw", height: "75px",textAlign: "center"}}
+          expires={150}
+        ><span className="text-center">This website uses cookies to enhance the user experience.</span></CookieConsent>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Banner from '../../../../images/CT-banner.png'
 import ClanCoin from '../../../../images/clanCoin.png'
 import HuntersHood from '../../../../images/hunters-hood.png'
