@@ -153,15 +153,9 @@ const BracketCalc = () => {
             const uniqueBands = new Set();
             const values = [];
 
-
-            // console.log("--------------------------------ranges.type--------------------------------")
-            // console.log(ranges)
-            // console.log("--------------------------------ranges.type--------------------------------")
-
             for(const level of levels){
 
                 uniqueBands.add(ranges.find(range => range.minAverage <= level && range.maxAverage >= level));
-                //add exception brackets with type parameter = "soup"
 
                 if(uniqueBands.size > 2 ) break;
 
@@ -253,5 +247,4 @@ const BracketCalc = () => {
 
     )
 }
-
 export { BracketCalc }
