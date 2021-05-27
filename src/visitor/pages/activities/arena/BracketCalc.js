@@ -7,7 +7,7 @@ const BracketCalc = () => {
 
     const [Hero, setHero] = useState(true);
     const [NoHero, setNoHero] = useState(false);
-    const [BarracksLevel, setBarracksLevel] = useState(0);
+    const [BarracksLevel, setBarracksLevel] = useState(1);
     const [BracketRange, setBracketRange] = useState("withHero");
     const [average, setAverage] = useState(Number);
     const [display, setDisplay] = useState(<><p>Fill in the fields above!</p></>);
@@ -84,7 +84,7 @@ const BracketCalc = () => {
                 <input type="number" key={item.name} id={"input-field" + item.name} name={"input_" + item.name} onChange={(e) => addLevel(item)} className="w-12 h-8 lg:ml-4 text-center font-extrabold bg-blue-ocean rounded-md" />
             )
         );
-        
+    // eslint-disable-next-line
     }, [BarracksLevel]);
 
     const addLevel = (item) => {
@@ -126,9 +126,9 @@ const BracketCalc = () => {
         FighterLevels.length = BarracksLevel;
         const levelArray = [];
         const ruleBreaking = [];
-
-        FighterLevels.map((fighterLevel, index) => {
-
+        
+        // eslint-disable-next-line
+        FighterLevels.map((fighterLevel) => {
             if(Number(fighterLevel.level) > FtrLevel) {
                 levelArray.push(Number(fighterLevel.level))
             } else {
@@ -168,6 +168,7 @@ const BracketCalc = () => {
         const result = getLevelAverage(levelArray, BracketRange, BarracksLevel);
         const bracketList = ListOfBrackets[BracketRange][BarracksLevel]
 
+        // eslint-disable-next-line
         bracketList.map((item, index) => {
             if(result.average >= item.minAverage && result.average < item.maxAverage) {
                 setAverage(Math.floor(item.maxAverage));
