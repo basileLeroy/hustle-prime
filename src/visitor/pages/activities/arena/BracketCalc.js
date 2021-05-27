@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import { ListOfBrackets } from './ListOfBrackets'
-import { bracketRangeCalc } from './calculator'
+import React, { useState, useEffect } from 'react';
+import { ListOfBrackets } from './ListOfBrackets';
+import { soupExceptions } from './soupExceptions';
 import { v4 as uuidv4 } from 'uuid';
 
 const BracketCalc = () => {
@@ -8,8 +8,8 @@ const BracketCalc = () => {
     const [Hero, setHero] = useState(true);
     const [NoHero, setNoHero] = useState(false);
     const [BarracksLevel, setBarracksLevel] = useState(0);
-    const [BracketRange, setBracketRange] = useState();
-    const [average, setAverage] = useState(0);
+    const [BracketRange, setBracketRange] = useState("withHero");
+    const [average, setAverage] = useState(Number);
     const [display, setDisplay] = useState(<><p>Fill in the fields above!</p></>);
     const [FtrLevel, setFtrLevel] = useState(16);
     const [Fighter1, setFighter1] = useState(Number);
@@ -60,7 +60,7 @@ const BracketCalc = () => {
             id: uuidv4(),
             name: 8,
             level: Fighter8
-        }
+        },
     ]);
 
     const [LevelInputs, setLevelInputs] = useState([<input/>]);
@@ -77,14 +77,15 @@ const BracketCalc = () => {
     };
 
     useEffect(() => {
-        FighterLevels.length = BarracksLevel
+        FighterLevels.length = BarracksLevel;
 
         setLevelInputs(
-        FighterLevels.map((item, index) =>
-            <input type="number" key={item.name} id={"input-field" + item.name} name={"input_" + item.name} onChange={(e) => addLevel(item)} className="w-12 h-8 lg:ml-4 text-center font-extrabold bg-blue-ocean rounded-md" />
-        )
+            FighterLevels.map((item, index) =>
+                <input type="number" key={item.name} id={"input-field" + item.name} name={"input_" + item.name} onChange={(e) => addLevel(item)} className="w-12 h-8 lg:ml-4 text-center font-extrabold bg-blue-ocean rounded-md" />
+            )
+        );
         
-    )}, [BarracksLevel]);
+    }, [BarracksLevel]);
 
     const addLevel = (item) => {
         const e = document.querySelector("#input-field" + item.name).value;
@@ -117,26 +118,14 @@ const BracketCalc = () => {
             default:
                 setFighter1(null);
         }
-        console.log(item.name)
+        console.log(item.name);
     }
 
     const handleLevels = (e) => {
         e.preventDefault();
-        FighterLevels.length = BarracksLevel
+        FighterLevels.length = BarracksLevel;
         const levelArray = [];
         const ruleBreaking = [];
-        const yourBracketRange = [];
-        
-        if (Hero == false) {
-            setBracketRange(ListOfBrackets[0].noHero)
-        } else {
-            setBracketRange(ListOfBrackets[0].withHero)
-        }
-
-        // console.log(BracketRange)
-        bracketRangeCalc(BracketRange, BarracksLevel, yourBracketRange)
-
-        console.log(yourBracketRange[0].brackets)
 
         FighterLevels.map((fighterLevel, index) => {
 
@@ -144,38 +133,62 @@ const BracketCalc = () => {
                 levelArray.push(Number(fighterLevel.level))
             } else {
                 ruleBreaking.push(Number(fighterLevel.level))
-            }
+            };
         });
 
-        console.log(levelArray)
-        console.log(ruleBreaking)
+        console.log(FtrLevel);
+        console.log(levelArray);
+        
+        if (Hero === false) {
+            setBracketRange("noHero")
+        } else {
+            setBracketRange("withHero")
+        };
 
-        if(levelArray.length) {
-
-            const sum = levelArray.reduce((a, b) => a + b, 0)
-            const average = sum / levelArray.length
+        const getLevelAverage = (levels, hero = BracketRange, barracks = BarracksLevel) => {
+            const ranges = soupExceptions[hero][barracks];
             
-            setAverage(average)
+            levels = levels.sort((a,b) => b-a);
 
-            console.log(average)
-        }
-        // console.log(BracketRange)
-        // console.log(FtrLevel)
-        const checkAverage = () => {
-            const temp = yourBracketRange[0].brackets
+            const uniqueBands = new Set();
+            const values = [];
 
-            temp.map((item, index) => {
-                console.log(item.minAvarage)
-                console.log(item.maxAverage)
-                if(average > item.minAvarage && average < item.maxAverage) {
-                    setAverage(item.maxAverage);
-                }
-            })
+
+            // console.log("--------------------------------ranges.type--------------------------------")
+            // console.log(ranges)
+            // console.log("--------------------------------ranges.type--------------------------------")
+
+            for(const level of levels){
+
+                uniqueBands.add(ranges.find(range => range.minAverage <= level && range.maxAverage >= level));
+                //add exception brackets with type parameter = "soup"
+
+                if(uniqueBands.size > 2 ) break;
+
+                values.push(level);
+            }
+
+            return {values, average: values.reduce((acc, cur) => acc + cur) / values.length};
         }
-        checkAverage()
+
+        const result = getLevelAverage(levelArray, BracketRange, BarracksLevel);
+        const bracketList = ListOfBrackets[BracketRange][BarracksLevel]
+
+        bracketList.map((item, index) => {
+            if(result.average >= item.minAverage && result.average < item.maxAverage) {
+                setAverage(Math.floor(item.maxAverage));
+            }
+        })
+
+        console.log("--------------------------------resuilts--------------------------------")
+        console.log(result.values)
+        console.log(result.average);
+        console.log(average);
+        console.log("--------------------------------resuilts--------------------------------")
+
         setDisplay(
             <>
-                <p>Your bracket is {yourBracketRange[0].barracks}X{average}</p>
+                <p>Your bracket is {BarracksLevel}X{average}</p>
             </>
         )
     }
@@ -208,12 +221,12 @@ const BracketCalc = () => {
                         {/* <option value="1" className="py-2 pl-10">1</option>
                         <option value="2" className="py-2 pl-10">2</option>
                         <option value="3" className="py-2 pl-10">3</option> */}
-                        <option value="16" className="py-2 pl-10">4</option>
-                        <option value="26" className="py-2 pl-10">5</option>
-                        <option value="36" className="py-2 pl-10">6</option>
-                        <option value="51" className="py-2 pl-10">7</option>
-                        <option value="66" className="py-2 pl-10">8</option>
-                        <option value="81" className="py-2 pl-10">9</option>
+                        <option value="16" className="py-2 pl-10">4: trains lvl 21-30</option>
+                        <option value="26" className="py-2 pl-10">5: trains lvl 31-40</option>
+                        <option value="36" className="py-2 pl-10">6: trains lvl 41-55</option>
+                        <option value="51" className="py-2 pl-10">7: trains lvl 56-70</option>
+                        <option value="66" className="py-2 pl-10">8: trains lvl 71-85</option>
+                        <option value="81" className="py-2 pl-10">9: trains lvl 86-100</option>
                     </select>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-export const ListOfBrackets = {
+export const soupExceptions = {
     noHero: {
         2: [
             {
@@ -44,18 +44,10 @@ export const ListOfBrackets = {
             {
                 bracket: "2x54",
                 minAverage: 48,
-                maxAverage: 54.9,
-                status: "Deprecated!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "2x55",
-                minAverage: 55,
                 maxAverage: 55.9,
                 status: "Deprecated!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
         ],
         3: [{
@@ -101,18 +93,10 @@ export const ListOfBrackets = {
             {
                 bracket: "3x54",
                 minAverage: 48,
-                maxAverage: 54.9,
-                status: "Deprecated!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "3x55",
-                minAverage: 55,
                 maxAverage: 55.9,
                 status: "Deprecated!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
         ],
         4: [
@@ -159,18 +143,10 @@ export const ListOfBrackets = {
             {
                 bracket: "4x54",
                 minAverage: 48,
-                maxAverage: 54.9,
+                maxAverage: 55.9,
                 status: "Deprecated!",
                 exceptions: "",
                 type: "",
-            },
-            {
-                bracket: "4x55",
-                minAverage: 55,
-                maxAverage: 55.9,
-                status: "Not Recommened!",
-                exceptions: "",
-                type: "soup",
             },
             {
                 bracket: "4x62",
@@ -183,18 +159,10 @@ export const ListOfBrackets = {
             {
                 bracket: "4x69",
                 minAverage: 63,
-                maxAverage: 69.9,
-                status: "Deprecated!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "4x70",
-                minAverage: 70,
                 maxAverage: 70.9,
                 status: "Deprecated!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "4x77",
@@ -249,18 +217,10 @@ export const ListOfBrackets = {
             {
                 bracket: "5x54",
                 minAverage: 48,
-                maxAverage: 54.9,
-                status: "Active!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "5x55",
-                minAverage: 55,
                 maxAverage: 55.9,
                 status: "Active!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "5x62",
@@ -273,18 +233,10 @@ export const ListOfBrackets = {
             {
                 bracket: "5x69",
                 minAverage: 63,
-                maxAverage: 69.9,
-                status: "Active!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "5x70",
-                minAverage: 70,
                 maxAverage: 70.9,
                 status: "Active!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "5x77",
@@ -309,18 +261,10 @@ export const ListOfBrackets = {
             {
                 bracket: "5x54",
                 minAverage: 48,
-                maxAverage: 54.9,
+                maxAverage: 55.9,
                 status: "Deprecated!",
                 exceptions: "",
                 type: "",
-            },
-            {
-                bracket: "5x55",
-                minAverage: 55,
-                maxAverage: 55.9,
-                status: "Not Recommened!",
-                exceptions: "",
-                type: "soup",
             },
             {
                 bracket: "5x62",
@@ -333,18 +277,10 @@ export const ListOfBrackets = {
             {
                 bracket: "5x69",
                 minAverage: 63,
-                maxAverage: 69.9,
+                maxAverage: 70.9,
                 status: "Not Recommened!",
                 exceptions: "",
                 type: "",
-            },
-            {
-                bracket: "5x70",
-                minAverage: 70,
-                maxAverage: 70.9,
-                status: "Active!",
-                exceptions: "",
-                type: "soup",
             },
             {
                 bracket: "5x77",
@@ -357,18 +293,10 @@ export const ListOfBrackets = {
             {
                 bracket: "5x84",
                 minAverage: 78,
-                maxAverage: 84.9,
-                status: "Active!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "5x85",
-                minAverage: 85,
                 maxAverage: 85.9,
                 status: "Active!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "5x94",
@@ -391,18 +319,10 @@ export const ListOfBrackets = {
             {
                 bracket: "6x54",
                 minAverage: 48,
-                maxAverage: 54.9,
-                status: "Deprecated!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "6x55",
-                minAverage: 55,
                 maxAverage: 55.9,
                 status: "Deprecated!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "6x62",
@@ -415,18 +335,10 @@ export const ListOfBrackets = {
             {
                 bracket: "6x69",
                 minAverage: 63,
-                maxAverage: 69.9,
+                maxAverage: 70.9,
                 status: "Deprecated!",
                 exceptions: "",
                 type: "",
-            },
-            {
-                bracket: "6x70",
-                minAverage: 70,
-                maxAverage: 70.9,
-                status: "Active!",
-                exceptions: "",
-                type: "soup",
             },
             {
                 bracket: "6x77",
@@ -439,18 +351,10 @@ export const ListOfBrackets = {
             {
                 bracket: "6x84",
                 minAverage: 78,
-                maxAverage: 84.9,
-                status: "Active!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "6x85",
-                minAverage: 85,
                 maxAverage: 85.9,
                 status: "Active!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "6x94",
@@ -474,18 +378,10 @@ export const ListOfBrackets = {
             {
                 bracket: "7x84",
                 minAverage: 78,
-                maxAverage: 84.9,
-                status: "Deprecated!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "7x85",
-                minAverage: 85,
                 maxAverage: 85.9,
                 status: "Deprecated!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "7x94",
@@ -508,18 +404,10 @@ export const ListOfBrackets = {
             {
                 bracket: "8x84",
                 minAverage: 78,
-                maxAverage: 84.9,
-                status: "Deprecated!",
-                exceptions: "",
-                type: "",
-            },
-            {
-                bracket: "8x85",
-                minAverage: 85,
                 maxAverage: 85.9,
                 status: "Deprecated!",
                 exceptions: "",
-                type: "soup",
+                type: "",
             },
             {
                 bracket: "8x94",
