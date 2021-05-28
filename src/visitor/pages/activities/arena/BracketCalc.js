@@ -170,6 +170,9 @@ const BracketCalc = () => {
 
         // eslint-disable-next-line
         bracketList.map((item, index) => {
+            console.log("--------------------------------item--------------------------------")
+            console.log(item.maxAverage)
+            console.log("--------------------------------item--------------------------------")
             if(result.average >= item.minAverage && result.average < item.maxAverage) {
                 setAverage(Math.floor(item.maxAverage));
             }

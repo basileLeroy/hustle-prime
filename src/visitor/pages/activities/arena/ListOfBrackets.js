@@ -381,7 +381,7 @@ export const ListOfBrackets = {
             {
                 bracket: "5x100",
                 minAverage: 95,
-                maxAverage: 100,
+                maxAverage: 100.9,
                 status: "Deprecated!",
                 exceptions: "",
                 type: "",
@@ -463,7 +463,7 @@ export const ListOfBrackets = {
             {
                 bracket: "6x100",
                 minAverage: 95,
-                maxAverage: 100,
+                maxAverage: 100.9,
                 status: "Active!",
                 exceptions: "",
                 type: "",
@@ -498,7 +498,7 @@ export const ListOfBrackets = {
             {
                 bracket: "7x100",
                 minAverage: 95,
-                maxAverage: 100,
+                maxAverage: 100.9,
                 status: "Active!",
                 exceptions: "",
                 type: "",
@@ -532,7 +532,7 @@ export const ListOfBrackets = {
             {
                 bracket: "8x100",
                 minAverage: 95,
-                maxAverage: 100,
+                maxAverage: 100.9,
                 status: "Active!",
                 exceptions: "",
                 type: "",
