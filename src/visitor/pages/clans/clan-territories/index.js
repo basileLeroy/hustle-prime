@@ -78,17 +78,17 @@ const ClanTerritories = () => {
                         And there are buildings that are activities for the members of the clan. <br />
                         <br /><br />
                         SUPPORT: <br />
-                        <ul className="ml-4 text-blue-400">
-                            <li className=""><span to="#">Neighbourhoods ( Hunters - Workers - Raiders - <i>Miners*</i> )</span></li>
-                            <li className=""><span to="#">Tavern</span></li>
-                            <li className=""><span to="#">Store</span></li>
+                        <ul className="ml-4 text-blue-200">
+                            <li className=""><span to="#">- Neighbourhoods ( Hunters - Workers - Raiders - <i>Miners*</i> )</span></li>
+                            <li className=""><span to="#">- Tavern</span></li>
+                            <li className=""><span to="#">- Store</span></li>
                         </ul>
                         <br />
                         ACTIVITIES: <br />
-                        <ul className="ml-4 text-blue-400">
-                            <li className=""><span to="#">Gate of the Abyss</span></li>
-                            <li className=""><span to="#">Message Board</span></li>
-                            <li className=""><span to="#">Expedition Marquee</span></li>
+                        <ul className="ml-4 text-blue-200">
+                            <li className=""><span to="#">- Gate of the Abyss</span></li>
+                            <li className=""><span to="#">- Message Board</span></li>
+                            <li className=""><span to="#">- Expedition Marquee</span></li>
                         </ul>
                     </p>
                     <span className="text-xs italic mt-6">*Miners is not released yet</span>

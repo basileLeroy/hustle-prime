@@ -115,8 +115,24 @@ const Arena = () => {
                 
                 <div className="flex flex-col w-nine justify-center mx-auto mb-24 lg:pr-56">
                     <h1 className="text-3xl font-extrabold mt-12">Calculate your own bracket!</h1>
-                    <p>By following the following steps:</p>
                     <br />
+                    <p>By following 3 easy steps:</p>
+
+                </div>
+
+                <BracketCalc />
+
+                <div className="flex flex-col w-nine justify-center mx-auto mb-24 lg:pr-56">
+                    <h1 className="text-3xl font-extrabold mt-12">Exceptions:</h1>
+                    <h3 className="text-2xl">Overleveled fighter rule:</h3>
+                    <p>In short, it means that you cannot exceed X number of fighters above your arena bracket level.<br />For more clarity or in case you think your squad breaks this rule, you can always reach out for advice on our Discord (see below).</p>
+                    <br /><br />
+                    <h3 className="text-2xl">Promo-Dwellers:</h3>
+                    <p><span className="text-blue-500 font-bold">45, 45, 40, 40</span> is a squad composition that is possible when purchasing a dweller promo offer in game.</p>
+                </div>
+
+                <div className="flex flex-col w-nine justify-center mx-auto mb-24 lg:pr-56">
+                    <h1 className="text-3xl font-extrabold mt-12">Extra: (how to calculate it yourself)</h1>
                     <h3 className="text-2xl">Your Barracks lvl:</h3>
                     <p>First you look at the level your Barracks is, this will be needed to calculate your bracket.</p>
                     <br /><br />
@@ -130,8 +146,6 @@ const Arena = () => {
                     <h3 className="text-2xl">Compare your average with the bracket list:</h3>
                     <p>Look at your average and see in wich bracket your average would fall.<br /> (Don't forget to check if you are not breaking any of the rules mentioned on this page!)</p>
                 </div>
-
-                <BracketCalc />
 
                 <hr
                     className="bg-gray-400 h-1 w-nine mx-auto"
