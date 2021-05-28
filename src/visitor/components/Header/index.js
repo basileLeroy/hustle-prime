@@ -8,7 +8,7 @@ const Header = () => {
         <div className="w-full flex flex-col">
             <header className="lg:h-20 h-20 w-full flex justify-center py-2" title="Header-image - © Courtesy of MyGames">
                 
-                <Link href="/"><img src={Logo} className="px-6" alt="#" title="Hustle Prime - home" /></Link>
+                <Link to="/"><img src={Logo} className="px-6" alt="#" title="Hustle Prime - home" /></Link>
             </header>
             <Nav />
         </div>
