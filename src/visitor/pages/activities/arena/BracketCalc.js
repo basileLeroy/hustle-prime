@@ -129,7 +129,7 @@ const BracketCalc = () => {
         
         // eslint-disable-next-line
         FighterLevels.map((fighterLevel) => {
-            if(Number(fighterLevel.level) > FtrLevel) {
+            if(Number(fighterLevel.level) >= FtrLevel) {
                 levelArray.push(Number(fighterLevel.level))
             } else {
                 ruleBreaking.push(Number(fighterLevel.level))
