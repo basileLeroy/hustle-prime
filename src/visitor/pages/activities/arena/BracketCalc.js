@@ -9,7 +9,7 @@ const BracketCalc = () => {
     const [NoHero, setNoHero] = useState(false);
     const [BarracksLevel, setBarracksLevel] = useState(1);
     const [BracketRange, setBracketRange] = useState("withHero");
-    const [average, setAverage] = useState(Number);
+
     const [display, setDisplay] = useState(<><p>Fill in the fields above!</p></>);
     const [FtrLevel, setFtrLevel] = useState(16);
     const [Fighter1, setFighter1] = useState(Number);
@@ -127,23 +127,15 @@ const BracketCalc = () => {
         const levelArray = [];
         const ruleBreaking = [];
         
-        // eslint-disable-next-line
-        FighterLevels.map((fighterLevel) => {
+        FighterLevels.forEach((fighterLevel, index) => {
             if(Number(fighterLevel.level) >= FtrLevel) {
                 levelArray.push(Number(fighterLevel.level))
             } else {
                 ruleBreaking.push(Number(fighterLevel.level))
             };
-        });
+        })
 
-        console.log(FtrLevel);
-        console.log(levelArray);
-        
-        if (Hero === false) {
-            setBracketRange("noHero")
-        } else {
-            setBracketRange("withHero")
-        };
+        setBracketRange(Hero ? "withHero" : "noHero");
 
         const getLevelAverage = (levels, hero = BracketRange, barracks = BarracksLevel) => {
             const ranges = soupExceptions[hero][barracks];
@@ -162,31 +154,25 @@ const BracketCalc = () => {
                 values.push(level);
             }
 
-            return {values, average: values.reduce((acc, cur) => acc + cur) / values.length};
+            const averageResult = values.reduce((acc, cur) => acc + cur) / values.length
+
+            const bracketList = ListOfBrackets[BracketRange][BarracksLevel]
+            const thisAverage = []
+
+            bracketList.forEach((item, index) => {
+
+                if(item.minAverage <= averageResult && item.maxAverage > averageResult) {
+                    thisAverage.push(Math.floor(item.maxAverage));
+                }
+            })
+            return {values, average: values.reduce((acc, cur) => acc + cur) / values.length, thisAverage};
         }
 
         const result = getLevelAverage(levelArray, BracketRange, BarracksLevel);
-        const bracketList = ListOfBrackets[BracketRange][BarracksLevel]
-
-        // eslint-disable-next-line
-        bracketList.map((item, index) => {
-            console.log("--------------------------------item--------------------------------")
-            console.log(item.maxAverage)
-            console.log("--------------------------------item--------------------------------")
-            if(result.average >= item.minAverage && result.average < item.maxAverage) {
-                setAverage(Math.floor(item.maxAverage));
-            }
-        })
-
-        console.log("--------------------------------resuilts--------------------------------")
-        console.log(result.values)
-        console.log(result.average);
-        console.log(average);
-        console.log("--------------------------------resuilts--------------------------------")
 
         setDisplay(
             <>
-                <p>Your bracket is {BarracksLevel}X{average}</p>
+                <p className="h-12" >Your bracket is <span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl bg-blue-ocean rounded-md">{BarracksLevel}x{result.thisAverage}</span></p>
             </>
         )
     }
