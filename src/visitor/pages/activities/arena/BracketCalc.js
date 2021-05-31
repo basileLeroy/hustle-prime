@@ -81,6 +81,19 @@ const BracketCalc = () => {
     };
 
     useEffect(() => {
+
+        setDisplay(
+            <>
+                { resultAverage ? <p className="h-12 mb-8" >Your bracket is <span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl bg-blue-ocean rounded-md">{BarracksLevel}x{resultAverage}</span></p> : null }
+                { errorMessage ? <p className="h-12 mb-8" ><span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl text-black bg-red-400 rounded-md">{errorMessage}</span></p> : null }
+                { infoMessage ? <p className="h-12 mb-8" ><span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl text-gray-200 bg-blue-500 rounded-md">{infoMessage}</span></p> : null}
+            </>
+        )
+    // eslint-disable-next-line
+    }, [resultAverage, errorMessage, infoMessage]);
+
+
+    useEffect(() => {
         FighterLevels.length = BarracksLevel;
 
         setLevelInputs(
@@ -247,14 +260,6 @@ const BracketCalc = () => {
         console.log(resultAverage);
         
         getLevelAverage(levelArray, BracketRange, BarracksLevel);
-
-        setDisplay(
-            <>
-                { resultAverage ? <p className="h-12 mb-8" >Your bracket is <span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl bg-blue-ocean rounded-md">{BarracksLevel}x{resultAverage}</span></p> : null }
-                { errorMessage ? <p className="h-12 mb-8" ><span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl text-black bg-red-400 rounded-md">{errorMessage}</span></p> : null }
-                { infoMessage ? <p className="h-12 mb-8" ><span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl text-gray-200 bg-blue-500 rounded-md">{infoMessage}</span></p> : null}
-            </>
-        )
         return display;
     }
 
