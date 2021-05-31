@@ -9,9 +9,13 @@ const BracketCalc = () => {
     const [NoHero, setNoHero] = useState(false);
     const [BarracksLevel, setBarracksLevel] = useState(1);
     const [BracketRange, setBracketRange] = useState("withHero");
+    const [resultAverage, setResultAverage] = useState(Number);
+
+    const [errorMessage, setErrorMessage] = useState("");
+    const [infoMessage, setinfoMessage] = useState("");
 
     const [display, setDisplay] = useState(<><p>Fill in the fields above!</p></>);
-    const [FtrLevel, setFtrLevel] = useState(16);
+    const [FtrLevel, setFtrLevel] = useState({ value: 16, name: 30 });
     const [Fighter1, setFighter1] = useState(Number);
     const [Fighter2, setFighter2] = useState(Number);
     const [Fighter3, setFighter3] = useState(Number);
@@ -87,6 +91,15 @@ const BracketCalc = () => {
     // eslint-disable-next-line
     }, [BarracksLevel]);
 
+    const updateFtrState = (values) => {
+
+        const minLevel = values.split(',')[0]
+        const maxLevel = values.split(',')[1]
+        console.log(maxLevel);
+
+        setFtrLevel({...FtrLevel, value: Number(minLevel), name: Number(maxLevel)});
+    }
+
     const addLevel = (item) => {
         const e = document.querySelector("#input-field" + item.name).value;
 
@@ -121,60 +134,128 @@ const BracketCalc = () => {
         console.log(item.name);
     }
 
-    const handleLevels = (e) => {
-        e.preventDefault();
+    const handleLevels = () => {
+        
         FighterLevels.length = BarracksLevel;
         const levelArray = [];
         const ruleBreaking = [];
-        
+        console.log("1")
+        console.log(levelArray)
         FighterLevels.forEach((fighterLevel, index) => {
-            if(Number(fighterLevel.level) >= FtrLevel) {
+            if(Number(fighterLevel.level) >= FtrLevel.value) {
                 levelArray.push(Number(fighterLevel.level))
             } else {
                 ruleBreaking.push(Number(fighterLevel.level))
             };
         })
+        console.log("2")
 
         setBracketRange(Hero ? "withHero" : "noHero");
-
-        const getLevelAverage = (levels, hero = BracketRange, barracks = BarracksLevel) => {
+        console.log("3")
+        const getLevelAverage = (levels = levelArray, hero = BracketRange, barracks = BarracksLevel) => {
             const ranges = soupExceptions[hero][barracks];
-            
+            console.log("3.1")
+            if(!soupExceptions[hero] || !soupExceptions[hero][barracks]) {
+                setResultAverage("ERR");
+                setErrorMessage("Error: This bracket does not exist!");
+                setinfoMessage(null);
+            }
+            console.log("3.2")
             levels = levels.sort((a,b) => b-a);
 
             const uniqueBands = new Set();
             const values = [];
+            const levelExceptions = [45, 45, 40, 40];
 
-            for(const level of levels){
+            console.log("3.3")
 
-                uniqueBands.add(ranges.find(range => range.minAverage <= level && range.maxAverage >= level));
+            console.log("levels")
+            console.log(levels)
+            console.log(levelExceptions)
 
-                if(uniqueBands.size > 2 ) break;
+            if (JSON.stringify(levels) === JSON.stringify(levelExceptions) ) {
+                console.log("this is a promo exception")
 
-                values.push(level);
-            }
+                setResultAverage(42)
 
-            const averageResult = values.reduce((acc, cur) => acc + cur) / values.length
+                console.log("3.3.1")
+                return;
+                
+            
+            } else if (barracks >= 7) {
+                console.log("this is an exception")
 
-            const bracketList = ListOfBrackets[BracketRange][BarracksLevel]
-            const thisAverage = []
+                setResultAverage(100);
+                setinfoMessage("Bracket Status: Active!")
 
-            bracketList.forEach((item, index) => {
+                console.log("3.3.2")
+                return;
+            
+            } else if (levels.find(level => level > FtrLevel.name)) {
+                console.log("impossible bracket")
 
-                if(item.minAverage <= averageResult && item.maxAverage > averageResult) {
-                    thisAverage.push(Math.floor(item.maxAverage));
+                setResultAverage('ERR');
+                setErrorMessage("Error: These levels are impossible! Please re-check your fighter levels!");
+                setinfoMessage(null);
+
+                console.log("3.3.3")
+                return;
+            
+            } else {
+                console.log("no exceptions")
+                console.log(ranges)
+                console.log("3.3.4")
+
+                for(const level of levels){
+
+                    uniqueBands.add(ranges.find(range => range.minAverage <= level && range.maxAverage >= level && level < FtrLevel.name));
+    
+                    if(uniqueBands.size > 2 ) break;
+                    console.log("3.3.4.1")
+                    values.push(level);
                 }
-            })
-            return {values, average: values.reduce((acc, cur) => acc + cur) / values.length, thisAverage};
-        }
+                console.log("3.3.5")
+                console.log(values)
 
-        const result = getLevelAverage(levelArray, BracketRange, BarracksLevel);
+                const averageResult = values.reduce((acc, cur) => acc + cur) / values.length
+                console.log(averageResult)
+
+                const bracketList = ListOfBrackets[BracketRange][BarracksLevel]
+                
+                bracketList.forEach((item, index) => {
+    
+                    if(item.minAverage <= averageResult && item.maxAverage > averageResult) {
+                        setResultAverage(Math.floor(item.maxAverage));
+                        setErrorMessage(null);
+                        setinfoMessage(
+                            "Bracket Status: " + item.status
+                        );
+                        console.log(resultAverage);
+                        console.log(infoMessage);
+                        console.log("3.3.5.1")
+                        return;
+                    }
+                    console.log("3.3.5.2")
+                })
+                console.log("3.3.6")
+            }
+            console.log("3.4")
+        }
+        console.log("4")
+        console.log("5")
+        console.log(display)
+        console.log(resultAverage);
+        
+        getLevelAverage(levelArray, BracketRange, BarracksLevel);
 
         setDisplay(
             <>
-                <p className="h-12" >Your bracket is <span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl bg-blue-ocean rounded-md">{BarracksLevel}x{result.thisAverage}</span></p>
+                { resultAverage ? <p className="h-12 mb-8" >Your bracket is <span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl bg-blue-ocean rounded-md">{BarracksLevel}x{resultAverage}</span></p> : null }
+                { errorMessage ? <p className="h-12 mb-8" ><span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl text-black bg-red-400 rounded-md">{errorMessage}</span></p> : null }
+                { infoMessage ? <p className="h-12 mb-8" ><span className="w-12 h-12 ml-4 p-2 text-center font-extrabold text-2xl text-gray-200 bg-blue-500 rounded-md">{infoMessage}</span></p> : null}
             </>
         )
+        return display;
     }
 
     return (
@@ -201,16 +282,16 @@ const BracketCalc = () => {
                 </div>
                 <div className="flex lg:flex-row flex-col h-12 justify-center my-8 lg:px-24">
                     <label for="ftr" className="w-56">Your FTR LVL:</label>
-                    <select id="ftr" className="lg:w-56 lg:ml-28 bg-blue-ocean rounded-md" onChange={(e) => {setFtrLevel(e.target.value)}}>
+                    <select id="ftr" className="lg:w-56 lg:ml-28 bg-blue-ocean rounded-md" onChange={(e) => {updateFtrState(e.target.value); console.log(e.target.value)}}>
                         {/* <option value="1" className="py-2 pl-10">1</option>
                         <option value="2" className="py-2 pl-10">2</option>
                         <option value="3" className="py-2 pl-10">3</option> */}
-                        <option value="16" className="py-2 pl-10">4: trains lvl 21-30</option>
-                        <option value="26" className="py-2 pl-10">5: trains lvl 31-40</option>
-                        <option value="36" className="py-2 pl-10">6: trains lvl 41-55</option>
-                        <option value="51" className="py-2 pl-10">7: trains lvl 56-70</option>
-                        <option value="66" className="py-2 pl-10">8: trains lvl 71-85</option>
-                        <option value="81" className="py-2 pl-10">9: trains lvl 86-100</option>
+                        <option value="16,30" className="py-2 pl-10">4: trains lvl 21-30</option>
+                        <option value="26,40" className="py-2 pl-10">5: trains lvl 31-40</option>
+                        <option value="36,55" className="py-2 pl-10">6: trains lvl 41-55</option>
+                        <option value="51,70" className="py-2 pl-10">7: trains lvl 56-70</option>
+                        <option value="66,85" className="py-2 pl-10">8: trains lvl 71-85</option>
+                        <option value="81,100" className="py-2 pl-10">9: trains lvl 86-100</option>
                     </select>
                 </div>
             </div>
@@ -218,18 +299,18 @@ const BracketCalc = () => {
             <div className="flex flex-col mx-auto w-nine">
                 <div className="flex lg:flex-row flex-col h-12 justify-center my-8 lg:px-24">
                     
-                    <form action="/activities/arena" method="post" className="flex flex-col w-full h-full justify-center">
+                    <div className="flex flex-col w-full h-full justify-center">
                         <div>
                             <label className="w-56">Strongest Fighters:</label>
                             {LevelInputs}
                         </div>
                         <button type="submit" value="submit" onClick={handleLevels} className="bg-gray-700 px-8 py-3 mx-auto mt-8 rounded-xl font-extrabold justify-center text-center hover:bg-gray-500 transition duration-200 ease-in-out"><p>Calculate . . .</p></ button>
-                    </form>
+                    </div>
                 </div>
             </div>
             <h1 className="text-xl font-extrabold mt-12 mb-8 text-center">4. <br/>Your bracket is...</h1>
-            <div className="flex flex-col mx-auto w-nine">
-                <div className="flex lg:flex-row flex-col h-12 justify-center my-8 lg:px-24">
+            <div className="flex flex-col mt-12 mx-auto w-nine">
+                <div id="bracketDisplay" className="flex lg:flex-col flex-col h-12 justify-center my-8 lg:px-24">
                     { display }
                 </div>
             </div>
