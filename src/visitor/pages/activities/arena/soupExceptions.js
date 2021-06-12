@@ -35,7 +35,7 @@ export const soupExceptions = {
             },
             {
                 bracket: "2x47",
-                minAverage: 43,
+                minAverage: 40,
                 maxAverage: 47.9,
                 status: "Deprecated!",
                 exceptions: "",
@@ -84,7 +84,7 @@ export const soupExceptions = {
             },
             {
                 bracket: "3x47",
-                minAverage: 43,
+                minAverage: 40,
                 maxAverage: 47.9,
                 status: "Deprecated!",
                 exceptions: "",
@@ -125,16 +125,8 @@ export const soupExceptions = {
                 type: "",
             },
             {
-                bracket: "4x42",
-                minAverage: 40,
-                maxAverage: 42.9,
-                status: "Active!",
-                exceptions: "",
-                type: "",
-            },
-            {
                 bracket: "4x47",
-                minAverage: 43,
+                minAverage: 40,
                 maxAverage: 47.9,
                 status: "Not Recommended!",
                 exceptions: "",
@@ -199,16 +191,8 @@ export const soupExceptions = {
                 type: "",
             },
             {
-                bracket: "5x42",
-                minAverage: 40,
-                maxAverage: 42.9,
-                status: "Active!",
-                exceptions: "",
-                type: "",
-            },
-            {
                 bracket: "5x47",
-                minAverage: 43,
+                minAverage: 40,
                 maxAverage: 47.9,
                 status: "Active!",
                 exceptions: "",
