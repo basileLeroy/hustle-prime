@@ -70,12 +70,12 @@ const BracketCalc = () => {
     const [LevelInputs, setLevelInputs] = useState([<input/>]);
     
     const hasHero = () => {
-        
+        setBracketRange("withHero");
         setHero(true);
         setNoHero(false);
     };
     const noHero = () => {
-        
+        setBracketRange("noHero");
         setHero(false);
         setNoHero(true);
     };
@@ -163,9 +163,11 @@ const BracketCalc = () => {
         })
         console.log("2")
 
-        setBracketRange(Hero ? "withHero" : "noHero");
+        
         console.log("3")
         const getLevelAverage = (levels = levelArray, hero = BracketRange, barracks = BarracksLevel) => {
+            console.log(barracks)
+            console.log(hero)
             const ranges = soupExceptions[hero][barracks];
             console.log("3.1")
             if(!soupExceptions[hero] || !soupExceptions[hero][barracks]) {
