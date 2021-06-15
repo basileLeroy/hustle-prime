@@ -239,7 +239,19 @@ const BracketCalc = () => {
                 
                 bracketList.forEach((item, index) => {
     
-                    if(item.minAverage <= averageResult && item.maxAverage > averageResult) {
+                    if(item.bracket === BarracksLevel + "x39" && values.find(value => value > 41)) {
+                        console.log("test")
+                        setResultAverage(42);
+                        setErrorMessage("ATTENTION: You have been pushed to x42 due to overleveling (max lvl 41)");
+                        setinfoMessage(
+                            "Bracket Status: " + item.status
+                        );
+                        console.log(resultAverage);
+                        console.log(infoMessage);
+                        console.log("3.3.5.1")
+                        return;
+
+                    } else if (item.minAverage <= averageResult && item.maxAverage > averageResult) {
                         setResultAverage(Math.floor(item.maxAverage));
                         setErrorMessage(null);
                         setinfoMessage(
