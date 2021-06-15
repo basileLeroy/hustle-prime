@@ -239,10 +239,10 @@ const BracketCalc = () => {
                 
                 bracketList.forEach((item, index) => {
     
-                    if(item.bracket === BarracksLevel + "x39" && values.find(value => value > 41)) {
+                    if(item.bracket === BarracksLevel + "x39" && values.find(value => value > 40)) {
                         console.log("test")
                         setResultAverage(42);
-                        setErrorMessage("ATTENTION: You have been pushed to x42 due to overleveling (max lvl 41)");
+                        setErrorMessage("ATTENTION: You have been pushed to x42 due to overleveling (max lvl 40)");
                         setinfoMessage(
                             "Bracket Status: " + item.status
                         );
