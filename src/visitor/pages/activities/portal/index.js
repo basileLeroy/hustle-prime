@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../../../../images/Portal-Banner.png'
-import campain01 from '../../../../images/Campain-Story01.jpg'
+import campain01 from '../../../../images/portal-opening.png'
 import darkSoulGoblin from '../../../../images/Portal-Dark-Soul-goblin.png'
 import veryDarkSoulGoblin from '../../../../images/Portal-Very-Dark-Soul-goblin.png'
 import portalSouls from '../../../../images/Portal-Souls.png'

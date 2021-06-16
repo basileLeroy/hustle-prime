@@ -1,7 +1,7 @@
 import React from 'react'
 
 import map from '../../../../images/WorldMap.jpg'
-import campain01 from '../../../../images/Campain-Story01.jpg'
+import campain01 from '../../../../images/Campaign_Story.png'
 import pvp from '../../../../images/Pvp-Castle.jpg'
 
 const Map = () => {
